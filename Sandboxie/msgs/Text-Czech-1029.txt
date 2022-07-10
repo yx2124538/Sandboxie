@@ -36,9 +36,9 @@ SBIE1106 Chyba %2, detail %3
 SBIE1108 Procedura %2 nemohla být analyzována
 .
 
-1109;evt;err;01
-SBIE1109 Neplatné licenční údaje: %2
-.
+# 1109;evt;err;01
+# SBIE1109 Neplatné licenční údaje: %2
+# .
 
 1110;evt;err;01
 SBIE1110 Nelze podchytit typ %3, chyba %2
@@ -108,9 +108,9 @@ SBIE1153 Sandboxie inicializace se nezdařila. Zavřete všechny programy a pot�
 SBIE1201 Není dostatek paměti
 .
 
-1202;pop;err;01
-SBIE1202 Nelze aktualizovat licenční údaje: %2
-.
+# 1202;pop;err;01
+# SBIE1202 Nelze aktualizovat licenční údaje: %2
+# .
 
 1203;pop;err;01
 SBIE1203 Nelze vytvořit seznam cest (chyba v %2)
@@ -152,9 +152,9 @@ SBIE1213 Nelze vytvořit objekt adresáře %3' %2
 # SBIE1221 Nelze vytvořit pracovní místo: %2
 # .
 
-1222;pop;err;02
-SBIE1222 Chyba bezpečnostního tokenu: %2
-.
+# 1222;pop;err;02
+# SBIE1222 Chyba bezpečnostního tokenu: %2
+# .
 
 # 1223;pop;err;01
 # SBIE1223 Nelze nahradit známku: %2
@@ -190,9 +190,9 @@ SBIE1301 Program '%2' byl zahájen vně Sandboxu
 # SBIE1302 Sandbox '%2 není definován nebo zařazen do procesu
 # .
 
-1303;pop;inf;01
-SBIE1303 Aktivní může být současně pouze jeden Sandbox
-.
+# 1303;pop;inf;01
+# SBIE1303 Aktivní může být současně pouze jeden Sandbox
+# .
 
 # 1304;pop;inf;01
 # SBIE1304 Blokovaná falešná klávesnice nebo myš vstupující procesem '%2'
@@ -214,13 +214,13 @@ SBIE1308 Program nelze spustit z důvodu omezení - %2
 SBIE1309 Odepření pokusu změnit heslo k účtu
 .
 
-1310;pop;inf;01
-SBIE1310 Rozšířené funkce jsou vypnuté, dokud není aktivována licence.
-.
+# 1310;pop;inf;01
+# SBIE1310 Rozšířené funkce jsou vypnuté, dokud není aktivována licence.
+# .
 
-1311;pop;inf;01
-SBIE1311 Blokován požadavek na změnu tapety pracovní plochy procesem '%2'
-.
+# 1311;pop;inf;01
+# SBIE1311 Blokován požadavek na změnu tapety pracovní plochy procesem '%2'
+# .
 
 1312;pop;inf;01
 SBIE1312 Blokován požadavek pro spuštění 16-bit DOS programu v Sandboxu
@@ -566,9 +566,9 @@ SBIE2332 Nelze získat přístup k souboru SbiePst.dat
 # SBIE2333 Nekompatibilní software s nalezenou DLL: %2
 # .
 
-2334;pop;err;01
-SBIE2334 Nelze načíst DLL soubor: %2
-.
+# 2334;pop;err;01
+# SBIE2334 Nelze načíst DLL soubor: %2
+# .
 
 2335;pop;err;01
 SBIE2335 Inicializace se nezdařila pro proces %2
@@ -823,45 +823,45 @@ Prosím vypněte programy běžící v Sandboxu před smazáním jeho obsahu.
 Přikaz ke smazání selhal:  %0
 .
 
-3231;txt;01
-Nainstaloval jste Sandboxie před více jak 30 dny.
-.
+# 3231;txt;01
+# Nainstaloval jste Sandboxie před více jak 30 dny.
+# .
 
-3232;txt;01
-Soukromé užívání Sandboxie je zdarma po dobu jakou chcete.
-.
+# 3232;txt;01
+# Soukromé užívání Sandboxie je zdarma po dobu jakou chcete.
+# .
 
-3233;txt;01
-Nicméně, volná verze nyní vyčká pár sekund.
-.
+# 3233;txt;01
+# Nicméně, volná verze nyní vyčká pár sekund.
+# .
 
-3234;txt;01
-Nicméně, volná verze umožňuje najednou použít pouze jeden Sandbox.
-.
+# 3234;txt;01
+# Nicméně, volná verze umožňuje najednou použít pouze jeden Sandbox.
+# .
 
-3235;txt;01
-Tato omezení v placené verzi Sandboxie nejsou.
-.
+# 3235;txt;01
+# Tato omezení v placené verzi Sandboxie nejsou.
+# .
 
-3236;txt;01
-Navíc, placená verze dovolí automaticky spouštět vybrané programy.
-.
+# 3236;txt;01
+# Navíc, placená verze dovolí automaticky spouštět vybrané programy.
+# .
 
-3237;txt;01
-Pro více informací a zakoupení software, prosím klikněte na následující odkaz:
-.
+# 3237;txt;01
+# Pro více informací a zakoupení software, prosím klikněte na následující odkaz:
+# .
 
-3238;txt;01
-Prosím čekejte ještě %2 vteřiny
-.
+# 3238;txt;01
+# Prosím čekejte ještě %2 vteřiny
+# .
 
-3239;txt;01
-Klikněte pro zavření tohoto okna a pokračování
-.
+# 3239;txt;01
+# Klikněte pro zavření tohoto okna a pokračování
+# .
 
-3240;txt;01
-Klikněte pro zavření tohoto okna a ukončení
-.
+# 3240;txt;01
+# Klikněte pro zavření tohoto okna a ukončení
+# .
 
 3241;txt;01
 Pro spuštění programu v Sandboxu požaduje Sandboxie
@@ -1160,9 +1160,9 @@ Začínáme &Výuka
 Kontrola &aktualizace
 .
 
-3455;txt;01
-&Registr Sandboxie
-.
+# 3455;txt;01
+# &Registr Sandboxie
+# .
 
 3456;txt;01
 &O Sandboxie
@@ -2033,9 +2033,9 @@ programy, které jsou již spuštěny. Nastavení budou
 uplatněna až při příštím spuštění programu.
 .
 
-3771;txt;01
-(Tato funkce je dostupná pouze v registrované verzi Sandboxie)
-.
+# 3771;txt;01
+# (Tato funkce je dostupná pouze v registrované verzi Sandboxie)
+# .
 
 3772;txt;02
 Jste si jist, že chcete nastavit 2% jako vynucený program?
@@ -3296,182 +3296,182 @@ Výchozí nastavení Sandboxie poskytuje plnou ochranu, můžete však přehodno
 # License Manager
 #----------------------------------------------------------------------------
 
-7901;txt;01
-Sandboxie licenční správce
-.
+# 7901;txt;01
+# Sandboxie licenční správce
+# .
 
-7902;txt;01
-Systémový kód %2
-.
+# 7902;txt;01
+# Systémový kód %2
+# .
 
-7903;txt;01
-V budoucnu aktivovat licenci bez dotazu.
-.
-
-#----------------------------------------------------------------------------
-
-7921;txt;01
-Sandboxie je registrován a licence je aktivována.
-.
-
-7922;txt;01
-Sandboxie je registrován, nyní by měla být aktivována licence.
-.
-
-7923;txt;01
-Neregistrovaná kopie. Zaregistrujte se ještě dnes!
-.
-
-7924;txt;01
-Licence pro Sandboxie bude muset být obnovena za %2 dní.
-.
-
-7925;txt;01
-Licence pro Sandboxie je nyní aktivována.
-.
-
-7926;txt;01
-Datum ukončení platnosti produktového klíče je %2.
-.
-
-7927;txt;01
-Vaše produktové číslo má neomezenou dobu platnosti.
-.
+# 7903;txt;01
+# V budoucnu aktivovat licenci bez dotazu.
+# .
 
 #----------------------------------------------------------------------------
 
-7931;txt;01
-Vaše kopie Sandboxie je registrována pod zastaralým registračním klíčem.
-.
+# 7921;txt;01
+# Sandboxie je registrován a licence je aktivována.
+# .
 
-7932;txt;01
-Povolte prosím licenčnímu správci připojit se k licenčnímu serveru a provést upgrade Vašeho starého registračního klíče na nový produktový klíč. Za tento upgrade není účtován žádný poplatek.
-.
+# 7922;txt;01
+# Sandboxie je registrován, nyní by měla být aktivována licence.
+# .
 
-7933;txt;01
-Váš registrační klíč není uznán licenčním serverem.
-.
+# 7923;txt;01
+# Neregistrovaná kopie. Zaregistrujte se ještě dnes!
+# .
 
-7934;txt;01
-Pokud jste používali legitimní registrační klíč za který jste zaplatili, nebo Vám byl poskytnutý jako dárek nebo jako součást propagace, pak prosím pošlete email na:
-.
+# 7924;txt;01
+# Licence pro Sandboxie bude muset být obnovena za %2 dní.
+# .
 
-7935;txt;01
-Váš nový produktový klíč je:
-.
+# 7925;txt;01
+# Licence pro Sandboxie je nyní aktivována.
+# .
 
-7936;txt;01
-Uschovejte prosím tento produktový klíč na bezpečném místě pro pozdější použití. Použijte tlačítko níže pro zkopírování produktového čísla do schránky, ze které ho následně můžete vložit do dokumentu a vytisknout.
-.
+# 7926;txt;01
+# Datum ukončení platnosti produktového klíče je %2.
+# .
 
-7937;txt;01
-&Upgrade registračního klíče na produktový klíč
-.
-
-#----------------------------------------------------------------------------
-
-7941;txt;01
-Registrace Sandboxie je vyrobena přes procesor zakoupený od třetí strany. Na začátku registračního procesu navštivte web Sandboxie na níže uvedeném linku.
-.
-
-7942;txt;01
-Pro aktivaci licence Sandboxie zadejte produktový klíč, který je uveden ve Vašem dokladu o zaplacení a potom klikněte na tlačítko Aktivace licence.
-.
-
-7943;txt;01
-Přejete si nyní zadat nový produktový klíč?
-.
-
-7944;txt;01
-&Aktivace licence
-.
-
-7945;txt;01
-Vaše kopie Sandboxie je nyní registrována.
-.
-
-7946;txt;01
-Děkujeme za podporu Sandboxie!
-.
+# 7927;txt;01
+# Vaše produktové číslo má neomezenou dobu platnosti.
+# .
 
 #----------------------------------------------------------------------------
 
-7951;txt;01
-Přejete si nyní aktivovat licenci?
-.
+# 7931;txt;01
+# Vaše kopie Sandboxie je registrována pod zastaralým registračním klíčem.
+# .
 
-7952;txt;01
-Navštivte prosím Sandboxie webové stránky na níže uvedeném linku pro objednání nového produktového klíče.
-.
+# 7932;txt;01
+# Povolte prosím licenčnímu správci připojit se k licenčnímu serveru a provést upgrade Vašeho starého registračního klíče na nový produktový klíč. Za tento upgrade není účtován žádný poplatek.
+# .
 
-7961;txt;01
-Vymazat licenční &informace
-.
+# 7933;txt;01
+# Váš registrační klíč není uznán licenčním serverem.
+# .
 
-7962;txt;01
-Chcete opravdu v Sandboxie vymazat licenční informace?
+# 7934;txt;01
+# Pokud jste používali legitimní registrační klíč za který jste zaplatili, nebo Vám byl poskytnutý jako dárek nebo jako součást propagace, pak prosím pošlete email na:
+# .
 
+# 7935;txt;01
+# Váš nový produktový klíč je:
+# .
+
+# 7936;txt;01
+# Uschovejte prosím tento produktový klíč na bezpečném místě pro pozdější použití. Použijte tlačítko níže pro zkopírování produktového čísla do schránky, ze které ho následně můžete vložit do dokumentu a vytisknout.
+# .
+
+# 7937;txt;01
+# &Upgrade registračního klíče na produktový klíč
+# .
+
+#----------------------------------------------------------------------------
+
+# 7941;txt;01
+# Registrace Sandboxie je vyrobena přes procesor zakoupený od třetí strany. Na začátku registračního procesu navštivte web Sandboxie na níže uvedeném linku.
+# .
+
+# 7942;txt;01
+# Pro aktivaci licence Sandboxie zadejte produktový klíč, který je uveden ve Vašem dokladu o zaplacení a potom klikněte na tlačítko Aktivace licence.
+# .
+
+# 7943;txt;01
+# Přejete si nyní zadat nový produktový klíč?
+# .
+
+# 7944;txt;01
+# &Aktivace licence
+# .
+
+# 7945;txt;01
+# Vaše kopie Sandboxie je nyní registrována.
+# .
+
+# 7946;txt;01
+# Děkujeme za podporu Sandboxie!
+# .
+
+#----------------------------------------------------------------------------
+
+# 7951;txt;01
+# Přejete si nyní aktivovat licenci?
+# .
+
+# 7952;txt;01
+# Navštivte prosím Sandboxie webové stránky na níže uvedeném linku pro objednání nového produktového klíče.
+# .
+
+# 7961;txt;01
+# Vymazat licenční &informace
+# .
+
+# 7962;txt;01
+# Chcete opravdu v Sandboxie vymazat licenční informace?
+# 
 Licenci si můžete kdykoli aktivovat zadáním produktového klíče.
 .
 
 #----------------------------------------------------------------------------
 
-7971;txt;01
-Neplatný produktový klíč.
+# 7971;txt;01
+# Neplatný produktový klíč.
+# .
+
+# 7972;txt;01
+# Neplatný kód systému.
+# .
+
+# 7973;txt;01
+# Neplatný aktivační klíč. [%2]
+# .
+
+# 7974;txt;01
+# Neplatná odpověď licenčního serveru.
+# .
+
+# 7975;txt;01
+# Aktivace se nezdařila:
+# .
+
+# 7976;txt;01
+# Chcete to nyní zkusit znovu?
+# .
+
+# 7977;txt;01
+# Pokud potřebujete aktivovat Sandboxie v počítači který nemá přístup k Internetu,
+# podívejte se do Sandboxie licenční FAQ pro informace o offline aktivaci.
 .
 
-7972;txt;01
-Neplatný kód systému.
-.
+# 7978;txt;01
+# Aktuální datum (%2) je starší než datum odeslání z licenčního serveru (%3).
+# .
 
-7973;txt;01
-Neplatný aktivační klíč. [%2]
-.
+# 7982;txt;01
+# Licenční server neurčil důvod selhání aktivace.
+# .
 
-7974;txt;01
-Neplatná odpověď licenčního serveru.
-.
+# 7983;txt;01
+# Produktové číslo nebylo licenčním serverem rozpoznáno.
+# .
 
-7975;txt;01
-Aktivace se nezdařila:
-.
+# 7984;txt;01
+# Produktové číslo nemůže být použito, datum ukončení jeho platnosti je %2.
+# .
 
-7976;txt;01
-Chcete to nyní zkusit znovu?
-.
+# 7985;txt;01
+# Produktové číslo bylo aktivováno na příliš velkém množstí počítačů.
+# .
 
-7977;txt;01
-Pokud potřebujete aktivovat Sandboxie v počítači který nemá přístup k Internetu,
-podívejte se do Sandboxie licenční FAQ pro informace o offline aktivaci.
-.
+# 7986;txt;01
+# Produktové číslo bylo zrušeno z důvodu jeho zveřejnění na internetu.
+# .
 
-7978;txt;01
-Aktuální datum (%2) je starší než datum odeslání z licenčního serveru (%3).
-.
-
-7982;txt;01
-Licenční server neurčil důvod selhání aktivace.
-.
-
-7983;txt;01
-Produktové číslo nebylo licenčním serverem rozpoznáno.
-.
-
-7984;txt;01
-Produktové číslo nemůže být použito, datum ukončení jeho platnosti je %2.
-.
-
-7985;txt;01
-Produktové číslo bylo aktivováno na příliš velkém množstí počítačů.
-.
-
-7986;txt;01
-Produktové číslo bylo zrušeno z důvodu jeho zveřejnění na internetu.
-.
-
-7987;txt;01
-Produktové číslo bylo zrušeno z důvodu zrušení objednávky.
-.
+# 7987;txt;01
+# Produktové číslo bylo zrušeno z důvodu zrušení objednávky.
+# .
 
 #----------------------------------------------------------------------------
 # SandboxieInstall

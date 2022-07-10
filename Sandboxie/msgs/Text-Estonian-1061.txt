@@ -36,9 +36,9 @@ SBIE1106 viga %2, täpsemalt %3
 SBIE1108 Protseduuri %2 ei suudetud analüüsida
 .
 
-1109;evt;err;01
-SBIE1109 Väär litsentsi info:  %2
-.
+# 1109;evt;err;01
+# SBIE1109 Väär litsentsi info:  %2
+# .
 
 1110;evt;err;01
 SBIE1110 Ei suudetud püüda tüüpi %3, viga %2
@@ -108,9 +108,9 @@ SBIE1153 Sandboxie käivitamine ebaõnnestus.  Sulge kõik programmid ja siis in
 SBIE1201 Ei ole piisavalt mälu
 .
 
-1202;pop;err;01
-SBIE1202 Ei suudetud uuendada litsentsi infot:  %2
-.
+# 1202;pop;err;01
+# SBIE1202 Ei suudetud uuendada litsentsi infot:  %2
+# .
 
 1203;pop;err;01
 SBIE1203 Ei suudetud luua teekonna nimekirja (%2 viga)
@@ -132,17 +132,17 @@ SBIE1212 Ei suudetud luua kausta '%3' %2
 SBIE1213 Ei suudetud luua objekti kausta '%3' %2
 .
 
-1214;pop;err;01
-SBIE1214 Ei suudetud sisestada SbieDll'i %2
-.
+# 1214;pop;err;01
+# SBIE1214 Ei suudetud sisestada SbieDll'i %2
+# .
 
-1215;pop;err;01
-SBIE1215 Ei suudetud lahendada teekonda, et töödelda pilti %2
-.
+# 1215;pop;err;01
+# SBIE1215 Ei suudetud lahendada teekonda, et töödelda pilti %2
+# .
 
-1216;pop;err;01
-SBIE1216 Ei suudetud küsida turva ID-d %2
-.
+# 1216;pop;err;01
+# SBIE1216 Ei suudetud küsida turva ID-d %2
+# .
 
 # 1217;pop;err;01
 # SBIE1217 Ei suudetud leida ülemprotsessi
@@ -152,17 +152,17 @@ SBIE1216 Ei suudetud küsida turva ID-d %2
 # SBIE1221 Ei suudetud luua tegumit:  %2
 # .
 
-1222;pop;err;01
-SBIE1222 Ei suudetud piirata tunnust:  %2
-.
+# 1222;pop;err;01
+# SBIE1222 Ei suudetud piirata tunnust:  %2
+# .
 
-1223;pop;err;01
-SBIE1223 Ei suudetud asendada tunnust:  %2
-.
+# 1223;pop;err;01
+# SBIE1223 Ei suudetud asendada tunnust:  %2
+# .
 
-1224;pop;err;01
-SBIE1224 Ei suudetud küsida tunnust:  %2
-.
+# 1224;pop;err;01
+# SBIE1224 Ei suudetud küsida tunnust:  %2
+# .
 
 1241;pop;err;01
 SBIE1241 Ei suudetud ühendada registri alampuud:  %2
@@ -186,13 +186,13 @@ SBIE1301 Programm '%2' käivitati väljaspool sandboxi
 # SBIE1302 Sandbox '%2' ei ole defineeritud või lubatud
 # .
 
-1303;pop;inf;01
-SBIE1303 Ainult üks sandbox saab korraga aktiivne olla
-.
+# 1303;pop;inf;01
+# SBIE1303 Ainult üks sandbox saab korraga aktiivne olla
+# .
 
-1304;pop;inf;01
-SBIE1304 Protsessi '%2' poolt blokeeriti simuleeritud klaviatuuri või hiire sisend 
-.
+# 1304;pop;inf;01
+# SBIE1304 Protsessi '%2' poolt blokeeriti simuleeritud klaviatuuri või hiire sisend 
+# .
 
 1306;pop;inf;01
 SBIE1306 Sandboxie draiverit (SbieDrv) ei suudetud hetkel maha laadida
@@ -210,9 +210,9 @@ SBIE1306 Sandboxie draiverit (SbieDrv) ei suudetud hetkel maha laadida
 SBIE1309 Keelati konto parooli muutmise katse
 .
 
-1310;pop;inf;01
-SBIE1310 Laiendatud võimalused on keelatud kuni litsentsi uuesti aktiveerimiseni
-.
+# 1310;pop;inf;01
+# SBIE1310 Laiendatud võimalused on keelatud kuni litsentsi uuesti aktiveerimiseni
+# .
 
 #----------------------------------------------------------------------------
 # SbieDrv
@@ -471,9 +471,9 @@ SBIE2313 Ei suudetud täita %2
 SBIE2314 Protsessi %2 katkestamine
 .
 
-2315;pop;err;01
-SBIE2315 Ei suudetud parandada kujutise täitmist
-.
+# 2315;pop;err;01
+# SBIE2315 Ei suudetud parandada kujutise täitmist
+# .
 
 2316;pop;err;01
 SBIE2316 Mälu on rikutud
@@ -527,9 +527,9 @@ SBIE2332 Ei suudetud pöörduda faili SbiePst.dat poole
 # SBIE2333 Leiti ühildumatu tarkvara DLL: %2
 # .
 
-2334;pop;err;01
-SBIE2334 Ei suuda laadida DLL faili: %2
-.
+# 2334;pop;err;01
+# SBIE2334 Ei suuda laadida DLL faili: %2
+# .
 
 # 2398;txt;01
 # SBIE2398 Teenusel on erand ... aadressil ...
@@ -559,49 +559,49 @@ SBIE9154 Draiveril (SbieDrv) ja teenusel (SbieSvc) on erinevad versiooninumbrid
 SBIE9156 Draiveri algatamine ei ole lõpetatud
 .
 
-9201;evt;err;01
-SBIE9201 Tunnuse viga
-.
+# 9201;evt;err;01
+# SBIE9201 Tunnuse viga
+# .
 
-9202;evt;err;01
-SBIE9202 Tunnuse viga
-.
+# 9202;evt;err;01
+# SBIE9202 Tunnuse viga
+# .
 
-9203;evt;err;01
-SBIE9203 Tunnuse viga
-.
+# 9203;evt;err;01
+# SBIE9203 Tunnuse viga
+# .
 
-9204;evt;err;01
-SBIE9204 Turvadeskriptori viga
-.
+# 9204;evt;err;01
+# SBIE9204 Turvadeskriptori viga
+# .
 
-9205;evt;err;01
-SBIE9205 Turvadeskriptori viga
-.
+# 9205;evt;err;01
+# SBIE9205 Turvadeskriptori viga
+# .
 
-9206;evt;err;01
-SBIE9206 Turvadeskriptori viga
-.
+# 9206;evt;err;01
+# SBIE9206 Turvadeskriptori viga
+# .
 
-9207;evt;err;01
-SBIE9207 Turvadeskriptori viga
-.
+# 9207;evt;err;01
+# SBIE9207 Turvadeskriptori viga
+# .
 
-9208;evt;err;01
-SBIE9208 Ei suudetud sisse lülitada SeRestorePrivilege
-.
+# 9208;evt;err;01
+# SBIE9208 Ei suudetud sisse lülitada SeRestorePrivilege
+# .
 
-9251;evt;err;01
-SBIE9251 Pordi sündmuse loomine ebaõnnestus
-.
+# 9251;evt;err;01
+# SBIE9251 Pordi sündmuse loomine ebaõnnestus
+# .
 
-9252;evt;err;01
-SBIE9252 Pordi loomine ebaõnnestus
-.
+# 9252;evt;err;01
+# SBIE9252 Pordi loomine ebaõnnestus
+# .
 
-9253;evt;err;01
-SBIE9253 Pordi haru loomine ebaõnnestus
-.
+# 9253;evt;err;01
+# SBIE9253 Pordi haru loomine ebaõnnestus
+# .
 
 # 9302;evt;err;01
 # SBIE9302 Sektsiooni loomine ebaõnnestus (seadme seadete klassid)
@@ -717,9 +717,9 @@ Ei suudetud leida vaikimisi meilikliendi programmi
 Ei suudetud käivitada Sandboxie Juhtimise programmi
 .
 
-3211;txt;01
-Sandboxie versioonide sobimatus. Proovi uuesti installeerimist.
-.
+# 3211;txt;01
+# Sandboxie versioonide sobimatus. Proovi uuesti installeerimist.
+# .
 
 3212;txt;01
 Sandboxie draiver (SbieDrv) ei ole saadaval sandboxi programmidele.
@@ -768,45 +768,45 @@ Palun lõpeta programmid, mis töötavad sandboxis, enne kui kustutada nende sis
 Kustutamise käsk ebaõnnestus:  %0
 .
 
-3231;txt;01
-Sa installeerisid Sandboxie rohkem, kui 30 päeva tagasi.
-.
+# 3231;txt;01
+# Sa installeerisid Sandboxie rohkem, kui 30 päeva tagasi.
+# .
 
-3232;txt;01
-Sandboxie personaalne kasutamine on lubatud ilma tasuta niikaua kuni soovid.
-.
+# 3232;txt;01
+# Sandboxie personaalne kasutamine on lubatud ilma tasuta niikaua kuni soovid.
+# .
 
-3233;txt;01
-Sellegi poolest, vaba versioon teeb nüüd paarisekundilise pausi.
-.
+# 3233;txt;01
+# Sellegi poolest, vaba versioon teeb nüüd paarisekundilise pausi.
+# .
 
-3234;txt;01
-Sellegi poolest, vaba versioon lubab kasutada vaid üht sandboxi korraga.
-.
+# 3234;txt;01
+# Sellegi poolest, vaba versioon lubab kasutada vaid üht sandboxi korraga.
+# .
 
-3235;txt;01
-Seda piirangut ei ole Sandboxie tasulises versioonis.
-.
+# 3235;txt;01
+# Seda piirangut ei ole Sandboxie tasulises versioonis.
+# .
 
-3236;txt;01
-Lisaks, tasuline versioon lubab valitud programmide automaatset sandboximist.
-.
+# 3236;txt;01
+# Lisaks, tasuline versioon lubab valitud programmide automaatset sandboximist.
+# .
 
-3237;txt;01
-Rohkema info saamiseks ja tarkvara ostmiseks palun klõpsa järgnevat linki:
-.
+# 3237;txt;01
+# Rohkema info saamiseks ja tarkvara ostmiseks palun klõpsa järgnevat linki:
+# .
 
-3238;txt;01
-Palun oota veel %2 sek
-.
+# 3238;txt;01
+# Palun oota veel %2 sek
+# .
 
-3239;txt;01
-Klõpsa akna sulgemiseks ja jätkamiseks
-.
+# 3239;txt;01
+# Klõpsa akna sulgemiseks ja jätkamiseks
+# .
 
-3240;txt;01
-Klõpsa akna sulgemiseks ja seiskumiseks
-.
+# 3240;txt;01
+# Klõpsa akna sulgemiseks ja seiskumiseks
+# .
 
 3241;txt;01
 Sandboxie nõuab administraatori õigusi
@@ -1072,9 +1072,9 @@ Lu&kustuse konfiguratsioon
 Kontrolli &uuendusi
 .
 
-3455;txt;01
-&Registreeri Sandboxie
-.
+# 3455;txt;01
+# &Registreeri Sandboxie
+# .
 
 3456;txt;01
 &Sandboxie-st
@@ -1860,9 +1860,9 @@ sandboxitud programmile. Seaded rakenduvad
 programmi järgmise käivitumise korral.
 .
 
-3771;txt;01
-(See võimalus on saadaval ainult Sandboxie registreeritud versioonis)
-.
+# 3771;txt;01
+# (See võimalus on saadaval ainult Sandboxie registreeritud versioonis)
+# .
 
 3772;txt;02
 Oled sa kindel, et sa soovid seada %2 sunnitud programmiks?
@@ -2241,41 +2241,41 @@ Kõik programmid võivad käivituda ja töötada
 # Sandboxie Control:  Sandbox Settings:  Low Level Access / Hardware Access
 #----------------------------------------------------------------------------
 
-3932;txt;01
-Alamtasemel juurdepääs
-.
+# 3932;txt;01
+# Alamtasemel juurdepääs
+# .
 
-3933;txt;01
-Järgnevad seaded nõrgestavad Sandboxie poolt pakutavat kaitset. Neist ühe või enama seade sisse lülitamine ei ole soovitav.
-.
+# 3933;txt;01
+# Järgnevad seaded nõrgestavad Sandboxie poolt pakutavat kaitset. Neist ühe või enama seade sisse lülitamine ei ole soovitav.
+# .
 
-3934;txt;01
-Luba selle sandboxi programmidel kernelirežiimi draivereid opsüsteemi laadida
-.
+# 3934;txt;01
+# Luba selle sandboxi programmidel kernelirežiimi draivereid opsüsteemi laadida
+# .
 
-3935;txt;01
-Luba selle sandboxi programmidel laadida rakenduse (Win32) haake teistesse programmidesse
-.
+# 3935;txt;01
+# Luba selle sandboxi programmidel laadida rakenduse (Win32) haake teistesse programmidesse
+# .
 
-3936;txt;01
-Luba selle sandboxi programmidel simuleerida klaviatuuri ja hiire sisendit
-.
+# 3936;txt;01
+# Luba selle sandboxi programmidel simuleerida klaviatuuri ja hiire sisendit
+# .
 
-3937;txt;01
-Luba selle sandboxi programmidel muuta töölaua taustapilti ja muid süsteemi parameetreid
-.
+# 3937;txt;01
+# Luba selle sandboxi programmidel muuta töölaua taustapilti ja muid süsteemi parameetreid
+# .
 
-3938;txt;01
-Luba selle sandboxi programmidel hallata riistvara seadmete konfiguratsioone
-.
+# 3938;txt;01
+# Luba selle sandboxi programmidel hallata riistvara seadmete konfiguratsioone
+# .
 
-3952;txt;01
-Tarkvarale juurdepääs
-.
+# 3952;txt;01
+# Tarkvarale juurdepääs
+# .
 
-3953;txt;01
-Permit Luba selle sandboxi programmidel muuta kasutajakonto parooli
-.
+# 3953;txt;01
+# Permit Luba selle sandboxi programmidel muuta kasutajakonto parooli
+# .
 
 #----------------------------------------------------------------------------
 # Sandboxie Control:  Sandbox Settings:  Drop Rights
@@ -2297,9 +2297,9 @@ Siiski, kui sa kasutad administraatori või power user'i kontot, siis Sandboxie 
 Administraatori ja power user'i gruppide õiguste keelamine
 .
 
-3946;txt;01
-On soovitav need seaded sisselülitatuna hoida, kompenseerimaks Sandboxie kaitsemeetmeid, mis ei ole saadaval Windowsi 64-bitises versioonis.
-.
+# 3946;txt;01
+# On soovitav need seaded sisselülitatuna hoida, kompenseerimaks Sandboxie kaitsemeetmeid, mis ei ole saadaval Windowsi 64-bitises versioonis.
+# .
 
 #----------------------------------------------------------------------------
 # Sandboxie Control:  Sandbox Settings:  Resource Access
@@ -2830,174 +2830,174 @@ Järgnevad erandid lubavad e-posti lugejatel töötada selles sandboxis, et pö�
 # License Manager
 #----------------------------------------------------------------------------
 
-7901;txt;01
-Sandboxie litsentsihaldur
-.
+# 7901;txt;01
+# Sandboxie litsentsihaldur
+# .
 
-7902;txt;01
-Süsteemi kood %2
-.
+# 7902;txt;01
+# Süsteemi kood %2
+# .
 
-7903;txt;01
-Edaspidi aktiveeri litsents ilma küsimata
-.
-
-#----------------------------------------------------------------------------
-
-7921;txt;01
-Sandboxie on registreeritud ja litsents aktiveeritud.
-.
-
-7922;txt;01
-Sandboxie on registreeritud aga nüüd tuleb ka litsents uuesti aktiveerida.
-.
-
-7924;txt;01
-Sandboxie litsents tuleb uuesti aktiveerida %2 päeva pärast.
-.
-
-7925;txt;01
-Sandboxie litsents on nüüd aktiveeritud.
-.
-
-7926;txt;01
-Tootevõtme aegumiskuupäev on %2.
-.
+# 7903;txt;01
+# Edaspidi aktiveeri litsents ilma küsimata
+# .
 
 #----------------------------------------------------------------------------
 
-7931;txt;01
-Sinu Sandboxie koopia on registreeritud aegunud registreerimisvõtmega.
-.
+# 7921;txt;01
+# Sandboxie on registreeritud ja litsents aktiveeritud.
+# .
 
-7932;txt;01
-Palun luba litsentsihalduril ühenduda litsentsiserveriga ja uuendada sinu vana registreerimisvõti uue toote võtmega. Selle uuenduse eest ei pea sa mingit tasu maksma.
-.
+# 7922;txt;01
+# Sandboxie on registreeritud aga nüüd tuleb ka litsents uuesti aktiveerida.
+# .
 
-7933;txt;01
-Sinu registreerimisvõti on litsentsiserveri jaoks tundmatu.
-.
+# 7924;txt;01
+# Sandboxie litsents tuleb uuesti aktiveerida %2 päeva pärast.
+# .
 
-7934;txt;01
-Kui sa kasutad legitiimset registreerimisvõtit, mille eest sa oled maksnud või mille oled kingina või promona saanud, siis palun saada e-kiri aadressil:
-.
+# 7925;txt;01
+# Sandboxie litsents on nüüd aktiveeritud.
+# .
 
-7935;txt;01
-Sinu uus toote võti on:
-.
-
-7936;txt;01
-Palun talleta see toote võti turvalises kohas edasiseks kasutamiseks. Kasuta allolevat nuppu, et kopeerida oma toote võti lõikelauale, kust sa võid selle dokumenti kleepida ja välja trükkida.
-.
-
-7937;txt;01
-&Uuenda registreerimisvõti toote võtmeks
-.
+# 7926;txt;01
+# Tootevõtme aegumiskuupäev on %2.
+# .
 
 #----------------------------------------------------------------------------
 
-7941;txt;01
-Sandboxie registreerimine tehakse läbi kolmanda osapoole maksekeskkonna.  Alusta registreerimisprotsessi külastades Sandboxie veebilehekülge alltoodud lingi kaudu.
-.
+# 7931;txt;01
+# Sinu Sandboxie koopia on registreeritud aegunud registreerimisvõtmega.
+# .
 
-7942;txt;01
-Oma Sandboxie litsentsi aktiveerimiseks sisesta maksekviitungilt toote võti, seejärel klõpsa nuppu, et aktiveerida oma litsents.
-.
+# 7932;txt;01
+# Palun luba litsentsihalduril ühenduda litsentsiserveriga ja uuendada sinu vana registreerimisvõti uue toote võtmega. Selle uuenduse eest ei pea sa mingit tasu maksma.
+# .
 
-7943;txt;01
-Kas soovid sisestada uue tootme võtme?
-.
+# 7933;txt;01
+# Sinu registreerimisvõti on litsentsiserveri jaoks tundmatu.
+# .
 
-7944;txt;01
-&Aktiveeri litsents
-.
+# 7934;txt;01
+# Kui sa kasutad legitiimset registreerimisvõtit, mille eest sa oled maksnud või mille oled kingina või promona saanud, siis palun saada e-kiri aadressil:
+# .
 
-7945;txt;01
-Sinu Sandboxie programm on nüüd registreeritud.
-.
+# 7935;txt;01
+# Sinu uus toote võti on:
+# .
 
-7946;txt;01
-Tänan Sandboxie't toetamast!
-.
+# 7936;txt;01
+# Palun talleta see toote võti turvalises kohas edasiseks kasutamiseks. Kasuta allolevat nuppu, et kopeerida oma toote võti lõikelauale, kust sa võid selle dokumenti kleepida ja välja trükkida.
+# .
+
+# 7937;txt;01
+# &Uuenda registreerimisvõti toote võtmeks
+# .
 
 #----------------------------------------------------------------------------
 
-7951;txt;01
-Kas soovid aktiveerida litsentsi?
-.
+# 7941;txt;01
+# Sandboxie registreerimine tehakse läbi kolmanda osapoole maksekeskkonna.  Alusta registreerimisprotsessi külastades Sandboxie veebilehekülge alltoodud lingi kaudu.
+# .
 
-7952;txt;01
-Palun külasta Sandboxie veebilehte allolevalt viitelt, et tellida uus toote võti.
-.
+# 7942;txt;01
+# Oma Sandboxie litsentsi aktiveerimiseks sisesta maksekviitungilt toote võti, seejärel klõpsa nuppu, et aktiveerida oma litsents.
+# .
 
-7961;txt;01
-Tühjenda litsentsi &informatsioon
-.
+# 7943;txt;01
+# Kas soovid sisestada uue tootme võtme?
+# .
 
-7962;txt;01
-Oled sa kindel, et soovid tühjendada litsentsi infot Sandboxies?
+# 7944;txt;01
+# &Aktiveeri litsents
+# .
 
+# 7945;txt;01
+# Sinu Sandboxie programm on nüüd registreeritud.
+# .
+
+# 7946;txt;01
+# Tänan Sandboxie't toetamast!
+# .
+
+#----------------------------------------------------------------------------
+
+# 7951;txt;01
+# Kas soovid aktiveerida litsentsi?
+# .
+
+# 7952;txt;01
+# Palun külasta Sandboxie veebilehte allolevalt viitelt, et tellida uus toote võti.
+# .
+
+# 7961;txt;01
+# Tühjenda litsentsi &informatsioon
+# .
+
+# 7962;txt;01
+# Oled sa kindel, et soovid tühjendada litsentsi infot Sandboxies?
+# 
 Sa võid aktiveerida oma litsentsi igal ajal sisestades selleks toote võtme.
 .
 
 #----------------------------------------------------------------------------
 
-7971;txt;01
-See ei ole õige toote võti.
+# 7971;txt;01
+# See ei ole õige toote võti.
+# .
+
+# 7972;txt;01
+# See ei ole õige süsteemi kood.
+# .
+
+# 7973;txt;01
+# See ei ole õige aktiveerimise võti. [%2]
+# .
+
+# 7974;txt;01
+# Vigane vastus litsentsiserverist.
+# .
+
+# 7975;txt;01
+# Toote aktiveerimine ebaõnnestus:
+# .
+
+# 7976;txt;01
+# Soovid uuesti proovida?
+# .
+
+# 7977;txt;01
+# Kui sa soovid aktiveerida Sandboxie arvutis, millel ei ole interneti ühendust, siis
+# palun vaata Sandboxie litsentsimise KKK-st infot võrguta režiimis aktiveerimise kohta.
 .
 
-7972;txt;01
-See ei ole õige süsteemi kood.
-.
+# 7982;txt;01
+# Litsentsiserver ei täpsustanud aktiveerimise ebaõnnestumise põhjust.
+# .
 
-7973;txt;01
-See ei ole õige aktiveerimise võti. [%2]
-.
+# 7983;txt;01
+# Toote võtit ei võetud litsentsiserveri poolt omaks.
+# .
 
-7974;txt;01
-Vigane vastus litsentsiserverist.
-.
+# 7984;txt;01
+# Toote võtit ei saa kasutada peale aegumiskuupäeva %2.
+# .
 
-7975;txt;01
-Toote aktiveerimine ebaõnnestus:
-.
+# 7985;txt;01
+# Toote võtit on aktiveeritud liiga paljudest arvutitest.
+# .
 
-7976;txt;01
-Soovid uuesti proovida?
-.
+# 7986;txt;01
+# Toote võti tühistati kuna see muudeti interneti kaudu avalikuks.
+# .
 
-7977;txt;01
-Kui sa soovid aktiveerida Sandboxie arvutis, millel ei ole interneti ühendust, siis
-palun vaata Sandboxie litsentsimise KKK-st infot võrguta režiimis aktiveerimise kohta.
-.
+# 7987;txt;01
+# Toote võti tühistati kuna tellimuse raha tagastati.
+# .
 
-7982;txt;01
-Litsentsiserver ei täpsustanud aktiveerimise ebaõnnestumise põhjust.
-.
-
-7983;txt;01
-Toote võtit ei võetud litsentsiserveri poolt omaks.
-.
-
-7984;txt;01
-Toote võtit ei saa kasutada peale aegumiskuupäeva %2.
-.
-
-7985;txt;01
-Toote võtit on aktiveeritud liiga paljudest arvutitest.
-.
-
-7986;txt;01
-Toote võti tühistati kuna see muudeti interneti kaudu avalikuks.
-.
-
-7987;txt;01
-Toote võti tühistati kuna tellimuse raha tagastati.
-.
-
-7923;txt;01
-Registreerimata koopia.  Registreeri juba täna!
-.
+# 7923;txt;01
+# Registreerimata koopia.  Registreeri juba täna!
+# .
 
 #----------------------------------------------------------------------------
 # SandboxieInstall

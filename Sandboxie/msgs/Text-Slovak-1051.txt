@@ -36,9 +36,9 @@ SBIE1106 Chyba %2, detail %3
 SBIE1108 Procedúra %2 nemohla byť analyzovaná
 .
 
-1109;evt;err;01
-SBIE1109 Neplatné licenčné údaje:  %2
-.
+# 1109;evt;err;01
+# SBIE1109 Neplatné licenčné údaje:  %2
+# .
 
 1110;evt;err;01
 SBIE1110 Nemožno zachytiť typ %3, chyba %2
@@ -108,9 +108,9 @@ SBIE1153 Sandboxie inicializácia zlyhala.  Zatvorte všetky programy a potom pr
 SBIE1201 Nedostatok pamäte
 .
 
-1202;pop;err;01
-SBIE1202 Nemožno aktualizovať licenčné údaje:  %2
-.
+# 1202;pop;err;01
+# SBIE1202 Nemožno aktualizovať licenčné údaje:  %2
+# .
 
 1203;pop;err;01
 SBIE1203 Nemožno vytvoriť zoznam ciest (chyba v %2)
@@ -132,17 +132,17 @@ SBIE1212 Nemožno vytvoriť adresár '%3' %2
 SBIE1213 Nemožno vytvoriť objekt adresára '%3' %2
 .
 
-1214;pop;err;01
-SBIE1214 Nemožno vložiť SbieDll %2
-.
+# 1214;pop;err;01
+# SBIE1214 Nemožno vložiť SbieDll %2
+# .
 
-1215;pop;err;01
-SBIE1215 Nemožno vyriešiť cestu do procesu obrazu %2
-.
+# 1215;pop;err;01
+# SBIE1215 Nemožno vyriešiť cestu do procesu obrazu %2
+# .
 
-1216;pop;err;01
-SBIE1216 Nepodarilo sa  dotazovať na bezpečnosť ID %2
-.
+# 1216;pop;err;01
+# SBIE1216 Nepodarilo sa  dotazovať na bezpečnosť ID %2
+# .
 
 # 1217;pop;err;01
 # SBIE1217 Nepodarilo sa násť rodiča procesu
@@ -152,17 +152,17 @@ SBIE1216 Nepodarilo sa  dotazovať na bezpečnosť ID %2
 # SBIE1221 Nemožno vytvoriť pracovné miesto:  %2
 # .
 
-1222;pop;err;01
-SBIE1222 Nemožno obmedziť znak:  %2
-.
+# 1222;pop;err;01
+# SBIE1222 Nemožno obmedziť znak:  %2
+# .
 
-1223;pop;err;01
-SBIE1223 Nemožno nahradiť znak:  %2
-.
+# 1223;pop;err;01
+# SBIE1223 Nemožno nahradiť znak:  %2
+# .
 
-1224;pop;err;01
-SBIE1224 Nemožno sa dotazovať na znak:  %2
-.
+# 1224;pop;err;01
+# SBIE1224 Nemožno sa dotazovať na znak:  %2
+# .
 
 1241;pop;err;01
 SBIE1241 Nemožno pripojiť vetvu registra:  %2
@@ -186,13 +186,13 @@ SBIE1301 Program '%2' bol spustený mimo Pieskoviska
 # SBIE1302 Sandbox '%2' nie je definovaný alebo nie je zapnutý
 # .
 
-1303;pop;inf;01
-SBIE1303 Len jedno Pieskovisko može byť súčasne aktívne
-.
+# 1303;pop;inf;01
+# SBIE1303 Len jedno Pieskovisko može byť súčasne aktívne
+# .
 
-1304;pop;inf;01
-SBIE1304 Blokovaná simulovaná klavesnica alebo vstup myši procesom '%2'
-.
+# 1304;pop;inf;01
+# SBIE1304 Blokovaná simulovaná klavesnica alebo vstup myši procesom '%2'
+# .
 
 1306;pop;inf;01
 SBIE1306 Sandboxie ovládač (SbieDrv) nemôže byť teraz vybratý
@@ -210,13 +210,13 @@ SBIE1308 Program nemožno spustiť kvoli obmedzeniam - %2
 SBIE1309 Zamietnutý pokus zmeniť heslo užívateľa
 .
 
-1310;pop;inf;01
-SBIE1310 Rozšírené funkcie sú vypnuté pokiaľ nie je aktivovaná licencia
-.
+# 1310;pop;inf;01
+# SBIE1310 Rozšírené funkcie sú vypnuté pokiaľ nie je aktivovaná licencia
+# .
 
-1311;pop;inf;01
-SBIE1311 Blokovaná požiadavka zmeniť pozadie pracovnej plochy procesom '%2'
-.
+# 1311;pop;inf;01
+# SBIE1311 Blokovaná požiadavka zmeniť pozadie pracovnej plochy procesom '%2'
+# .
 
 1312;pop;inf;01
 SBIE1312 Blokovaná požiadavka spustiť 16-bit DOS program v Pieskovisku
@@ -230,9 +230,9 @@ SBIE1313 Blokovaný priamy prístup k disku procesom '%2'
 SBIE1314 Blokovaná požiadavka zmeniť nastavenia siete/firewall procesom '%2'
 .
 
-1315;pop;inf;01
-SBIE1315 Pravdepodobne kvôli konfliktu so softwarom: %2
-.
+# 1315;pop;inf;01
+# SBIE1315 Pravdepodobne kvôli konfliktu so softwarom: %2
+# .
 
 #----------------------------------------------------------------------------
 # SbieDrv
@@ -507,9 +507,9 @@ SBIE2313 Nepodarilo sa spustiť %2
 SBIE2314 Prerušujem proces %2
 .
 
-2315;pop;err;01
-SBIE2315 Nepodarilo sa opraviť spustený obraz
-.
+# 2315;pop;err;01
+# SBIE2315 Nepodarilo sa opraviť spustený obraz
+# .
 
 2316;pop;err;01
 SBIE2316 Poškodená pamäť
@@ -563,9 +563,9 @@ SBIE2332 Nemožno získať prístup k file SbiePst.dat
 # SBIE2333 Nekompatibilný software s nájdeným DLL:  %2
 # .
 
-2334;pop;err;01
-SBIE2334 Nemožno načítať súbor DLL:  %2
-.
+# 2334;pop;err;01
+# SBIE2334 Nemožno načítať súbor DLL:  %2
+# .
 
 # 2398;txt;01
 # SBIE2398 Služba pripúšťa výnimku ... na adrese ...
@@ -595,49 +595,49 @@ SBIE9154 Ovládač (SbieDrv) a služba (SbieSvc) majú odlišné čísla verzie
 SBIE9156 Inicializácia ovládača nie je dokončená
 .
 
-9201;evt;err;01
-SBIE9201 Znak chyby
-.
+# 9201;evt;err;01
+# SBIE9201 Znak chyby
+# .
 
-9202;evt;err;01
-SBIE9202 Znak chyby
-.
+# 9202;evt;err;01
+# SBIE9202 Znak chyby
+# .
 
-9203;evt;err;01
-SBIE9203 Znak chyby
-.
+# 9203;evt;err;01
+# SBIE9203 Znak chyby
+# .
 
-9204;evt;err;01
-SBIE9204 Chyba bezpečnostného deskriptora
-.
+# 9204;evt;err;01
+# SBIE9204 Chyba bezpečnostného deskriptora
+# .
 
-9205;evt;err;01
-SBIE9205 Chyba bezpečnostného deskriptora
-.
+# 9205;evt;err;01
+# SBIE9205 Chyba bezpečnostného deskriptora
+# .
 
-9206;evt;err;01
-SBIE9206 Chyba bezpečnostného deskriptora
-.
+# 9206;evt;err;01
+# SBIE9206 Chyba bezpečnostného deskriptora
+# .
 
-9207;evt;err;01
-SBIE9207 Chyba bezpečnostného deskriptora
-.
+# 9207;evt;err;01
+# SBIE9207 Chyba bezpečnostného deskriptora
+# .
 
-9208;evt;err;01
-SBIE9208 Nemožno zapnúť SeRestorePrivilege
-.
+# 9208;evt;err;01
+# SBIE9208 Nemožno zapnúť SeRestorePrivilege
+# .
 
-9251;evt;err;01
-SBIE9251 Zlyhanie vytvorenia udalosti portu
-.
+# 9251;evt;err;01
+# SBIE9251 Zlyhanie vytvorenia udalosti portu
+# .
 
-9252;evt;err;01
-SBIE9252 Zlyhanie vytvorenia portu
-.
+# 9252;evt;err;01
+# SBIE9252 Zlyhanie vytvorenia portu
+# .
 
-9253;evt;err;01
-SBIE9253 Zlyhanie vytvorenia vlákna portu
-.
+# 9253;evt;err;01
+# SBIE9253 Zlyhanie vytvorenia vlákna portu
+# .
 
 #----------------------------------------------------------------------------
 # Common Texts
@@ -749,9 +749,9 @@ Nemožno nájsť predvolený mailový agent
 Nepodarilo sa spustiť Sandboxie Control program
 .
 
-3211;txt;01
-Nezhoda vo verzii Sandboxie.  Skúste preinštalovať.
-.
+# 3211;txt;01
+# Nezhoda vo verzii Sandboxie.  Skúste preinštalovať.
+# .
 
 3212;txt;01
 Ovládač Sandboxie (SbieDrv) nie je dostupný  programom Sandboxie.
@@ -800,45 +800,45 @@ Prosím vypnúť programy bežiace v Pieskovisku pred zmazaním jeho obsahu.
 Zlyhanie príkazu Zmazať:  %0
 .
 
-3231;txt;01
-Sandboxie máte nainštalovaný viacej ako 30 dní.
-.
+# 3231;txt;01
+# Sandboxie máte nainštalovaný viacej ako 30 dní.
+# .
 
-3232;txt;01
-Súkromné používanie Sandboxie je zadarmo po dobu akú chcete.
-.
+# 3232;txt;01
+# Súkromné používanie Sandboxie je zadarmo po dobu akú chcete.
+# .
 
-3233;txt;01
-Avšak free (voľná) verzia sa zastaví na pár sekúnd.
-.
+# 3233;txt;01
+# Avšak free (voľná) verzia sa zastaví na pár sekúnd.
+# .
 
-3234;txt;01
-Avšak free (voľná) verzia umožňuje naraz použiť len jeddno Pieskovisko.
-.
+# 3234;txt;01
+# Avšak free (voľná) verzia umožňuje naraz použiť len jeddno Pieskovisko.
+# .
 
-3235;txt;01
-Toto obmedzenie neplatí v platenej FULL (plná) verzii Sandboxie.
-.
+# 3235;txt;01
+# Toto obmedzenie neplatí v platenej FULL (plná) verzii Sandboxie.
+# .
 
-3236;txt;01
-Okrem toho full (plná) verzia umožňuje automaticky spúšťať vybrané programy v Sandboxie.
-.
+# 3236;txt;01
+# Okrem toho full (plná) verzia umožňuje automaticky spúšťať vybrané programy v Sandboxie.
+# .
 
-3237;txt;01
-Pre viac informácií a o zakúpení software, prosím kliknúť na nasledujúci link:
-.
+# 3237;txt;01
+# Pre viac informácií a o zakúpení software, prosím kliknúť na nasledujúci link:
+# .
 
-3238;txt;01
-Prosím čakajte ešte %2 sekundy
-.
+# 3238;txt;01
+# Prosím čakajte ešte %2 sekundy
+# .
 
-3239;txt;01
-Kliknite pre zatvorenie tohoto okna a pokračujte
-.
+# 3239;txt;01
+# Kliknite pre zatvorenie tohoto okna a pokračujte
+# .
 
-3240;txt;01
-Kliknite pre zatvorenie tohoto okna a skončite
-.
+# 3240;txt;01
+# Kliknite pre zatvorenie tohoto okna a skončite
+# .
 
 3241;txt;01
 Sandboxie žiada oprávnenie administrátora
@@ -1088,9 +1088,9 @@ Windows Shell &Integrácia
 Softwarová &Kompatabilita
 .
 
-3503;txt;01
-Expermentálna Ochrana (64-bit)
-.
+# 3503;txt;01
+# Expermentálna Ochrana (64-bit)
+# .
 
 3444;txt;01
 Zobraziť Skryté &Správy
@@ -1136,9 +1136,9 @@ Začíname &Návod
 Kontrola &Aktualizácií
 .
 
-3455;txt;01
-&Register Pieskoviska
-.
+# 3455;txt;01
+# &Register Pieskoviska
+# .
 
 3456;txt;01
 &O Sandboxie
@@ -1392,9 +1392,9 @@ Konfiguračný súbor Sandboxie.ini nemožno upravovať, pretože je chránený 
 Verejné
 .
 
-3542;txt;01
-Mód Experimentálna 0chrana zvyšuje ochranu ponúkanou 64-bit Sandboxie a dostáva na rovnakú úroveň ochrany ako je u 32-bit Sandboxie.
-
+# 3542;txt;01
+# Mód Experimentálna 0chrana zvyšuje ochranu ponúkanou 64-bit Sandboxie a dostáva na rovnakú úroveň ochrany ako je u 32-bit Sandboxie.
+# 
 DôLEŽITÉ:  Experimentálna Ochrana používa nedokumentované funkcie jadra systému Windows.  Budúce aktualizácie Windows by mohli rušiť mód experimentálna Ochrana, a teda nestabilitu systému.
 
 POUŽITIE NA VLASTNÉ RIZIKO.
@@ -1402,9 +1402,9 @@ POUŽITIE NA VLASTNÉ RIZIKO.
 Aktivácia režimu Experimentálna Ochrana sa uplatní až po reštartovaní počítača.
 .
 
-3543;txt;01
-Vypnutie režimu Experimentálna Ochrana sa uplatní až po reštartovaní počítača.
-
+# 3543;txt;01
+# Vypnutie režimu Experimentálna Ochrana sa uplatní až po reštartovaní počítača.
+# 
 Vezmite prosím na vedomie, že nastavenie Zníženie Práv bude zapnuté vo všetkých Pieskoviskách.
 .
 
@@ -1973,9 +1973,9 @@ Zapnúť obmedzenia a povoliť štart tomuto programu.
 Nové nastavenia nepoužiť pre program, ktorý už beží v Pieskovisku. Nastavenia budú uplatnené pri nasledovnom spustení programu.
 .
 
-3771;txt;01
-(Táto funkcia je dostupná len v registrovanej verzii Sandboxie)
-.
+# 3771;txt;01
+# (Táto funkcia je dostupná len v registrovanej verzii Sandboxie)
+# .
 
 3772;txt;02
 Ste si istý, že chcete nastaviť %2 ako nútený program?
@@ -2440,49 +2440,49 @@ Na správu Obmedzenía Spustiť/Beh Prístup otvorte okno Nastavenia v Pieskovis
 # Restrictions::Low-Level Access
 # .
 
-3932;txt;01
-Nízkoúrovňový Prístup
-.
+# 3932;txt;01
+# Nízkoúrovňový Prístup
+# .
 
-3933;txt;01
-Nasledujúce nastavenia oslabia ochranu, ktorú poskytuje Sandboxie. Zapnutie niektorých alebo všetkých týchto nastavení sa nedoporučuje.
-.
+# 3933;txt;01
+# Nasledujúce nastavenia oslabia ochranu, ktorú poskytuje Sandboxie. Zapnutie niektorých alebo všetkých týchto nastavení sa nedoporučuje.
+# .
 
-3934;txt;01
-Povoliť programom v tomto Pieskovisku načítať ovládače v jadre operačného systému
-.
+# 3934;txt;01
+# Povoliť programom v tomto Pieskovisku načítať ovládače v jadre operačného systému
+# .
 
-3935;txt;01
-Povoliť programom v tomto Pieskovisku načítať aplikácie (Win32) zachytené v ďalších programoch
-.
+# 3935;txt;01
+# Povoliť programom v tomto Pieskovisku načítať aplikácie (Win32) zachytené v ďalších programoch
+# .
 
-3936;txt;01
-Povoliť programy v tomto Pieskovisku simulovať vstup klávesnice a myši
-.
+# 3936;txt;01
+# Povoliť programy v tomto Pieskovisku simulovať vstup klávesnice a myši
+# .
 
-3937;txt;01
-Povoliť programom v tomto Pieskovisku zmeniť pozadie pracovnej plochy a ďalších systémových parametrov
-.
+# 3937;txt;01
+# Povoliť programom v tomto Pieskovisku zmeniť pozadie pracovnej plochy a ďalších systémových parametrov
+# .
 
-3938;txt;01
-Povoliť programom v tomto Pieskovisku spravovať hardwarové konfiguračné zariadenie
-.
+# 3938;txt;01
+# Povoliť programom v tomto Pieskovisku spravovať hardwarové konfiguračné zariadenie
+# .
 
 # 3951;txt;01
 # Restrictions::Hardware Access
 # .
 
-3952;txt;01
-Hardwarový Prístup
-.
+# 3952;txt;01
+# Hardwarový Prístup
+# .
 
-3953;txt;01
-Povoliť progamom v tomto Pieskovisku zmeniť heslo užívateľského účtu
-.
+# 3953;txt;01
+# Povoliť progamom v tomto Pieskovisku zmeniť heslo užívateľského účtu
+# .
 
-3954;txt;01
-Povoliť programom zmeniť sieťové a firewall parametre
-.
+# 3954;txt;01
+# Povoliť programom zmeniť sieťové a firewall parametre
+# .
 
 #----------------------------------------------------------------------------
 # Sandboxie Control:  Sandbox Settings:  Drop Rights
@@ -2508,13 +2508,13 @@ Avšak, ak používate účet administrátora, Sandboxie môže zakázať viac b
 Znížené Práva pre admínistrátora a všetky užívateľské skupiny
 .
 
-3946;txt;01
-Doporučuje sa ponechať tieto nastavenia zapnuté, slúži ako kompenzácia niektorých ochrán Sandboxie, ktoré sú k dispozícii v 64-bit verzii Windows.
-.
+# 3946;txt;01
+# Doporučuje sa ponechať tieto nastavenia zapnuté, slúži ako kompenzácia niektorých ochrán Sandboxie, ktoré sú k dispozícii v 64-bit verzii Windows.
+# .
 
-3947;txt;01
-Aktivovať zvýšenú ochranu  pre 64-bit Windows, prosím použite príkaz Experimentálna Ochrana z menu Konfigurácia.
-.
+# 3947;txt;01
+# Aktivovať zvýšenú ochranu  pre 64-bit Windows, prosím použite príkaz Experimentálna Ochrana z menu Konfigurácia.
+# .
 
 3949;txt;01
 Nastavenie Znížené Práva je zapnuté v Pieskovisku '%2', a zabraňuje použiť užívateľké oprávnenia.
@@ -3288,193 +3288,193 @@ Ste pripravený začať!
 Predvolené nastavenia v Sandboxie poskytujú plnú ochranu, avšak môžete poupravovať konfiguráciu pieskoviska v menu Pieskovisko v okne Ovládanie Sandboxie.
 .
 
-7866;txt;01
-V 64-bit systéme Windows by ste mali zapnúť Experimentálna Ochrana, ktorá je v Ovládanie Sandboxie pod menu Konfigurácia.
-.
+# 7866;txt;01
+# V 64-bit systéme Windows by ste mali zapnúť Experimentálna Ochrana, ktorá je v Ovládanie Sandboxie pod menu Konfigurácia.
+# .
 
 #----------------------------------------------------------------------------
 # License Manager
 #----------------------------------------------------------------------------
 
-7901;txt;01
-Sandboxie Licenčný Správca
-.
+# 7901;txt;01
+# Sandboxie Licenčný Správca
+# .
 
-7902;txt;01
-Systémový Kód %2
-.
+# 7902;txt;01
+# Systémový Kód %2
+# .
 
-7903;txt;01
-V budúcnosti aktivovať licenciu bez pýtania
-.
+# 7903;txt;01
+# V budúcnosti aktivovať licenciu bez pýtania
+# .
 
 #----------------------------------------------------------------------------
 
-7921;txt;01
-Sandboxie je registrovaný a licencia aktivovaná.
-.
+# 7921;txt;01
+# Sandboxie je registrovaný a licencia aktivovaná.
+# .
 
-7922;txt;01
-Sandboxie je registrovaný, ale licencia by mala byť teraz obnovená.
-.
+# 7922;txt;01
+# Sandboxie je registrovaný, ale licencia by mala byť teraz obnovená.
+# .
 
 # was 3603;txt;01
-7923;txt;01
-Neregistrovaná kópia.  Zaregistrujte dnes!
-.
+# 7923;txt;01
+# Neregistrovaná kópia.  Zaregistrujte dnes!
+# .
 
-7924;txt;01
-Licencia pre Sandboxie bude musieť byť obnovená za %2 dní.
-.
+# 7924;txt;01
+# Licencia pre Sandboxie bude musieť byť obnovená za %2 dní.
+# .
 
-7925;txt;01
-Licencia pre Sandboxie je teraz aktivovaná.
-.
+# 7925;txt;01
+# Licencia pre Sandboxie je teraz aktivovaná.
+# .
 
-7926;txt;01
-Dátum ukončenia Vašeho Produktového Kľúča je %2.
-.
+# 7926;txt;01
+# Dátum ukončenia Vašeho Produktového Kľúča je %2.
+# .
 
-7927;txt;01
-Váš Produktový Kľúč má neobmedzenú dobu platnosti.
-.
+# 7927;txt;01
+# Váš Produktový Kľúč má neobmedzenú dobu platnosti.
+# .
 
 #----------------------------------------------------------------------------
 
-7931;txt;01
-Vaša kópia Sandboxie je registrovaná pod zastaralým Registračným Kľúčom.
-.
+# 7931;txt;01
+# Vaša kópia Sandboxie je registrovaná pod zastaralým Registračným Kľúčom.
+# .
 
-7932;txt;01
-Prosím povoliť Licenčnému Správcovi pripojiť sa k Licenčnému Serveru a vylepšiť Vylepšiť Váš starý Registračný Kľúč na nový Produktový Kľúč.  Za toto vylepšenie nebudete musieť nič platiť.
-.
+# 7932;txt;01
+# Prosím povoliť Licenčnému Správcovi pripojiť sa k Licenčnému Serveru a vylepšiť Vylepšiť Váš starý Registračný Kľúč na nový Produktový Kľúč.  Za toto vylepšenie nebudete musieť nič platiť.
+# .
 
-7933;txt;01
-Váš Registračný Kľúč nie je rozpoznaný Licenčným Serverom.
-.
+# 7933;txt;01
+# Váš Registračný Kľúč nie je rozpoznaný Licenčným Serverom.
+# .
 
-7934;txt;01
-Ak používate legitímny Registračný kľúč, za ktorý ste zaplatili alebo ktorý Vám bol poskytnutý ako darček, alebo ako súčasť propagácie, potom mi prosím pošlite mail na:
-.
+# 7934;txt;01
+# Ak používate legitímny Registračný kľúč, za ktorý ste zaplatili alebo ktorý Vám bol poskytnutý ako darček, alebo ako súčasť propagácie, potom mi prosím pošlite mail na:
+# .
 
-7935;txt;01
-Váš nový Produktový Kľúč je:
-.
+# 7935;txt;01
+# Váš nový Produktový Kľúč je:
+# .
 
-7936;txt;01
-Prosím, uschovajte tento Produktový Kľúč na bezpečnom mieste na neskoršie použitie.  Použite tlačidlo nižšie na kopírovanie Vašeho Produtového Kľúča do schránky, z ktoréj ho môžete vložiť do dokumentu a vytlačiť.
-.
+# 7936;txt;01
+# Prosím, uschovajte tento Produktový Kľúč na bezpečnom mieste na neskoršie použitie.  Použite tlačidlo nižšie na kopírovanie Vašeho Produtového Kľúča do schránky, z ktoréj ho môžete vložiť do dokumentu a vytlačiť.
+# .
 
-7937;txt;01
-&Vylepšenie Registračného Kľúča na Produktový Kľúč
-.
+# 7937;txt;01
+# &Vylepšenie Registračného Kľúča na Produktový Kľúč
+# .
 
 #----------------------------------------------------------------------------
 
 # was 3612;txt;01
-7941;txt;01
-Sandboxie registrácia je vyrobená cez procesor zakúpený od tretej strany.  Začnite registračný proces navštívením web stránky Sandboxie na nižšie uvedenom linku.
-.
+# 7941;txt;01
+# Sandboxie registrácia je vyrobená cez procesor zakúpený od tretej strany.  Začnite registračný proces navštívením web stránky Sandboxie na nižšie uvedenom linku.
+# .
 
-7942;txt;01
-Pre aktiváciu Vašej licencie Sandboxie zadajte Produktový Kľúč, ktorý je uvedný vo Vašom doklade o zaplatení, potom kliknite na tlačidlo, aby ste aktivovali licenciu.
-.
+# 7942;txt;01
+# Pre aktiváciu Vašej licencie Sandboxie zadajte Produktový Kľúč, ktorý je uvedný vo Vašom doklade o zaplatení, potom kliknite na tlačidlo, aby ste aktivovali licenciu.
+# .
 
-7943;txt;01
-Želáte si zadať teraz nový Produktový Kľúč?
-.
+# 7943;txt;01
+# Želáte si zadať teraz nový Produktový Kľúč?
+# .
 
-7944;txt;01
-&Aktivácia Licencie
-.
+# 7944;txt;01
+# &Aktivácia Licencie
+# .
 
 # was first line of 3617;txt;01
-7945;txt;01
-Vaša kópia Sandboxie je teraz registrovaná.
-.
+# 7945;txt;01
+# Vaša kópia Sandboxie je teraz registrovaná.
+# .
 
 # was second line of 3617;txt;01
-7946;txt;01
-Ďakujeme za podporu Sandboxie!
-.
+# 7946;txt;01
+# Ďakujeme za podporu Sandboxie!
+# .
 
 #----------------------------------------------------------------------------
 
-7951;txt;01
-Želáte si teraz aktivovať licenciu?
-.
+# 7951;txt;01
+# Želáte si teraz aktivovať licenciu?
+# .
 
-7952;txt;01
-Prosím navštívte web stránku Sandboxie na nižšie uvedenom linu pre objednanie nového Produktového Kľúča.
-.
+# 7952;txt;01
+# Prosím navštívte web stránku Sandboxie na nižšie uvedenom linu pre objednanie nového Produktového Kľúča.
+# .
 
-7961;txt;01
-Vymazať Licenčné &Informácie
-.
+# 7961;txt;01
+# Vymazať Licenčné &Informácie
+# .
 
-7962;txt;01
-Želáte si vymazať licenčné informácie v Sandboxie?
-
+# 7962;txt;01
+# Želáte si vymazať licenčné informácie v Sandboxie?
+# 
 Môžete aktivovať Vašu licenciu kedykoľvek zadaním Produktového Kľúča.
 .
 
 #----------------------------------------------------------------------------
 
-7971;txt;01
-Toto nie je platný Produktový Kľúč.
-.
+# 7971;txt;01
+# Toto nie je platný Produktový Kľúč.
+# .
 
-7972;txt;01
-Toto nie je platný Systémový Kód.
-.
+# 7972;txt;01
+# Toto nie je platný Systémový Kód.
+# .
 
-7973;txt;01
-Toto nie je platný Aktivačný Kľúč.  [%2]
-.
+# 7973;txt;01
+# Toto nie je platný Aktivačný Kľúč.  [%2]
+# .
 
-7974;txt;01
-Neplatná odpoveď z Licenčného Servera.
-.
+# 7974;txt;01
+# Neplatná odpoveď z Licenčného Servera.
+# .
 
-7975;txt;01
-Aktivácia Produktu zlyhala:
-.
+# 7975;txt;01
+# Aktivácia Produktu zlyhala:
+# .
 
-7976;txt;01
-Prajete si to teraz skúsiť znovu?
-.
+# 7976;txt;01
+# Prajete si to teraz skúsiť znovu?
+# .
 
-7977;txt;01
-Ak potrebujete aktivovať Sandboxie na počítači, ktorý nemá prístup na Internet, prostím pozrite sa na Sandboxie Licenčné  FAQ informácie ohľadom Offline Registrácie.
-.
+# 7977;txt;01
+# Ak potrebujete aktivovať Sandboxie na počítači, ktorý nemá prístup na Internet, prostím pozrite sa na Sandboxie Licenčné  FAQ informácie ohľadom Offline Registrácie.
+# .
 
-7978;txt;01
-Aktuálny dátum (%2) je starší než dátum odoslaný z Licenčného Servera (%3).
-.
+# 7978;txt;01
+# Aktuálny dátum (%2) je starší než dátum odoslaný z Licenčného Servera (%3).
+# .
 
-7982;txt;01
-Licenčný Server neurčil dôvod zlyhania aktivácie.
-.
+# 7982;txt;01
+# Licenčný Server neurčil dôvod zlyhania aktivácie.
+# .
 
-7983;txt;01
-Produktový Kľúč nie je rozpoznaný Licenčným Serverom.
-.
+# 7983;txt;01
+# Produktový Kľúč nie je rozpoznaný Licenčným Serverom.
+# .
 
-7984;txt;01
-Produktový Kľúč nemožno použiť po ukončení jeho dátumu ukončenia %2.
-.
+# 7984;txt;01
+# Produktový Kľúč nemožno použiť po ukončení jeho dátumu ukončenia %2.
+# .
 
-7985;txt;01
-Produktový Kľúč bol aktivovaný na príliš mnoho počítačoch.
-.
+# 7985;txt;01
+# Produktový Kľúč bol aktivovaný na príliš mnoho počítačoch.
+# .
 
-7986;txt;01
-Produktový Kľúč bol zrušený, pretože bol vytvorený verejne na Internete.
-.
+# 7986;txt;01
+# Produktový Kľúč bol zrušený, pretože bol vytvorený verejne na Internete.
+# .
 
-7987;txt;01
-Produktový Kľúč bol zrušený, pretože objednávka bola zrušená.
-.
+# 7987;txt;01
+# Produktový Kľúč bol zrušený, pretože objednávka bola zrušená.
+# .
 
 #----------------------------------------------------------------------------
 # SandboxieInstall

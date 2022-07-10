@@ -36,9 +36,9 @@ SBIE1106 erro %2, detalhe %3
 SBIE1108 O procedimento %2 não pôde ser analisado
 .
 
-1109;evt;err;01
-SBIE1109 Informação de licença inválida:  %2
-.
+# 1109;evt;err;01
+# SBIE1109 Informação de licença inválida:  %2
+# .
 
 1110;evt;err;01
 SBIE1110 Não é possível intercetar tipo %3, erro %2
@@ -108,9 +108,9 @@ SBIE1153 Falha ao inicializar o Sandboxie.  Feche todos os programas e, em segui
 SBIE1201 Memória insuficiente
 .
 
-1202;pop;err;01
-SBIE1202 Não é possível atualizar a informação de licença:  %2
-.
+# 1202;pop;err;01
+# SBIE1202 Não é possível atualizar a informação de licença:  %2
+# .
 
 1203;pop;err;01
 SBIE1203 Não é possível construir a lista de caminhos (erro em %2)
@@ -132,17 +132,17 @@ SBIE1212 Não é possível criar o diretório '%3' %2
 SBIE1213 Não é possível criar o diretório do objeto '%3' %2
 .
 
-1214;pop;err;01
-SBIE1214 Não é possível injetar SbieDll %2
-.
+# 1214;pop;err;01
+# SBIE1214 Não é possível injetar SbieDll %2
+# .
 
-1215;pop;err;01
-SBIE1215 Não é possível resolver o caminho para a imagem do processo %2
-.
+# 1215;pop;err;01
+# SBIE1215 Não é possível resolver o caminho para a imagem do processo %2
+# .
 
-1216;pop;err;01
-SBIE1216 Não foi possível consultar o ID de segurança %2
-.
+# 1216;pop;err;01
+# SBIE1216 Não foi possível consultar o ID de segurança %2
+# .
 
 # 1217;pop;err;01
 # SBIE1217 Não foi possível encontrar o processo principal
@@ -152,17 +152,17 @@ SBIE1216 Não foi possível consultar o ID de segurança %2
 # SBIE1221 Não é possível criar a tarefa:  %2
 # .
 
-1222;pop;err;01
-SBIE1222 Não é possível restringir o símbolo:  %2
-.
+# 1222;pop;err;01
+# SBIE1222 Não é possível restringir o símbolo:  %2
+# .
 
-1223;pop;err;01
-SBIE1223 Não é possível substituir o símbolo:  %2
-.
+# 1223;pop;err;01
+# SBIE1223 Não é possível substituir o símbolo:  %2
+# .
 
-1224;pop;err;01
-SBIE1224 Não é possível consultar o símbolo:  %2
-.
+# 1224;pop;err;01
+# SBIE1224 Não é possível consultar o símbolo:  %2
+# .
 
 1241;pop;err;01
 SBIE1241 Não é possível montar a colméia do registo:  %2
@@ -186,13 +186,13 @@ SBIE1301 O programa '%2' foi iniciado fora da caixa de areia
 # SBIE1302 A caixa de areia '%2' não está definida ou ativada
 # .
 
-1303;pop;inf;01
-SBIE1303 Apenas uma caixa de areia pode estar ativa de cada vez
-.
+# 1303;pop;inf;01
+# SBIE1303 Apenas uma caixa de areia pode estar ativa de cada vez
+# .
 
-1304;pop;inf;01
-SBIE1304 Foi bloqueada a entrada simulada de dados do teclado ou do rato pelo processo '%2'
-.
+# 1304;pop;inf;01
+# SBIE1304 Foi bloqueada a entrada simulada de dados do teclado ou do rato pelo processo '%2'
+# .
 
 1306;pop;inf;01
 SBIE1306 O controlador do Sandboxie (SbieDrv) não pode ser descarregado agora
@@ -210,13 +210,13 @@ SBIE1308 O programa não pode ser iniciado devido a restrições - %2
 SBIE1309 Foi negada uma tentativa para alterar a palavra-passe da conta
 .
 
-1310;pop;inf;01
-SBIE1310 As funcionalidades adicionais estão desativadas até que a licença seja reativada
-.
+# 1310;pop;inf;01
+# SBIE1310 As funcionalidades adicionais estão desativadas até que a licença seja reativada
+# .
 
-1311;pop;inf;01
-SBIE1311 Foi bloqueado um pedido para mudar o fundo do Ambiente de Trabalho pelo processo '%2'
-.
+# 1311;pop;inf;01
+# SBIE1311 Foi bloqueado um pedido para mudar o fundo do Ambiente de Trabalho pelo processo '%2'
+# .
 
 1312;pop;inf;01
 SBIE1312 Foi bloqueado um pedido para iniciar um programa do DOS de 16 bits na caixa de areia
@@ -230,9 +230,9 @@ SBIE1313 Foi bloqueado o acesso direto ao disco pelo processo '%2'
 SBIE1314 Foi negado um pedido para alterar as configurações de rede/firewall pelo processo '%2'
 .
 
-1315;pop;inf;01
-SBIE1315 Possivelmente devido a conflitos com o programa: %2
-.
+# 1315;pop;inf;01
+# SBIE1315 Possivelmente devido a conflitos com o programa: %2
+# .
 
 #----------------------------------------------------------------------------
 # SbieDrv
@@ -507,9 +507,9 @@ SBIE2313 Não foi possível executar %2
 SBIE2314 A cancelar o processo %2
 .
 
-2315;pop;err;01
-SBIE2315 Não foi possível reparar a imagem do executável
-.
+# 2315;pop;err;01
+# SBIE2315 Não foi possível reparar a imagem do executável
+# .
 
 2316;pop;err;01
 SBIE2316 Memória corrompida
@@ -563,9 +563,9 @@ SBIE2332 Não é possível aceder ao ficheiro SbiePst.dat
 # SBIE2333 Foi encontrada uma DLL de programa incompatível:  %2
 # .
 
-2334;pop;err;01
-SBIE2334 Não é possível carregar o ficheiro DLL:  %2
-.
+# 2334;pop;err;01
+# SBIE2334 Não é possível carregar o ficheiro DLL:  %2
+# .
 
 # 2398;txt;01
 # SBIE2398 Ocorreu uma exceção no serviço ... no endereço ...
@@ -595,49 +595,49 @@ SBIE9154 O controlador (SbieDrv) e o serviço (SbieSvc) têm números de versão
 SBIE9156 A inicialização do controlador não foi concluída
 .
 
-9201;evt;err;01
-SBIE9201 Erro de símbolo
-.
+# 9201;evt;err;01
+# SBIE9201 Erro de símbolo
+# .
 
-9202;evt;err;01
-SBIE9202 Erro de símbolo
-.
+# 9202;evt;err;01
+# SBIE9202 Erro de símbolo
+# .
 
-9203;evt;err;01
-SBIE9203 Erro de símbolo
-.
+# 9203;evt;err;01
+# SBIE9203 Erro de símbolo
+# .
 
-9204;evt;err;01
-SBIE9204 Erro do descritor de segurança
-.
+# 9204;evt;err;01
+# SBIE9204 Erro do descritor de segurança
+# .
 
-9205;evt;err;01
-SBIE9205 Erro do descritor de segurança
-.
+# 9205;evt;err;01
+# SBIE9205 Erro do descritor de segurança
+# .
 
-9206;evt;err;01
-SBIE9206 Erro do descritor de segurança
-.
+# 9206;evt;err;01
+# SBIE9206 Erro do descritor de segurança
+# .
 
-9207;evt;err;01
-SBIE9207 Erro do descritor de segurança
-.
+# 9207;evt;err;01
+# SBIE9207 Erro do descritor de segurança
+# .
 
-9208;evt;err;01
-SBIE9208 Não é possível ativar SeRestorePrivilege
-.
+# 9208;evt;err;01
+# SBIE9208 Não é possível ativar SeRestorePrivilege
+# .
 
-9251;evt;err;01
-SBIE9251 Falha ao criar evento de porta
-.
+# 9251;evt;err;01
+# SBIE9251 Falha ao criar evento de porta
+# .
 
-9252;evt;err;01
-SBIE9252 Falha ao criar a porta
-.
+# 9252;evt;err;01
+# SBIE9252 Falha ao criar a porta
+# .
 
-9253;evt;err;01
-SBIE9253 Falha na criação do segmento de porta
-.
+# 9253;evt;err;01
+# SBIE9253 Falha na criação do segmento de porta
+# .
 
 #----------------------------------------------------------------------------
 # Common Texts
@@ -749,9 +749,9 @@ Não é possível encontrar o executável do cliente de correio eletrónico pred
 Não foi possível iniciar o Controlo do Sandboxie
 .
 
-3211;txt;01
-Disparidade na versão do Sandboxie.  Tente reinstalar.
-.
+# 3211;txt;01
+# Disparidade na versão do Sandboxie.  Tente reinstalar.
+# .
 
 3212;txt;01
 O controlador do Sandboxie (SbieDrv) não está disponível para executar programas na caixa de areia.
@@ -800,45 +800,45 @@ Por favor, termine os programas em execução na caixa de areia antes de elimina
 Falha no comando de eliminação:  %0
 .
 
-3231;txt;01
-O Sandboxie foi instalado há mais de 30 dias.
-.
+# 3231;txt;01
+# O Sandboxie foi instalado há mais de 30 dias.
+# .
 
-3232;txt;01
-O uso pessoal do Sandboxie é permitido gratuitamente pelo tempo que desejar.
-.
+# 3232;txt;01
+# O uso pessoal do Sandboxie é permitido gratuitamente pelo tempo que desejar.
+# .
 
-3233;txt;01
-No entanto, a versão gratuita agora fará uma pausa por alguns segundos.
-.
+# 3233;txt;01
+# No entanto, a versão gratuita agora fará uma pausa por alguns segundos.
+# .
 
-3234;txt;01
-No entanto, a versão gratuita permite o uso de uma caixa de areia de cada vez.
-.
+# 3234;txt;01
+# No entanto, a versão gratuita permite o uso de uma caixa de areia de cada vez.
+# .
 
-3235;txt;01
-Esta restrição é removida na versão paga do Sandboxie.
-.
+# 3235;txt;01
+# Esta restrição é removida na versão paga do Sandboxie.
+# .
 
-3236;txt;01
-Além disso, a versão paga permite a execução automática dos programas selecionados nas caixas de areia.
-.
+# 3236;txt;01
+# Além disso, a versão paga permite a execução automática dos programas selecionados nas caixas de areia.
+# .
 
-3237;txt;01
-Para obter mais informações e comprar o programa, por favor clique na seguinte hiperligação:
-.
+# 3237;txt;01
+# Para obter mais informações e comprar o programa, por favor clique na seguinte hiperligação:
+# .
 
-3238;txt;01
-Por favor aguarde mais %2 segundos
-.
+# 3238;txt;01
+# Por favor aguarde mais %2 segundos
+# .
 
-3239;txt;01
-Clique aqui para fechar esta janela e continuar
-.
+# 3239;txt;01
+# Clique aqui para fechar esta janela e continuar
+# .
 
-3240;txt;01
-Clique aqui para fechar esta janela e parar
-.
+# 3240;txt;01
+# Clique aqui para fechar esta janela e parar
+# .
 
 3241;txt;01
 O Sandboxie está a solicitar privilégios de Administrador
@@ -1093,9 +1093,9 @@ Definir Esquema e Grupos
 &Compatibilidade de Programas
 .
 
-3503;txt;01
-Proteção Experimental (64 bits)
-.
+# 3503;txt;01
+# Proteção Experimental (64 bits)
+# .
 
 3444;txt;01
 Ignorar &Mensagens Ocultas
@@ -1141,9 +1141,9 @@ Re&carregar a Configuração
 Procurar &Atualizações
 .
 
-3455;txt;01
-&Registar o Sandboxie
-.
+# 3455;txt;01
+# &Registar o Sandboxie
+# .
 
 3456;txt;01
 &Sobre o Sandboxie
@@ -1415,9 +1415,9 @@ está protegido por palavra-passe. Para editar o ficheiro, use o comando
 Público
 .
 
-3542;txt;01
-O modo Proteção Experimental melhora a proteção 
-oferecida pelo Sandboxie de 64 bits, trazendo o mesmo 
+# 3542;txt;01
+# O modo Proteção Experimental melhora a proteção 
+# oferecida pelo Sandboxie de 64 bits, trazendo o mesmo 
 nível de proteção oferecida pela Sandboxie de 32 bits.
 
 IMPORTANTE: A Proteção Experimental faz uso de funcionalidades
@@ -1431,9 +1431,9 @@ Deve reiniciar o computador agora
 para ativar o modo Proteção Experimental.
 .
 
-3543;txt;01
-Deve reiniciar o computador agora
-para desativar o modo Proteção Experimental.
+# 3543;txt;01
+# Deve reiniciar o computador agora
+# para desativar o modo Proteção Experimental.
 
 Por favor, tenha em atenção que a configuração Redução de Privilégios 
 será ativada em todas as caixas de areia.
@@ -2016,9 +2016,9 @@ As configurações serão aplicadas da próxima vez que
 o programa for iniciado.
 .
 
-3771;txt;01
-(Esta funcionalidade só está disponível na versão registada do Sandboxie)
-.
+# 3771;txt;01
+# (Esta funcionalidade só está disponível na versão registada do Sandboxie)
+# .
 
 3772;txt;02
 Tem a certeza de que pretende definir %2 como um programa forçado?
@@ -2483,49 +2483,49 @@ Para gerir as Restrições de Acesso de Inicio/Execução, abra a janela Configu
 # Restrições::Acesso de Baixo Nível
 # .
 
-3932;txt;01
-Acesso de Baixo Nível
-.
+# 3932;txt;01
+# Acesso de Baixo Nível
+# .
 
-3933;txt;01
-As seguintes configurações enfraquecem a proteção proporcionada pelo Sandboxie. Não é recomendável ativar qualquer uma ou todas estas configurações.
-.
+# 3933;txt;01
+# As seguintes configurações enfraquecem a proteção proporcionada pelo Sandboxie. Não é recomendável ativar qualquer uma ou todas estas configurações.
+# .
 
-3934;txt;01
-Permitir que os programas nesta caixa de areia carreguem controladores de modo de núcleo no sistema operativo.
-.
+# 3934;txt;01
+# Permitir que os programas nesta caixa de areia carreguem controladores de modo de núcleo no sistema operativo.
+# .
 
-3935;txt;01
-Permitir que os programas nesta caixa de areia carreguem ganchos de aplicações (Win32) noutros programas.
-.
+# 3935;txt;01
+# Permitir que os programas nesta caixa de areia carreguem ganchos de aplicações (Win32) noutros programas.
+# .
 
-3936;txt;01
-Permitir que os programas nesta caixa de areia simulem a entrada de teclado e rato.
-.
+# 3936;txt;01
+# Permitir que os programas nesta caixa de areia simulem a entrada de teclado e rato.
+# .
 
-3937;txt;01
-Permitir que os programas nesta caixa de areia alterem o fundo do ambiente de trabalho e outros parâmetros do sistema.
-.
+# 3937;txt;01
+# Permitir que os programas nesta caixa de areia alterem o fundo do ambiente de trabalho e outros parâmetros do sistema.
+# .
 
-3938;txt;01
-Permitir que os programas nesta caixa de areia façam a gestão da configuração de dispositivos de hardware.
-.
+# 3938;txt;01
+# Permitir que os programas nesta caixa de areia façam a gestão da configuração de dispositivos de hardware.
+# .
 
 # 3951;txt;01
 # Restrições::Acesso ao Hardware
 # .
 
-3952;txt;01
-Acesso ao Hardware
-.
+# 3952;txt;01
+# Acesso ao Hardware
+# .
 
-3953;txt;01
-Permitir que os programas nesta caixa de areia alterem a palavra-passe da conta de utilizador.
-.
+# 3953;txt;01
+# Permitir que os programas nesta caixa de areia alterem a palavra-passe da conta de utilizador.
+# .
 
-3954;txt;01
-Permitir que os programas alterem os parâmetros de rede e da firewall
-.
+# 3954;txt;01
+# Permitir que os programas alterem os parâmetros de rede e da firewall
+# .
 
 #----------------------------------------------------------------------------
 # Sandboxie Control:  Sandbox Settings:  Drop Rights
@@ -2551,13 +2551,13 @@ No entanto, se estiver a usar uma conta de Administrador ou de Utilizador Avanç
 Reduzir os privilégios dos grupos Administradores e Utilizadores Avançados
 .
 
-3946;txt;01
-É recomendável que mantenha esta configuração ativada, como compensação por alguma medida de proteção do Sandboxie que não está disponível nas edições de 64 bits do Windows.
-.
+# 3946;txt;01
+# É recomendável que mantenha esta configuração ativada, como compensação por alguma medida de proteção do Sandboxie que não está disponível nas edições de 64 bits do Windows.
+# .
 
-3947;txt;01	
-Para ativar a proteção aprimorada no Windows de 64 bits, por favor, use o comando Proteção Experimental no menu Configurar.
-.
+# 3947;txt;01	
+# Para ativar a proteção aprimorada no Windows de 64 bits, por favor, use o comando Proteção Experimental no menu Configurar.
+# .
 
 3949;txt;01
 A configuração Redução de Privilégios está ativada na caixa de areia '%2', e impede o uso de privilégios de Administrador.
@@ -3335,195 +3335,195 @@ Obrigado por ter disponibilizado tempo para acompanhar este tutorial. Pode visit
 As predefinições do Sandboxie fornecem proteção total, mas poderá querer rever os comandos de configuração da caixa de areia no menu Caixa de Areia, na janela Controlo do Sandboxie.
 .
 
-7866;txt;01
-Num sistema Windows de 64 bits, recomenda-se que ative a Proteção Experimental. Veja o menu Configurar no Controlo do Sandboxie.
-.
+# 7866;txt;01
+# Num sistema Windows de 64 bits, recomenda-se que ative a Proteção Experimental. Veja o menu Configurar no Controlo do Sandboxie.
+# .
 
 #----------------------------------------------------------------------------
 # License Manager
 #----------------------------------------------------------------------------
 
-7901;txt;01
-Gestor de Licenças do Sandboxie
-.
+# 7901;txt;01
+# Gestor de Licenças do Sandboxie
+# .
 
-7902;txt;01
-Código de Sistema %2
-.
+# 7902;txt;01
+# Código de Sistema %2
+# .
 
-7903;txt;01
-No futuro, ativar a licença sem perguntar
-.
+# 7903;txt;01
+# No futuro, ativar a licença sem perguntar
+# .
 
 #----------------------------------------------------------------------------
 
-7921;txt;01
-O Sandboxie está registado e a licença ativada.
-.
+# 7921;txt;01
+# O Sandboxie está registado e a licença ativada.
+# .
 
-7922;txt;01
-O Sandboxie está registado, mas a licença deve ser reativada agora.
-.
+# 7922;txt;01
+# O Sandboxie está registado, mas a licença deve ser reativada agora.
+# .
 
 # was 3603;txt;01
-7923;txt;01
-Cópia não registada. Registe-a hoje!
-.
+# 7923;txt;01
+# Cópia não registada. Registe-a hoje!
+# .
 
-7924;txt;01
-A licença do Sandboxie terá de ser reativada dentro de %2 dias.
-.
+# 7924;txt;01
+# A licença do Sandboxie terá de ser reativada dentro de %2 dias.
+# .
 
-7925;txt;01
-A licença do Sandboxie foi ativada.
-.
+# 7925;txt;01
+# A licença do Sandboxie foi ativada.
+# .
 
-7926;txt;01
-A data de expiração da Chave de Produto é 2%.
-.
+# 7926;txt;01
+# A data de expiração da Chave de Produto é 2%.
+# .
 
-7927;txt;01
-A sua Chave de Produto não tem uma data de expiração.
-.
+# 7927;txt;01
+# A sua Chave de Produto não tem uma data de expiração.
+# .
 
 #----------------------------------------------------------------------------
 
-7931;txt;01
-A sua cópia do Sandboxie está registada com uma Chave de Registo obsoleta.
-.
+# 7931;txt;01
+# A sua cópia do Sandboxie está registada com uma Chave de Registo obsoleta.
+# .
 
-7932;txt;01
-Por favor, permita que o Gestor de Licenças aceda ao Servidor de Licenças e atualize a sua Chave de Registo antiga para uma nova Chave de Produto. Não será cobrada taxa de atualização alguma.
-.
+# 7932;txt;01
+# Por favor, permita que o Gestor de Licenças aceda ao Servidor de Licenças e atualize a sua Chave de Registo antiga para uma nova Chave de Produto. Não será cobrada taxa de atualização alguma.
+# .
 
-7933;txt;01
-A sua Chave de Registo não é reconhecida pelo Servidor de Licenças.
-.
+# 7933;txt;01
+# A sua Chave de Registo não é reconhecida pelo Servidor de Licenças.
+# .
 
-7934;txt;01
-Se tem estado a usar uma Chave de Registo legítima, pela qual pagou, ou que lhe foi oferecida como presente, ou como parte de uma promoção, então por favor, envie um correio eletrónico para:
-.
+# 7934;txt;01
+# Se tem estado a usar uma Chave de Registo legítima, pela qual pagou, ou que lhe foi oferecida como presente, ou como parte de uma promoção, então por favor, envie um correio eletrónico para:
+# .
 
-7935;txt;01
-A sua nova Chave de Produto é:
-.
+# 7935;txt;01
+# A sua nova Chave de Produto é:
+# .
 
-7936;txt;01
-Por favor, certifique-se que guarda esta Chave de Produto num local seguro para referência futura. Use o botão abaixo para copiar a Chave de Produto para a área de transferência, da qual pode colá-la num documento e imprimi-la.
-.
+# 7936;txt;01
+# Por favor, certifique-se que guarda esta Chave de Produto num local seguro para referência futura. Use o botão abaixo para copiar a Chave de Produto para a área de transferência, da qual pode colá-la num documento e imprimi-la.
+# .
 
-7937;txt;01
-&Atualizar Chave de Registo para Chave de Produto
-.
+# 7937;txt;01
+# &Atualizar Chave de Registo para Chave de Produto
+# .
 
 #----------------------------------------------------------------------------
 
 # was 3612;txt;01
-7941;txt;01
-O registo do Sandboxie é efetuado através de um sistema de pagamento de terceiros. Dê inicio ao processo de registo, visitando a página da Internet do Sandboxie na hiperligação abaixo.
-.
+# 7941;txt;01
+# O registo do Sandboxie é efetuado através de um sistema de pagamento de terceiros. Dê inicio ao processo de registo, visitando a página da Internet do Sandboxie na hiperligação abaixo.
+# .
 
-7942;txt;01
-Para ativar a sua licença do Sandboxie, insira a Chave de Produto que aparece no seu recibo de pagamento e, em seguida, clique no botão para ativar a sua licença.
-.
+# 7942;txt;01
+# Para ativar a sua licença do Sandboxie, insira a Chave de Produto que aparece no seu recibo de pagamento e, em seguida, clique no botão para ativar a sua licença.
+# .
 
-7943;txt;01
-Pretende inserir uma nova Chave de Produto agora?
-.
+# 7943;txt;01
+# Pretende inserir uma nova Chave de Produto agora?
+# .
 
-7944;txt;01
-&Ativar Licença
-.
+# 7944;txt;01
+# &Ativar Licença
+# .
 
 # was first line of 3617;txt;01
-7945;txt;01
-A sua cópia do Sandboxie está agora registada.
-.
+# 7945;txt;01
+# A sua cópia do Sandboxie está agora registada.
+# .
 
 # was second line of 3617;txt;01
-7946;txt;01
-Obrigado por apoiar o Sandboxie!
-.
+# 7946;txt;01
+# Obrigado por apoiar o Sandboxie!
+# .
 
 #----------------------------------------------------------------------------
 
-7951;txt;01
-Pretende ativar a licença agora?
-.
+# 7951;txt;01
+# Pretende ativar a licença agora?
+# .
 
-7952;txt;01
-Por favor, visite o sítio da Internet do Sandboxie na hiperligação abaixo para solicitar uma nova Chave de Produto.
-.
+# 7952;txt;01
+# Por favor, visite o sítio da Internet do Sandboxie na hiperligação abaixo para solicitar uma nova Chave de Produto.
+# .
 
-7961;txt;01
-Limpar as &Informações de Licença
-.
+# 7961;txt;01
+# Limpar as &Informações de Licença
+# .
 
-7962;txt;01
-Tem a certeza de que pretende limpar as informações de licença do Sandboxie?
-
+# 7962;txt;01
+# Tem a certeza de que pretende limpar as informações de licença do Sandboxie?
+# 
 Pode ativar a sua licença a qualquer momento inserindo uma Chave de Produto.
 .
 
 #----------------------------------------------------------------------------
 
-7971;txt;01
-Esta Chave de Produto não é válida.
-.
+# 7971;txt;01
+# Esta Chave de Produto não é válida.
+# .
 
-7972;txt;01
-Este Código de Sistema não é válido.
-.
+# 7972;txt;01
+# Este Código de Sistema não é válido.
+# .
 
-7973;txt;01
-Esta Chave de Ativação não é válida.  [%2]
-.
+# 7973;txt;01
+# Esta Chave de Ativação não é válida.  [%2]
+# .
 
-7974;txt;01
-Resposta inválida do Servidor de Licenças.
-.
+# 7974;txt;01
+# Resposta inválida do Servidor de Licenças.
+# .
 
-7975;txt;01
-Falha na ativação do produto:
-.
+# 7975;txt;01
+# Falha na ativação do produto:
+# .
 
-7976;txt;01
-Pretende experimentar novamente agora?
-.
+# 7976;txt;01
+# Pretende experimentar novamente agora?
+# .
 
-7977;txt;01
-Se precisar de ativar o Sandboxie num computador que não tem acesso à Internet,
-por favor consulte as perguntas mais frequentes (FAQ) de Licenciamento do Sandboxie 
+# 7977;txt;01
+# Se precisar de ativar o Sandboxie num computador que não tem acesso à Internet,
+# por favor consulte as perguntas mais frequentes (FAQ) de Licenciamento do Sandboxie 
 para obter informações sobre a Ativação Fora de Linha.
 .
 
-7978;txt;01
-A data atual (%2) está adiantada em relação à data enviada pelo Servidor de Licenças (%3).
-.
+# 7978;txt;01
+# A data atual (%2) está adiantada em relação à data enviada pelo Servidor de Licenças (%3).
+# .
 
-7982;txt;01
-O Servidor de Licenças não especificou o motivo da falha de ativação.
-.
+# 7982;txt;01
+# O Servidor de Licenças não especificou o motivo da falha de ativação.
+# .
 
-7983;txt;01
-A Chave do Produto não é reconhecida pelo Servidor de Licenças.
-.
+# 7983;txt;01
+# A Chave do Produto não é reconhecida pelo Servidor de Licenças.
+# .
 
-7984;txt;01
-A Chave do Produto não pode ser usada para além da sua data de validade de 2%.
-.
+# 7984;txt;01
+# A Chave do Produto não pode ser usada para além da sua data de validade de 2%.
+# .
 
-7985;txt;01
-A Chave do Produto foi ativada em muitos computadores.
-.
+# 7985;txt;01
+# A Chave do Produto foi ativada em muitos computadores.
+# .
 
-7986;txt;01	
-A Chave do Produto foi cancelada porque foi tornada pública na Internet.
-.
+# 7986;txt;01	
+# A Chave do Produto foi cancelada porque foi tornada pública na Internet.
+# .
 
-7987;txt;01
-A Chave do Produto foi cancelada porque a ordem foi reembolsada.
-.
+# 7987;txt;01
+# A Chave do Produto foi cancelada porque a ordem foi reembolsada.
+# .
 
 #----------------------------------------------------------------------------
 # SandboxieInstall

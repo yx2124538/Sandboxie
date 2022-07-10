@@ -36,9 +36,9 @@ SBIE1106 virhe %2, yksityiskohta %3
 SBIE1108 Proseduuria %2 ei voitu analysoida
 .
 
-1109;evt;err;01
-SBIE1109 Kelvoton lisenssitieto:  %2
-.
+# 1109;evt;err;01
+# SBIE1109 Kelvoton lisenssitieto:  %2
+# .
 
 1110;evt;err;01
 SBIE1110 Ei voi siepata tyyppiä %3, virhe %2
@@ -108,9 +108,9 @@ SBIE1153 Sandboxien alustus epäonnistui. Sulje kaikki ohjelmat ja sen jälkeen 
 SBIE1201 Ei tarpeeksi muistia
 .
 
-1202;pop;err;01
-SBIE1202 Ei voi päivittää lisenssitietoa:  %2
-.
+# 1202;pop;err;01
+# SBIE1202 Ei voi päivittää lisenssitietoa:  %2
+# .
 
 1203;pop;err;01
 SBIE1203 Ei voida koota polkulistaa (virhe asetuksessa %2)
@@ -132,17 +132,17 @@ SBIE1212 Ei voi luoda kansiota '%3' %2
 SBIE1213 Ei voi luoda objektikansiota '%3' %2
 .
 
-1214;pop;err;01
-SBIE1214 Ei voi injektoida SbieDll %2
-.
+# 1214;pop;err;01
+# SBIE1214 Ei voi injektoida SbieDll %2
+# .
 
-1215;pop;err;01
-SBIE1215 Ei voi selvittää polkua prosessitiedostoon %2
-.
+# 1215;pop;err;01
+# SBIE1215 Ei voi selvittää polkua prosessitiedostoon %2
+# .
 
-1216;pop;err;01
-SBIE1216 Ei voi tiedustella turva-ID:tä %2
-.
+# 1216;pop;err;01
+# SBIE1216 Ei voi tiedustella turva-ID:tä %2
+# .
 
 # 1217;pop;err;01
 # SBIE1217 Ei löydä isäntäprosessia
@@ -152,17 +152,17 @@ SBIE1216 Ei voi tiedustella turva-ID:tä %2
 # SBIE1221 Ei voi luoda tehtävää:  %2
 # .
 
-1222;pop;err;01
-SBIE1222 Ei voi rajoittaa tunnistetta:  %2
-.
+# 1222;pop;err;01
+# SBIE1222 Ei voi rajoittaa tunnistetta:  %2
+# .
 
-1223;pop;err;01
-SBIE1223 Ei voi korvata tunnistetta:  %2
-.
+# 1223;pop;err;01
+# SBIE1223 Ei voi korvata tunnistetta:  %2
+# .
 
-1224;pop;err;01
-SBIE1224 Ei voi tiedustella tunnistetta:  %2
-.
+# 1224;pop;err;01
+# SBIE1224 Ei voi tiedustella tunnistetta:  %2
+# .
 
 1241;pop;err;01
 SBIE1241 Ei voitu kiinnittää rekisterijuurta: %2
@@ -186,13 +186,13 @@ SBIE1301 Prosessi '%2' käynnistettiin hiekkalaatikon ulkopuolella
 # SBIE1302 Hiekkalaatikkoa '%2' ei ole määritelty tai otettu käyttöön
 # .
 
-1303;pop;inf;01
-SBIE1303 Vain yksi hiekkalaatikko kerrallaan voi olla aktiivi
-.
+# 1303;pop;inf;01
+# SBIE1303 Vain yksi hiekkalaatikko kerrallaan voi olla aktiivi
+# .
 
-1304;pop;inf;01
-SBIE1304 Estettiin jäljitelty näppäimistö- tai hiirisyöte prosessista '%2'
-.
+# 1304;pop;inf;01
+# SBIE1304 Estettiin jäljitelty näppäimistö- tai hiirisyöte prosessista '%2'
+# .
 
 1306;pop;inf;01
 SBIE1306 Sandboxien ajuria (SbieDrv) ei voida purkaa nyt
@@ -210,13 +210,13 @@ SBIE1308 Ohjelma ei voi käynnistyä rajoitusten vuoksi - %2
 SBIE1309 Estetty käyttäjätilin salasanan vaihto
 .
 
-1310;pop;inf;01
-SBIE1310 Lisäominaisuudet on estetty kunnes lisenssi on uudelleenaktivoitu
-.
+# 1310;pop;inf;01
+# SBIE1310 Lisäominaisuudet on estetty kunnes lisenssi on uudelleenaktivoitu
+# .
 
-1311;pop;inf;01
-SBIE1311 Estetty prosessin %2 pyyntö muuttaa työpöydän taustakuva on estetty
-.
+# 1311;pop;inf;01
+# SBIE1311 Estetty prosessin %2 pyyntö muuttaa työpöydän taustakuva on estetty
+# .
 
 1312;pop;inf;01
 SBIE1312 Estetty pyyntö käynnistää 16-bittinen DOS ohjelma hiekkalaatikossa
@@ -503,9 +503,9 @@ SBIE2313 Ei voinut suorittaa %2
 SBIE2314 Peruutetaan prosessi %2
 .
 
-2315;pop;err;01
-SBIE2315 Ei voi lukita prosessitiedostoa
-.
+# 2315;pop;err;01
+# SBIE2315 Ei voi lukita prosessitiedostoa
+# .
 
 2316;pop;err;01
 SBIE2316 Muisti korruptoitunut
@@ -559,9 +559,9 @@ SBIE2332 Ei löydä tiedostoa SbiePst.dat
 # SBIE2333 Epäyhteensopiva DLL:  %2
 # .
 
-2334;pop;err;01
-SBIE2334 Ei voi ladata DLL-tiedostoa:  %2
-.
+# 2334;pop;err;01
+# SBIE2334 Ei voi ladata DLL-tiedostoa:  %2
+# .
 
 # 2398;txt;01
 # SBIE2398 Service suffers exception ... at address ...
@@ -591,49 +591,49 @@ SBIE9154 Ajuri (SbieDrv) ja palvelu (SbieSvc) ovat eri versiota
 SBIE9156 Ajurin alustus ei täydellinen
 .
 
-9201;evt;err;01
-SBIE9201 Tunniste virhe
-.
+# 9201;evt;err;01
+# SBIE9201 Tunniste virhe
+# .
 
-9202;evt;err;01
-SBIE9201 Tunniste virhe
-.
+# 9202;evt;err;01
+# SBIE9201 Tunniste virhe
+# .
 
-9203;evt;err;01
-SBIE9201 Tunniste virhe
-.
+# 9203;evt;err;01
+# SBIE9201 Tunniste virhe
+# .
 
-9204;evt;err;01
-SBIE9204 Turvakuvaus virhe
-.
+# 9204;evt;err;01
+# SBIE9204 Turvakuvaus virhe
+# .
 
-9205;evt;err;01
-SBIE9205 Turvakuvaus virhe
-.
+# 9205;evt;err;01
+# SBIE9205 Turvakuvaus virhe
+# .
 
-9206;evt;err;01
-SBIE9206 Turvakuvaus virhe
-.
+# 9206;evt;err;01
+# SBIE9206 Turvakuvaus virhe
+# .
 
-9207;evt;err;01
-SBIE9207 Turvakuvaus virhe
-.
+# 9207;evt;err;01
+# SBIE9207 Turvakuvaus virhe
+# .
 
-9208;evt;err;01
-SBIE9208 Ei voi ottaa käyttään SeRestorePrivilege
-.
+# 9208;evt;err;01
+# SBIE9208 Ei voi ottaa käyttään SeRestorePrivilege
+# .
 
-9251;evt;err;01
-SBIE9251 Porttitapahtuman luonti epäonnistu
-.
+# 9251;evt;err;01
+# SBIE9251 Porttitapahtuman luonti epäonnistu
+# .
 
-9252;evt;err;01
-SBIE9252 Portin luonti epäonnistui
-.
+# 9252;evt;err;01
+# SBIE9252 Portin luonti epäonnistui
+# .
 
-9253;evt;err;01
-SBIE9253 Porttisäikeen luonti epäonnistui
-.
+# 9253;evt;err;01
+# SBIE9253 Porttisäikeen luonti epäonnistui
+# .
 
 #----------------------------------------------------------------------------
 # Common Texts
@@ -741,9 +741,9 @@ Oletus sähköpostiohjelman sovellusta ei löydy
 Ei voitu käynnistää Sandboxien hallintaohjelmaa
 .
 
-3211;txt;01
-Versioristiriita Sandboxiessa. Yritä asentaa uudelleen.
-.
+# 3211;txt;01
+# Versioristiriita Sandboxiessa. Yritä asentaa uudelleen.
+# .
 
 3212;txt;01
 Sandboxien ajuri (SbieDrv) ei ole saatavilla ohjelmille.
@@ -792,45 +792,45 @@ Lopeta hiekkalaatikon ohjelmat ennen laatikon sisällön tyhjennystä.
 Poistokomento epäonnistui:  %0
 .
 
-3231;txt;01
-Olet asentanut Sandboxien yli 30 päivää sitten.
-.
+# 3231;txt;01
+# Olet asentanut Sandboxien yli 30 päivää sitten.
+# .
 
-3232;txt;01
-Sandboxien yksityinen käyttö on sallittu ilmaiseksi niin kauan kuin haluat.
-.
+# 3232;txt;01
+# Sandboxien yksityinen käyttö on sallittu ilmaiseksi niin kauan kuin haluat.
+# .
 
-3233;txt;01
-Ilmainen versio kuitenkin pysähtyy nyt muutamaksi sekunniksi.
-.
+# 3233;txt;01
+# Ilmainen versio kuitenkin pysähtyy nyt muutamaksi sekunniksi.
+# .
 
-3234;txt;01
-Ilmainen versio sallii yhden laatikon käytön kerrallaan.
-.
+# 3234;txt;01
+# Ilmainen versio sallii yhden laatikon käytön kerrallaan.
+# .
 
-3235;txt;01
-Tämä rajoitus on poistettu Sandboxien maksullisessa versiossa.
-.
+# 3235;txt;01
+# Tämä rajoitus on poistettu Sandboxien maksullisessa versiossa.
+# .
 
-3236;txt;01
-Maksullinen versio mahdollistaa myös valittujen ohjelmien automaattisen laatikoinnin.
-.
+# 3236;txt;01
+# Maksullinen versio mahdollistaa myös valittujen ohjelmien automaattisen laatikoinnin.
+# .
 
-3237;txt;01
-Lisää tietoa ja ohjeet ohjelman ostoon saat valitsemalla seuraavan linkin:
-.
+# 3237;txt;01
+# Lisää tietoa ja ohjeet ohjelman ostoon saat valitsemalla seuraavan linkin:
+# .
 
-3238;txt;01
-Odota vielä %2 sekuntia
-.
+# 3238;txt;01
+# Odota vielä %2 sekuntia
+# .
 
-3239;txt;01
-Sulje tämä ikkuna ja jatka
-.
+# 3239;txt;01
+# Sulje tämä ikkuna ja jatka
+# .
 
-3240;txt;01
-Sulje tämä ikkuna ja lopeta
-.
+# 3240;txt;01
+# Sulje tämä ikkuna ja lopeta
+# .
 
 3241;txt;01
 Sandboxie pyytää järjestelmänvalvojan oikeuksia
@@ -1085,9 +1085,9 @@ Aseta Asettelu ja Ryhmät
 Ohjelmiston &yhteensopivuus
 .
 
-3503;txt;01
-Kokeellinen Suojaustila (64-bittinen)
-.
+# 3503;txt;01
+# Kokeellinen Suojaustila (64-bittinen)
+# .
 
 3444;txt;01
 Unohda piilotetut &viestit
@@ -1133,9 +1133,9 @@ V&ihjeet
 Tarkista &päivitykset
 .
 
-3455;txt;01
-&Rekisteröi Sandboxie
-.
+# 3455;txt;01
+# &Rekisteröi Sandboxie
+# .
 
 3456;txt;01
 &Tietoja ohjelmasta Sandboxie
@@ -1406,9 +1406,9 @@ on suojattu salasanalla. Jos haluat muokata tiedostoa, käytä
 Julkinen
 .
 
-3542;txt;01
-'Kokeellinen Suojaustila' parantaa 64-bittisen Sandboxien
-tarjoamaa suojausta, ja tuo sen samalle tasolle 32-bittisen Sandboxien
+# 3542;txt;01
+# 'Kokeellinen Suojaustila' parantaa 64-bittisen Sandboxien
+# tarjoamaa suojausta, ja tuo sen samalle tasolle 32-bittisen Sandboxien
 tarjoaman suojauksen kanssa.
 
 TÄRKEÄÄ: 'Kokeellinen Suojaustila' käyttää Windows ytimen
@@ -1422,9 +1422,9 @@ Aktivoidaksesi 'Kokeellisen Suojaustilan', sinun on
 nyt käynnistettävä tietokoneesi uudelleen.
 .
 
-3543;txt;01
-Kytkeäksesi 'Kokeellisen Suojaustilan' pois päältä,
-tietokoneesi on nyt käynnistettävä uudelleen.
+# 3543;txt;01
+# Kytkeäksesi 'Kokeellisen Suojaustilan' pois päältä,
+# tietokoneesi on nyt käynnistettävä uudelleen.
 
 Huomaa että 'alennetut oikeudet' -asetus aktivoituu kaikissa
 hiekkalaatikoissa.
@@ -2008,9 +2008,9 @@ käynnissä oleville ohjelmille. Ne otetaan
 käyttöön kun ohjelma käynnistyy uudelleen.
 .
 
-3771;txt;01
-(Tämä toiminto on saatavilla vain Sandboxien rekisteröidyssä versiossa.)
-.
+# 3771;txt;01
+# (Tämä toiminto on saatavilla vain Sandboxien rekisteröidyssä versiossa.)
+# .
 
 3772;txt;02
 Haluatko varmasti asettaa ohjelman %2 pakotetuksi?
@@ -2481,49 +2481,49 @@ Voit aina muuttaa Käynnistys/Ajo rajoituksia hiekkalaatikon asetuksista, ja sie
 # Rajoitukset::Pääsy alhainen taso
 # .
 
-3932;txt;01
-Pääsy alhainen taso
-.
+# 3932;txt;01
+# Pääsy alhainen taso
+# .
 
-3933;txt;01
-Seuraavat asetukset heikentävät Sandboxien tarjoamaa suojaa merkittävästi. Niiden käyttöönotto ei ole suositeltavaa.
-.
+# 3933;txt;01
+# Seuraavat asetukset heikentävät Sandboxien tarjoamaa suojaa merkittävästi. Niiden käyttöönotto ei ole suositeltavaa.
+# .
 
-3934;txt;01
-Salli tämän hiekkalaatikon ohjelmien ladata kernel-tason ajureita käyttöjärjestelmään.
-.
+# 3934;txt;01
+# Salli tämän hiekkalaatikon ohjelmien ladata kernel-tason ajureita käyttöjärjestelmään.
+# .
 
-3935;txt;01
-Salli tämän hiekkalaatikon ohjelmien ladata "Win32 hooks" muihin ohjelmiin.
-.
+# 3935;txt;01
+# Salli tämän hiekkalaatikon ohjelmien ladata "Win32 hooks" muihin ohjelmiin.
+# .
 
-3936;txt;01
-Salli tämän hiekkalaatikon ohjelmien jäljitellä näppäimistön toimintaa.
-.
+# 3936;txt;01
+# Salli tämän hiekkalaatikon ohjelmien jäljitellä näppäimistön toimintaa.
+# .
 
-3937;txt;01
-Salli tämän hiekkalaatikon ohjelmien muuttaa työpöydän taustakuvaa ja muita järjestelmän parametrejä
-.
+# 3937;txt;01
+# Salli tämän hiekkalaatikon ohjelmien muuttaa työpöydän taustakuvaa ja muita järjestelmän parametrejä
+# .
 
-3938;txt;01
-Salli tämän hiekkalaatikon ohjelmien muokata laitteistohallintaa
-.
+# 3938;txt;01
+# Salli tämän hiekkalaatikon ohjelmien muokata laitteistohallintaa
+# .
 
 # 3951;txt;01
 # Rajoitukset::Pääsy laitteistoon
 # .
 
-3952;txt;01
-Pääsy laitteistoon
-.
+# 3952;txt;01
+# Pääsy laitteistoon
+# .
 
-3953;txt;01
-Salli tämän hiekkalaation ohjelmien muuttaa käyttäjän salasanaa
-.
+# 3953;txt;01
+# Salli tämän hiekkalaation ohjelmien muuttaa käyttäjän salasanaa
+# .
 
-3954;txt;01
-Salli ohjelmien muokata verkko- ja palomuuriasetuksia
-.
+# 3954;txt;01
+# Salli ohjelmien muokata verkko- ja palomuuriasetuksia
+# .
 
 #----------------------------------------------------------------------------
 # Sandboxie Control:  Sandbox Settings:  Drop Rights
@@ -2551,13 +2551,13 @@ samaan tapaan kuin DropMyRights -työkalu.
 Alenna oikeuksia järjestelmänvalvojan ryhmältä
 .
 
-3946;txt;01
-Suositus on että pidät tämän asetuksen valittuna, korvataksesi ne Sandbox suojausasetukset joita ei ole tarjolla 64-bittisessä Windows versiossa.
-.
+# 3946;txt;01
+# Suositus on että pidät tämän asetuksen valittuna, korvataksesi ne Sandbox suojausasetukset joita ei ole tarjolla 64-bittisessä Windows versiossa.
+# .
 
-3947;txt;01
-Aktivoidaksesi laajennetun suojauksen 64-bittiselle Windowsille, käytä Asetukset-valikon komentoa 'Kokeellinen Suojaus'.
-.
+# 3947;txt;01
+# Aktivoidaksesi laajennetun suojauksen 64-bittiselle Windowsille, käytä Asetukset-valikon komentoa 'Kokeellinen Suojaus'.
+# .
 
 3949;txt;01
 Alennetut oikeudet ovat käytössä hiekkalaatikossa '%2', ja estävät järjestelmänvalvojan oikeuksien käytön.
@@ -3260,190 +3260,190 @@ Siirrä &kohteeseen
 # License Manager
 #----------------------------------------------------------------------------
 
-7901;txt;01
-Sandboxie Lisenssimanageri
-.
+# 7901;txt;01
+# Sandboxie Lisenssimanageri
+# .
 
-7902;txt;01
-Järjestelmäkoodi %2
-.
+# 7902;txt;01
+# Järjestelmäkoodi %2
+# .
 
-7903;txt;01
-Jatkossa aktivoi lisenssi kysymättä
-.
+# 7903;txt;01
+# Jatkossa aktivoi lisenssi kysymättä
+# .
 
 #----------------------------------------------------------------------------
 
-7921;txt;01
-Sandboxie on rekisteröity ja lisenssi on aktivoitu.
-.
+# 7921;txt;01
+# Sandboxie on rekisteröity ja lisenssi on aktivoitu.
+# .
 
-7922;txt;01
-Sandboxie on rekisteröity mutta lisenssi tulisi nyt uudelleenaktivoida.
-.
+# 7922;txt;01
+# Sandboxie on rekisteröity mutta lisenssi tulisi nyt uudelleenaktivoida.
+# .
 
 # was 3603;txt;01
-7923;txt;01
-Rekisteröimätön versio.  Rekisteröi nyt!
-.
+# 7923;txt;01
+# Rekisteröimätön versio.  Rekisteröi nyt!
+# .
 
-7924;txt;01
-Sandboxien lisenssi tulee uudelleenaktivoida %2 päivän kuluttua.
-.
+# 7924;txt;01
+# Sandboxien lisenssi tulee uudelleenaktivoida %2 päivän kuluttua.
+# .
 
-7925;txt;01
-Sandboxien lisenssi on nyt aktivoitu.
-.
+# 7925;txt;01
+# Sandboxien lisenssi on nyt aktivoitu.
+# .
 
-7926;txt;01
-Tuoteavain vanhenee %2.
-.
+# 7926;txt;01
+# Tuoteavain vanhenee %2.
+# .
 
-7927;txt;01
-Tuoteavaimellasi ei ole vanhenemispäivää.
-.
+# 7927;txt;01
+# Tuoteavaimellasi ei ole vanhenemispäivää.
+# .
 
 #----------------------------------------------------------------------------
 
-7931;txt;01
-Sandboxiesi on rekisteröity vanhentuneella Rekisteröintiavaimella.
+# 7931;txt;01
+# Sandboxiesi on rekisteröity vanhentuneella Rekisteröintiavaimella.
+# .
+
+# 7932;txt;01
+# Ole hyvä ja salli Lisenssimanagerin ottaa yhteys Lisenssipalvelimeen ja päivittää vanha Rekisteröintiavaimesi
+# uuteen Tuoteavaimeen. Päivitys on ilmainen.
 .
 
-7932;txt;01
-Ole hyvä ja salli Lisenssimanagerin ottaa yhteys Lisenssipalvelimeen ja päivittää vanha Rekisteröintiavaimesi
-uuteen Tuoteavaimeen. Päivitys on ilmainen.
+# 7933;txt;01
+# Lisenssipalvelin ei tunnista Rekisteröintiavaintasi.
+# .
+
+# 7934;txt;01
+# Jos olet käyttänyt oikeaa Rekisteröintiavainta jonka olet maksanut tai saanut lahjana,
+# ole hyvä ja lähetä sähköpostiviesti osoitteeseen:
 .
 
-7933;txt;01
-Lisenssipalvelin ei tunnista Rekisteröintiavaintasi.
+# 7935;txt;01
+# Uusi Tuoteavaimesi on:
+# .
+
+# 7936;txt;01
+# Ole hyvä ja pidä tämä Tuoteavain turvallisessa paikassa tulevaa tarvetta varten. Alla oleva painike kopioi
+# Tuoteavaimen leikekirjaan, josta voit liittää sen dokumenttiin ja tulostaa.
 .
 
-7934;txt;01
-Jos olet käyttänyt oikeaa Rekisteröintiavainta jonka olet maksanut tai saanut lahjana,
-ole hyvä ja lähetä sähköpostiviesti osoitteeseen:
-.
-
-7935;txt;01
-Uusi Tuoteavaimesi on:
-.
-
-7936;txt;01
-Ole hyvä ja pidä tämä Tuoteavain turvallisessa paikassa tulevaa tarvetta varten. Alla oleva painike kopioi
-Tuoteavaimen leikekirjaan, josta voit liittää sen dokumenttiin ja tulostaa.
-.
-
-7937;txt;01
-&Päivitä Rekisteröintiavain Tuoteavaimeksi
-.
+# 7937;txt;01
+# &Päivitä Rekisteröintiavain Tuoteavaimeksi
+# .
 
 #----------------------------------------------------------------------------
 
 # was 3612;txt;01
-7941;txt;01
-Rekisteröinti suoritetaan kolmannen osapuolen maksupalvelun avulla. Aloita rekisteröinti käymällä Sandboxien kotisivuilla seuraavan linkin kautta.
-.
+# 7941;txt;01
+# Rekisteröinti suoritetaan kolmannen osapuolen maksupalvelun avulla. Aloita rekisteröinti käymällä Sandboxien kotisivuilla seuraavan linkin kautta.
+# .
 
-7942;txt;01
-Aktivoi Sandboxie lisenssi antamalla ostokuitista löytyvä Tuoteavain, ja klikkaa sen jälkeen painiketta.
-.
+# 7942;txt;01
+# Aktivoi Sandboxie lisenssi antamalla ostokuitista löytyvä Tuoteavain, ja klikkaa sen jälkeen painiketta.
+# .
 
 
-7943;txt;01
-Haluatko antaa uuden Tuoteavaimen nyt?
-.
+# 7943;txt;01
+# Haluatko antaa uuden Tuoteavaimen nyt?
+# .
 
-7944;txt;01
-&Aktivoi lisenssi
-.
+# 7944;txt;01
+# &Aktivoi lisenssi
+# .
 
 # was first line of 3617;txt;01
-7945;txt;01
-Kopiosi Sandboxiesta on nyt rekisteröity.
-.
+# 7945;txt;01
+# Kopiosi Sandboxiesta on nyt rekisteröity.
+# .
 
 # was second line of 3617;txt;01
-7946;txt;01
-Kiitos tuestasi!
-.
+# 7946;txt;01
+# Kiitos tuestasi!
+# .
 
 #----------------------------------------------------------------------------
 
-7951;txt;01
-Haluatko aktivoida lisenssin nyt?
-.
+# 7951;txt;01
+# Haluatko aktivoida lisenssin nyt?
+# .
 
-7952;txt;01
-Ole hyvä ja käytä alla olevaa linkkiä käydäksesi Sandboxien kotisivulla tilaamassa uusi Tuoteavain.
-.
+# 7952;txt;01
+# Ole hyvä ja käytä alla olevaa linkkiä käydäksesi Sandboxien kotisivulla tilaamassa uusi Tuoteavain.
+# .
 
-7961;txt;01
-Tyhjennä &lisenssitieto
-.
+# 7961;txt;01
+# Tyhjennä &lisenssitieto
+# .
 
-7962;txt;01
-Haluatko varmasti tyhjentää lisenssitiedon Sandboxiessa?
-
+# 7962;txt;01
+# Haluatko varmasti tyhjentää lisenssitiedon Sandboxiessa?
+# 
 Voit aktivoida lisenssisi milloin tahansa antamalla Tuoteavaimen.
 .
 
 #----------------------------------------------------------------------------
 
-7971;txt;01
-Tämä ei ole kelvollinen Tuoteavain.
+# 7971;txt;01
+# Tämä ei ole kelvollinen Tuoteavain.
+# .
+
+# 7972;txt;01
+# Tämä ei ole kelvollinen Järjestelmäkoodi.
+# .
+
+# 7973;txt;01
+# Tämä ei ole kelvollinen Aktivointiavain.  [%2]
+# .
+
+# 7974;txt;01
+# Virheellinen vastaus Lisenssipalvelimelta.
+# .
+
+# 7975;txt;01
+# Tuoteaktivointi epäonnistui:
+# .
+
+# 7976;txt;01
+# Haluatko yrittää uudelleen nyt?
+# .
+
+# 7977;txt;01
+# Jos haluat aktivoida Sandboxien tietokoneessa jolla ei ole pääsyä Internetiin,
+# ole hyvä ja katso ohjeet Sandboxie Lisensointi UKK:sta (Sandboxie Licensing FAQ) .
 .
 
-7972;txt;01
-Tämä ei ole kelvollinen Järjestelmäkoodi.
-.
+# 7978;txt;01
+# Nykyinen päivämäärä (%2) on myöhaisempi kuin Lisensointipalvelimen lähettämä päivämäärä (%3)
+# .
 
-7973;txt;01
-Tämä ei ole kelvollinen Aktivointiavain.  [%2]
-.
+# 7982;txt;01
+# Lisensointiserveri ei määritellyt syytä aktivoinnin epäonnistumiselle.
+# .
 
-7974;txt;01
-Virheellinen vastaus Lisenssipalvelimelta.
-.
+# 7983;txt;01
+# Lisenssipalvelin ei tunnista Tuoteavainta.
+# .
 
-7975;txt;01
-Tuoteaktivointi epäonnistui:
-.
+# 7984;txt;01
+# Tuoteavainta ei voi käyttää vanhenemispäivän (%2) jälkeen.
+# .
 
-7976;txt;01
-Haluatko yrittää uudelleen nyt?
-.
+# 7985;txt;01
+# Tuoteavain oli aktivoitu liian moneen tietokoneeseen.
+# .
 
-7977;txt;01
-Jos haluat aktivoida Sandboxien tietokoneessa jolla ei ole pääsyä Internetiin,
-ole hyvä ja katso ohjeet Sandboxie Lisensointi UKK:sta (Sandboxie Licensing FAQ) .
-.
+# 7986;txt;01
+# Tuoteavain oli hylätty koska se oli julkistettu Internetissä.
+# .
 
-7978;txt;01
-Nykyinen päivämäärä (%2) on myöhaisempi kuin Lisensointipalvelimen lähettämä päivämäärä (%3)
-.
-
-7982;txt;01
-Lisensointiserveri ei määritellyt syytä aktivoinnin epäonnistumiselle.
-.
-
-7983;txt;01
-Lisenssipalvelin ei tunnista Tuoteavainta.
-.
-
-7984;txt;01
-Tuoteavainta ei voi käyttää vanhenemispäivän (%2) jälkeen.
-.
-
-7985;txt;01
-Tuoteavain oli aktivoitu liian moneen tietokoneeseen.
-.
-
-7986;txt;01
-Tuoteavain oli hylätty koska se oli julkistettu Internetissä.
-.
-
-7987;txt;01
-Tuoteavain oli hylätty koska tilaus oli peruttu.
-.
+# 7987;txt;01
+# Tuoteavain oli hylätty koska tilaus oli peruttu.
+# .
 
 #----------------------------------------------------------------------------
 # SandboxieInstall

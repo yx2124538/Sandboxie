@@ -36,9 +36,9 @@ SBIE1106 Fejl %2, detaljer %3
 SBIE1108 Procedure %2 kunne ikke blive analyseret
 .
 
-1109;evt;err;01
-SBIE1109 Ugyldig licens information:  %2
-.
+# 1109;evt;err;01
+# SBIE1109 Ugyldig licens information:  %2
+# .
 
 1110;evt;err;01
 SBIE1110 Kan ikke aflytte type %3, fejl %2
@@ -108,9 +108,9 @@ SBIE1153 Sandboxie indlæsning mislykkedes.  Luk alle programmer og geninstaller
 SBIE1201 Ikke nok hukommelse
 .
 
-1202;pop;err;01
-SBIE1202 Kan ikke opdatere licens information:  %2
-.
+# 1202;pop;err;01
+# SBIE1202 Kan ikke opdatere licens information:  %2
+# .
 
 1203;pop;err;01
 SBIE1203 Kan ikke opbygge sti-liste (Fejl i %2)
@@ -186,9 +186,9 @@ SBIE1301 Programmet '%2' blev åbnet udenfor sandboxen
 # SBIE1302 Sandbox '%2' er ikke defineret eller aktiveret
 # .
 
-1303;pop;inf;01
-SBIE1303 Kun en sandbox kan være aktiv på en gang
-.
+# 1303;pop;inf;01
+# SBIE1303 Kun en sandbox kan være aktiv på en gang
+# .
 
 # 1304;pop;inf;01
 # SBIE1304 Blokerede simulerede tastetur- og museinput fra processen '%2'
@@ -210,9 +210,9 @@ SBIE1306 Sandboxie driver (SbieDrv) kan ikke stoppes nu
 SBIE1309 Nægtet adgang til at ændre password
 .
 
-1310;pop;inf;01
-SBIE1310 De udvidede muligheder er blokkeret indtil licensen er reaktiveret
-.
+# 1310;pop;inf;01
+# SBIE1310 De udvidede muligheder er blokkeret indtil licensen er reaktiveret
+# .
 
 #----------------------------------------------------------------------------
 # SbieDrv
@@ -526,9 +526,9 @@ SBIE2332 Kan ikke åben SbiePst.dat
 # SBIE2333 Inkompatibel program DLL fundet:  %2
 # .
 
-2334;pop;err;01
-SBIE2334 Kan ikke indlæse DLL fil:  %2
-.
+# 2334;pop;err;01
+# SBIE2334 Kan ikke indlæse DLL fil:  %2
+# .
 
 # 2398;txt;01
 # SBIE2398 Service suffers exception ... at address ...
@@ -767,45 +767,45 @@ Venligst afslut programmerne, som kører i Sandboxen før du sletter dens indhol
 Slette kommando mislykkedes:  %0
 .
 
-3231;txt;01
-Du har installeret Sandboxie for mere end 30 dage siden.
-.
+# 3231;txt;01
+# Du har installeret Sandboxie for mere end 30 dage siden.
+# .
 
-3232;txt;01
-Personlig brug af Sandboxie er tilladt gratis så længe du ønsker.
-.
+# 3232;txt;01
+# Personlig brug af Sandboxie er tilladt gratis så længe du ønsker.
+# .
 
-3233;txt;01
-Men, den gratis versionen vil nu pause i et par sekunder.
-.
+# 3233;txt;01
+# Men, den gratis versionen vil nu pause i et par sekunder.
+# .
 
-3234;txt;01
-Men, gratis versionen tillader kun brug af en sandbox ad gangen.
-.
+# 3234;txt;01
+# Men, gratis versionen tillader kun brug af en sandbox ad gangen.
+# .
 
-3235;txt;01
-Denne restriktion er fjernet i den købte version af Sandboxie.
-.
+# 3235;txt;01
+# Denne restriktion er fjernet i den købte version af Sandboxie.
+# .
 
-3236;txt;01
-Endnu en tilføjelse er, at den købte version aktiverer automatisk sandboxing for udvalgte programmer.
-.
+# 3236;txt;01
+# Endnu en tilføjelse er, at den købte version aktiverer automatisk sandboxing for udvalgte programmer.
+# .
 
-3237;txt;01
-For mere information og for at købe programmet, følg venligst dette link:
-.
+# 3237;txt;01
+# For mere information og for at købe programmet, følg venligst dette link:
+# .
 
-3238;txt;01
-Vent venligst %2 sekunder mere
-.
+# 3238;txt;01
+# Vent venligst %2 sekunder mere
+# .
 
-3239;txt;01
-Klik for at lukke dette vindue og fortsætte
-.
+# 3239;txt;01
+# Klik for at lukke dette vindue og fortsætte
+# .
 
-3240;txt;01
-Klik for at lukke dette vindue og stoppe
-.
+# 3240;txt;01
+# Klik for at lukke dette vindue og stoppe
+# .
 3241;txt;01
 Sandboxie anmoder administratorrettigheder
 på vegne af et program, der kører i en sandkasse.
@@ -1070,9 +1070,9 @@ Gen&indlæs Konfigurationen
 Tjek For &Opdateringer
 .
 
-3455;txt;01
-&Registrer Sandboxie
-.
+# 3455;txt;01
+# &Registrer Sandboxie
+# .
 
 3456;txt;01
 &Om Sandboxie
@@ -1862,9 +1862,9 @@ programmer der allerede kører. Indstillingerne
 vil gælde næste gang dette programmer starter.
 .
 
-3771;txt;01
-(Denne mulighed er kun tilgængelig i den registrerede version af Sandboxie)
-.
+# 3771;txt;01
+# (Denne mulighed er kun tilgængelig i den registrerede version af Sandboxie)
+# .
 
 3772;txt;02
 Er du sikker på, at du vil sætte %2 som et tvunget program?
@@ -2867,168 +2867,168 @@ De følgende undtagelser tillader Email Læsere, som kører i denne sandbox at f
 # License Manager
 #----------------------------------------------------------------------------
 
-7901;txt;01
-Sandboxie Licens Manager
+# 7901;txt;01
+# Sandboxie Licens Manager
+# .
+
+# 7902;txt;01
+# System kode %2
+# .
+
+# 7903;txt;01
+# I fremtiden reaktiver da licensen uden at spørge.
+# .
+
+# 7921;txt;01
+# Sandboxie er registeret og licensen er aktiveret.
+# .
+
+# 7922;txt;01
+# Sandboxie er registeret men licensen bør reaktiveres nu.
+# .
+
+# 7923;txt;01
+# Uregistreret kopi.  Registrer i dag!
+# .
+
+# 7924;txt;01
+# Licensen for Sandboxie skal reaktiveres om %2 dag(e).
+# .
+
+# 7925;txt;01
+# License for Sandboxie er nu aktiveret.
+# .
+
+# 7926;txt;01
+# Udløbsdato for din produktnøgle er %2.
+# .
+
+# 7927;txt;01
+# Din produktnøgle har ingen udløbsdato.
+# .
+
+# 7931;txt;01
+# Din kopi af Sandboxie er registreret med en absolut registreringsnøgle.
+# .
+
+# 7932;txt;01
+# Tillad venligst Licensmanageren at oprette forbindelse til Licensserveren, for at opgradere din gamle registreringsnøgle til en ny produktnøgle. Du vil IKKE blive opkrævet noget gebyr for denne opgradering.
+# .
+
+# 7933;txt;01
+# Din registreringsnøgle er ikke genkendt af licensserveren.
+# .
+
+# 7934;txt; 01
+# Hvis du har brugt en legitim registreringsnøgle, som du har betalt, eller som du har fået som gave, eller som del af et salgsfremstød, så send venligst en mail til:
+# .
+
+# 7935;txt;01
+# Din produktnøgle er:
+# .
+
+# 7936;txt;01
+# Sørg for at gemme denne produktnøgle et sikkert sted for fremtidig reference. Brug knappen nedenfor for at kopiere din productnøgle til klippebordet, hvorfra du kan indsætte det i et dokument og gemme/udskrive den.
+# .
+
+# 7937;txt;01
+# &Opgrade registreringsnøgle til produkt nøgle
+# .
+
+# 7941;txt;01
+# Sandboxie registration vil blive gjort gennem en 3. parts betalingsfirma. Begynd registrationsprocessen ved at besøge Sandboxie's Webside på linket herunder.
+# 
 .
+# 7942;txt;01
+# For at aktivere din licens til Sandboxie, skal du indtaste produktnøglen, der findes i din kvittering for betaling, og klik derefter på knappen for at aktivere din licens..
+# .
 
-7902;txt;01
-System kode %2
-.
+# 7943;txt;01
+# Vil du indtaste en ny produktnøgle nu?
+# .
 
-7903;txt;01
-I fremtiden reaktiver da licensen uden at spørge.
-.
+# 7944;txt;01
+# &Aktiver licens
+# .
 
-7921;txt;01
-Sandboxie er registeret og licensen er aktiveret.
-.
+# 7945;txt;01
+# Din kopi af Sandboxie er nu registreret.
+# .
 
-7922;txt;01
-Sandboxie er registeret men licensen bør reaktiveres nu.
-.
+# 7946;txt;01
+# Tak fordi at du støtter Sandboxie!
+# .
 
-7923;txt;01
-Uregistreret kopi.  Registrer i dag!
-.
+# 7951;txt;01
+# Vil du aktivere licensen nu?
+# .
 
-7924;txt;01
-Licensen for Sandboxie skal reaktiveres om %2 dag(e).
-.
+# 7952;txt;01
+# Besøg venligst Sandboxie hjemmeside via linket nedenfor for at bestille en ny produktnøgle.
+# .
 
-7925;txt;01
-License for Sandboxie er nu aktiveret.
-.
+# 7961;txt;01
+# Fjern Licens &Information
+# .
 
-7926;txt;01
-Udløbsdato for din produktnøgle er %2.
-.
-
-7927;txt;01
-Din produktnøgle har ingen udløbsdato.
-.
-
-7931;txt;01
-Din kopi af Sandboxie er registreret med en absolut registreringsnøgle.
-.
-
-7932;txt;01
-Tillad venligst Licensmanageren at oprette forbindelse til Licensserveren, for at opgradere din gamle registreringsnøgle til en ny produktnøgle. Du vil IKKE blive opkrævet noget gebyr for denne opgradering.
-.
-
-7933;txt;01
-Din registreringsnøgle er ikke genkendt af licensserveren.
-.
-
-7934;txt; 01
-Hvis du har brugt en legitim registreringsnøgle, som du har betalt, eller som du har fået som gave, eller som del af et salgsfremstød, så send venligst en mail til:
-.
-
-7935;txt;01
-Din produktnøgle er:
-.
-
-7936;txt;01
-Sørg for at gemme denne produktnøgle et sikkert sted for fremtidig reference. Brug knappen nedenfor for at kopiere din productnøgle til klippebordet, hvorfra du kan indsætte det i et dokument og gemme/udskrive den.
-.
-
-7937;txt;01
-&Opgrade registreringsnøgle til produkt nøgle
-.
-
-7941;txt;01
-Sandboxie registration vil blive gjort gennem en 3. parts betalingsfirma. Begynd registrationsprocessen ved at besøge Sandboxie's Webside på linket herunder.
-
-.
-7942;txt;01
-For at aktivere din licens til Sandboxie, skal du indtaste produktnøglen, der findes i din kvittering for betaling, og klik derefter på knappen for at aktivere din licens..
-.
-
-7943;txt;01
-Vil du indtaste en ny produktnøgle nu?
-.
-
-7944;txt;01
-&Aktiver licens
-.
-
-7945;txt;01
-Din kopi af Sandboxie er nu registreret.
-.
-
-7946;txt;01
-Tak fordi at du støtter Sandboxie!
-.
-
-7951;txt;01
-Vil du aktivere licensen nu?
-.
-
-7952;txt;01
-Besøg venligst Sandboxie hjemmeside via linket nedenfor for at bestille en ny produktnøgle.
-.
-
-7961;txt;01
-Fjern Licens &Information
-.
-
-7962;txt;01
-Er du sikker på du vil fjerne licens informationer i Sandboxie?
-
+# 7962;txt;01
+# Er du sikker på du vil fjerne licens informationer i Sandboxie?
+# 
 Du kan altid aktivere din licens ved at indtaste en produktnøgle.
 .
 
-7971;txt;01
-Dette er ikke en gyldig produktnøgle.
+# 7971;txt;01
+# Dette er ikke en gyldig produktnøgle.
+# .
+
+# 7972;txt;01
+# Dette er ikke en gyldig Systemkode.
+# .
+
+# 7973;txt;01
+# Dette er ikke en gyldig aktiveringsnøgle [%2]
+# .
+
+# 7974;txt;01
+# Ugyldigt svar fra licensserveren.
+# .
+
+# 7975;txt;01
+# Produkt aktivering fejlet:
+# .
+
+# 7976;txt;01
+# Vil du prøve igen?
+# .
+
+# 7977;txt;01
+# Hvis du ønske at aktivere Sandboxie på en computer, der ikke har ingen internet forbindelse,
+# læs så venligst afsnittet under Sandboxie Licensing FAQ om 'Information about Offline Activation'.
 .
 
-7972;txt;01
-Dette er ikke en gyldig Systemkode.
-.
+# 7982;txt;01
+# Licensserveren gav ingen forklaring hvorfor aktivering gik galt.
+# .
 
-7973;txt;01
-Dette er ikke en gyldig aktiveringsnøgle [%2]
-.
+# 7983;txt;01
+# Produktnøglen blev ikke genkendt af licensserveren.
+# .
 
-7974;txt;01
-Ugyldigt svar fra licensserveren.
-.
+# 7984;txt;01
+# Produktnøgle kan ikke bruges efter udløbsdatoen %2.
+# .
 
-7975;txt;01
-Produkt aktivering fejlet:
-.
+# 7985;txt;01
+# Produktnøglen er blevet aktiveret på for mange computere.
+# .
 
-7976;txt;01
-Vil du prøve igen?
-.
+# 7986;txt;01
+# Produktnøgle er blevet annulleret, da den er blevet lagt ud på internettet.
+# .
 
-7977;txt;01
-Hvis du ønske at aktivere Sandboxie på en computer, der ikke har ingen internet forbindelse,
-læs så venligst afsnittet under Sandboxie Licensing FAQ om 'Information about Offline Activation'.
-.
-
-7982;txt;01
-Licensserveren gav ingen forklaring hvorfor aktivering gik galt.
-.
-
-7983;txt;01
-Produktnøglen blev ikke genkendt af licensserveren.
-.
-
-7984;txt;01
-Produktnøgle kan ikke bruges efter udløbsdatoen %2.
-.
-
-7985;txt;01
-Produktnøglen er blevet aktiveret på for mange computere.
-.
-
-7986;txt;01
-Produktnøgle er blevet annulleret, da den er blevet lagt ud på internettet.
-.
-
-7987;txt;01
-Produktnøglen blev annulleret, fordi ordren blev refunderet.
-.
+# 7987;txt;01
+# Produktnøglen blev annulleret, fordi ordren blev refunderet.
+# .
 
 #----------------------------------------------------------------------------
 # SandboxieInstall

@@ -36,9 +36,9 @@ SBIE1106 greška %2, detalj %3
 SBIE1108 Procedura %2 nije mogla biti analizirana
 .
 
-1109;evt;err;01
-SBIE1109 Pogrešna licencna informacija:  %2
-.
+# 1109;evt;err;01
+# SBIE1109 Pogrešna licencna informacija:  %2
+# .
 
 1110;evt;err;01
 SBIE1110 Ne mogu presresti tip %3, greška %2
@@ -108,9 +108,9 @@ SBIE1153 Sandboxie inicijalizacija nije uspjela.  Zatvorite sve programe i ponov
 SBIE1201 Nedovoljno memorije
 .
 
-1202;pop;err;01
-SBIE1202 Ne mogu nadograditi licencne informacije:  %2
-.
+# 1202;pop;err;01
+# SBIE1202 Ne mogu nadograditi licencne informacije:  %2
+# .
 
 1203;pop;err;01
 SBIE1203 Ne mogu kreirati putanju liste (greška u %2)
@@ -186,9 +186,9 @@ SBIE1301 Program '%2' je pokrenut izvan sandboxa
 # SBIE1302 Sandbox '%2' nije definiran ili nije omogućen
 # .
 
-1303;pop;inf;01
-SBIE1303 Samo jedan sandbox može biti aktivan istovremeno
-.
+# 1303;pop;inf;01
+# SBIE1303 Samo jedan sandbox može biti aktivan istovremeno
+# .
 
 # 1304;pop;inf;01
 # SBIE1304 Blokiran simulirani unos tipkovnice ili miša od procesa '%2'
@@ -210,13 +210,13 @@ SBIE1308 Program ne može biti pokrenut zbog ograničenja - %2
 SBIE1309 Odbijen pokušaj promjene korisničke lozinke
 .
 
-1310;pop;inf;01
-SBIE1310 Dodatne značajke su onemogućene do ponovne aktivacije licence
-.
+# 1310;pop;inf;01
+# SBIE1310 Dodatne značajke su onemogućene do ponovne aktivacije licence
+# .
 
-1311;pop;inf;01
-SBIE1311 Blokiran zahtjev za promjenom desktop pozadine od procesa '%2'
-.
+# 1311;pop;inf;01
+# SBIE1311 Blokiran zahtjev za promjenom desktop pozadine od procesa '%2'
+# .
 
 1312;pop;inf;01
 SBIE1312 Blokiran zahtjev za pokretanjem 16-bitnog DOS programa u sandboxu
@@ -563,9 +563,9 @@ SBIE2332 Ne mogu pristupiti datoteci SbiePst.dat
 # SBIE2333 Pronađen nekompatibilan softverski DLL:  %2
 # .
 
-2334;pop;err;01
-SBIE2334 Ne mogu učitati DLL datoteku:  %2
-.
+# 2334;pop;err;01
+# SBIE2334 Ne mogu učitati DLL datoteku:  %2
+# .
 
 # 2398;txt;01
 # SBIE2398 Servisu se dogodila iznimka ... na adresi ...
@@ -800,45 +800,45 @@ Molim zaustavite programe koji se izvršavaju u sandboxu prije brisanja njegovog
 Naredba brisanja neuspješna:  %0
 .
 
-3231;txt;01
-Instalirali ste Sandboxie prije više od 30 dana.
-.
+# 3231;txt;01
+# Instalirali ste Sandboxie prije više od 30 dana.
+# .
 
-3232;txt;01
-Korištenje Sandboxie za osobnu uporabu je besplatno dokle god želite.
-.
+# 3232;txt;01
+# Korištenje Sandboxie za osobnu uporabu je besplatno dokle god želite.
+# .
 
-3233;txt;01
-Međutim, besplatna verzija će sada pauzirati na nekoliko sekundi.
-.
+# 3233;txt;01
+# Međutim, besplatna verzija će sada pauzirati na nekoliko sekundi.
+# .
 
-3234;txt;01
-Međutim, besplatna verzija dozvoljava korištenje jednog sandboxa istovremeno.
-.
+# 3234;txt;01
+# Međutim, besplatna verzija dozvoljava korištenje jednog sandboxa istovremeno.
+# .
 
-3235;txt;01
-Ovo ograničenje ne postoji u plaćenoj verziji Sandboxie.
-.
+# 3235;txt;01
+# Ovo ograničenje ne postoji u plaćenoj verziji Sandboxie.
+# .
 
-3236;txt;01
-Dodatno, plaćena verzija omogućuje automatski sandboxing odabranih programa.
-.
+# 3236;txt;01
+# Dodatno, plaćena verzija omogućuje automatski sandboxing odabranih programa.
+# .
 
-3237;txt;01
-Za više informacija i naručivanje softvera, molim kliknite na sljedeći link:
-.
+# 3237;txt;01
+# Za više informacija i naručivanje softvera, molim kliknite na sljedeći link:
+# .
 
-3238;txt;01
-Molim sačekajte još %2 sekundi
-.
+# 3238;txt;01
+# Molim sačekajte još %2 sekundi
+# .
 
-3239;txt;01
-Kliknite za zatvaranje ovog prozora i nastavak
-.
+# 3239;txt;01
+# Kliknite za zatvaranje ovog prozora i nastavak
+# .
 
-3240;txt;01
-Kliknite za zatvaranje ovog prozora i prekid
-.
+# 3240;txt;01
+# Kliknite za zatvaranje ovog prozora i prekid
+# .
 
 3241;txt;01
 Sandboxie zahtjeva Administratorake privilegije
@@ -1141,9 +1141,9 @@ U&čitaj Konfiguraciju
 Provjeri za &Nadogradnje
 .
 
-3455;txt;01
-&Registriraj Sandboxie
-.
+# 3455;txt;01
+# &Registriraj Sandboxie
+# .
 
 3456;txt;01
 &O Sandboxie
@@ -1411,9 +1411,9 @@ stavku Zaključaj Konfiguraciju za onesposobljavanje zaštite lozinkom.
 Javno
 .
 
-3542;txt;01
-Mod Experimentalne Zaštite unaprijeđuje zaštitu
-koju nudi 64-bitni Sandboxie, i donosi isti nivo
+# 3542;txt;01
+# Mod Experimentalne Zaštite unaprijeđuje zaštitu
+# koju nudi 64-bitni Sandboxie, i donosi isti nivo
 zaštite koji nudi 32-bitna verzija Sandboxie.
 
 VAŽNO:  Eksperimentalna Zaštita koristi nedokumentirane
@@ -1427,9 +1427,9 @@ Za aktivaciju Eksperimentalna Zaštita, morate
 ponovo pokrenuti svoje računalo.
 .
 
-3543;txt;01
-Za gašenje Esperimentalna Zaštita, morate
-ponovo pokrenuti svoje računalo.
+# 3543;txt;01
+# Za gašenje Esperimentalna Zaštita, morate
+# ponovo pokrenuti svoje računalo.
 
 Imajte na umu da će stavka Smanjivanje Ovlasti biti omogućena
 u svim sandboxovima.
@@ -2009,9 +2009,9 @@ program koji je već pokrenut.  Postavke će biti
 primjenjene sljedeći put kada se program pokrene.
 .
 
-3771;txt;01
-(Ovo svojstvo je dostupno jedino u registriranoj verziji Sandboxie)
-.
+# 3771;txt;01
+# (Ovo svojstvo je dostupno jedino u registriranoj verziji Sandboxie)
+# .
 
 3772;txt;02
 Jeste li sigurni da želite postaviti %2 kao forsiran program?
@@ -3327,194 +3327,194 @@ Hvala vam što ste pronašli vremena za prolazak kroz ovaj tutorijal. Za više s
 Zadane postavke u Sandboxie pružaju punu zaštitu, a ako želite možete pregledati i urediti konfiguracijske naredbe pojedinog sandboxa u Sandbox izborniku u prozoru Sandboxie Upravitelja.
 .
 
-7866;txt;01
-Na 64-bitnim Windows sistemima, trebali bi ste omogućiti Experimentalnu zaštitu. Pogledajte izbornik Konfiguriraj u Sandboxie Upravitelju.
-.
+# 7866;txt;01
+# Na 64-bitnim Windows sistemima, trebali bi ste omogućiti Experimentalnu zaštitu. Pogledajte izbornik Konfiguriraj u Sandboxie Upravitelju.
+# .
 
 #----------------------------------------------------------------------------
 # License Manager
 #----------------------------------------------------------------------------
 
-7901;txt;01
-Sandboxie Licencni Upravitelj
-.
+# 7901;txt;01
+# Sandboxie Licencni Upravitelj
+# .
 
-7902;txt;01
-Sistemski Kod %2
-.
+# 7902;txt;01
+# Sistemski Kod %2
+# .
 
-7903;txt;01
-Ubuduće, aktiviraj licencu bez pitanja
-.
+# 7903;txt;01
+# Ubuduće, aktiviraj licencu bez pitanja
+# .
 
 #----------------------------------------------------------------------------
 
-7921;txt;01
-Sandboxie je registriran i licenca je aktivirana.
-.
+# 7921;txt;01
+# Sandboxie je registriran i licenca je aktivirana.
+# .
 
-7922;txt;01
-Sandboxie je registriran ali bi trebalo reaktivirati licencu.
-.
+# 7922;txt;01
+# Sandboxie je registriran ali bi trebalo reaktivirati licencu.
+# .
 
 # was 3603;txt;01
-7923;txt;01
-Neregistrirana kopija.  Registrirajte danas!
-.
+# 7923;txt;01
+# Neregistrirana kopija.  Registrirajte danas!
+# .
 
-7924;txt;01
-Licencu za Sandboxie trebat će reaktivirati za %2 dana.
-.
+# 7924;txt;01
+# Licencu za Sandboxie trebat će reaktivirati za %2 dana.
+# .
 
-7925;txt;01
-Licenca za Sandboxie je sada aktivirana.
-.
+# 7925;txt;01
+# Licenca za Sandboxie je sada aktivirana.
+# .
 
-7926;txt;01
-Datum isteka vašeg Ključ Proizvoda je %2.
-.
+# 7926;txt;01
+# Datum isteka vašeg Ključ Proizvoda je %2.
+# .
 
-7927;txt;01
-Vaš Ključ Proizvoda nema datum isteka.
-.
+# 7927;txt;01
+# Vaš Ključ Proizvoda nema datum isteka.
+# .
 
 #----------------------------------------------------------------------------
 
-7931;txt;01
-Vaša kopija Sandboxie je registrirana sa zastarijelim Registrcijskim Ključem.
-.
+# 7931;txt;01
+# Vaša kopija Sandboxie je registrirana sa zastarijelim Registrcijskim Ključem.
+# .
 
-7932;txt;01
-Molim dozvolite Licencnom Upravitelju spajanje na Licencni Server i nadogradite svoj stari Registracijski Ključ na novi Ključ Proizvoda.  Neće Vam biti naplaćene nikakve naknade za tu nadogradnju.
-.
+# 7932;txt;01
+# Molim dozvolite Licencnom Upravitelju spajanje na Licencni Server i nadogradite svoj stari Registracijski Ključ na novi Ključ Proizvoda.  Neće Vam biti naplaćene nikakve naknade za tu nadogradnju.
+# .
 
-7933;txt;01
-Vaš Registracijski Ključ nije prepoznat od Licencnog Servera.
-.
+# 7933;txt;01
+# Vaš Registracijski Ključ nije prepoznat od Licencnog Servera.
+# .
 
-7934;txt;01
-Ako ste koristili legitiman Registracijski Ključ, za koji ste platili, ili koji vam je dan kao poklon, ili kao dio promocije, tada molim pošaljite email na:
-.
+# 7934;txt;01
+# Ako ste koristili legitiman Registracijski Ključ, za koji ste platili, ili koji vam je dan kao poklon, ili kao dio promocije, tada molim pošaljite email na:
+# .
 
-7935;txt;01
-Vaš novi Ključ Proizvoda je:
-.
+# 7935;txt;01
+# Vaš novi Ključ Proizvoda je:
+# .
 
-7936;txt;01
-Molim spremite ovaj Ključ Proizvoda na sigurno mjesto.  Koristite gumb ispod da biste kopirali vaš Ključ Proizvoda u međuspremnik, iz kojeg ga možete zalijepiti u dokument i isprintati.
-.
+# 7936;txt;01
+# Molim spremite ovaj Ključ Proizvoda na sigurno mjesto.  Koristite gumb ispod da biste kopirali vaš Ključ Proizvoda u međuspremnik, iz kojeg ga možete zalijepiti u dokument i isprintati.
+# .
 
-7937;txt;01
-&Nadogradite Registracijski Ključ na Ključ Proizvoda
-.
+# 7937;txt;01
+# &Nadogradite Registracijski Ključ na Ključ Proizvoda
+# .
 
 #----------------------------------------------------------------------------
 
 # was 3612;txt;01
-7941;txt;01
-Sandboxie registarcija se vrši kroz platni sustav treće strane.  Započnite registracijski proces tako što će te posjetiti Sandboxie web stranicu na linku ispod.
-.
+# 7941;txt;01
+# Sandboxie registarcija se vrši kroz platni sustav treće strane.  Započnite registracijski proces tako što će te posjetiti Sandboxie web stranicu na linku ispod.
+# .
 
-7942;txt;01
-Da biste aktivirali licencu za Sandboxie, unesite Ključ Proizvoda koji se pojavljuje na priznanici za plaćanje, i nakon toga kliknite gumb za aktivaciju.
-.
+# 7942;txt;01
+# Da biste aktivirali licencu za Sandboxie, unesite Ključ Proizvoda koji se pojavljuje na priznanici za plaćanje, i nakon toga kliknite gumb za aktivaciju.
+# .
 
-7943;txt;01
-Želite li unijeti novi Ključ Proizvoda?
-.
+# 7943;txt;01
+# Želite li unijeti novi Ključ Proizvoda?
+# .
 
-7944;txt;01
-&Aktiviraj Licencu
-.
+# 7944;txt;01
+# &Aktiviraj Licencu
+# .
 
 # was first line of 3617;txt;01
-7945;txt;01
-Vaša Sandboxie kopija je sada registrirana.
-.
+# 7945;txt;01
+# Vaša Sandboxie kopija je sada registrirana.
+# .
 
 # was second line of 3617;txt;01
-7946;txt;01
-Hvala Vam što podržavate Sandboxie!
-.
+# 7946;txt;01
+# Hvala Vam što podržavate Sandboxie!
+# .
 
 #----------------------------------------------------------------------------
 
-7951;txt;01
-Želite li aktivirati licencu?
-.
+# 7951;txt;01
+# Želite li aktivirati licencu?
+# .
 
-7952;txt;01
-Molim vas posjetite Sandboxie web stranicu na linku ispod radi narudžbe novog Ključa Proizvoda.
-.
+# 7952;txt;01
+# Molim vas posjetite Sandboxie web stranicu na linku ispod radi narudžbe novog Ključa Proizvoda.
+# .
 
-7961;txt;01
-Obriši Licencne &Informacije
-.
+# 7961;txt;01
+# Obriši Licencne &Informacije
+# .
 
-7962;txt;01
-Jeste li sigurni da želite obrisati licencne informacije u Sandboxie-u?
-
+# 7962;txt;01
+# Jeste li sigurni da želite obrisati licencne informacije u Sandboxie-u?
+# 
 Možete aktivirati svoju licencu bilo kada unosom Ključa Proizvoda.
 .
 
 #----------------------------------------------------------------------------
 
-7971;txt;01
-Ovo nije valjani Ključ Proizvoda.
+# 7971;txt;01
+# Ovo nije valjani Ključ Proizvoda.
+# .
+
+# 7972;txt;01
+# Ovo nije valjani System Code.
+# .
+
+# 7973;txt;01
+# Ovo nije valjani Activation Key.  [%2]
+# .
+
+# 7974;txt;01
+# Pogrešan odgovor Licencnog Servera.
+# .
+
+# 7975;txt;01
+# Aktivacij produkta neuspješna:
+# .
+
+# 7976;txt;01
+# Želite li ponovo pokušati?
+# .
+
+# 7977;txt;01
+# Ako želite aktivirati Sandboxie na računalu koje nema pristup Internetu,
+# molim pogledajte Sandboxie Licencne FAQ informacije za Offline Aktivaciju.
 .
 
-7972;txt;01
-Ovo nije valjani System Code.
-.
+# 7978;txt;01
+# Trenutni datum (%2) je stariji od datuma poslanog od Licencnog Servera (%3).
+# .
 
-7973;txt;01
-Ovo nije valjani Activation Key.  [%2]
-.
+# 7982;txt;01
+# Licencni Server nije odredio razlog neuspjela aktivacije.
+# .
 
-7974;txt;01
-Pogrešan odgovor Licencnog Servera.
-.
+# 7983;txt;01
+# Ključ Proizvoda nije prepoznat od Licencnog Servera.
+# .
 
-7975;txt;01
-Aktivacij produkta neuspješna:
-.
+# 7984;txt;01
+# Ključ Proizvoda ne može se koristiti nakon isteka datuma %2.
+# .
 
-7976;txt;01
-Želite li ponovo pokušati?
-.
+# 7985;txt;01
+# Ključ Proizvoda je aktiviran na previše računala.
+# .
 
-7977;txt;01
-Ako želite aktivirati Sandboxie na računalu koje nema pristup Internetu,
-molim pogledajte Sandboxie Licencne FAQ informacije za Offline Aktivaciju.
-.
+# 7986;txt;01
+# Ključ Proizvoda je poništen zbog javnog objavljivanja na Internetu.
+# .
 
-7978;txt;01
-Trenutni datum (%2) je stariji od datuma poslanog od Licencnog Servera (%3).
-.
-
-7982;txt;01
-Licencni Server nije odredio razlog neuspjela aktivacije.
-.
-
-7983;txt;01
-Ključ Proizvoda nije prepoznat od Licencnog Servera.
-.
-
-7984;txt;01
-Ključ Proizvoda ne može se koristiti nakon isteka datuma %2.
-.
-
-7985;txt;01
-Ključ Proizvoda je aktiviran na previše računala.
-.
-
-7986;txt;01
-Ključ Proizvoda je poništen zbog javnog objavljivanja na Internetu.
-.
-
-7987;txt;01
-Ključ Proizvoda je poništen jer je narudžba otkazana.
-.
+# 7987;txt;01
+# Ključ Proizvoda je poništen jer je narudžba otkazana.
+# .
 
 #----------------------------------------------------------------------------
 # SandboxieInstall
