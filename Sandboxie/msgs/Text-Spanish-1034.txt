@@ -36,9 +36,9 @@ SBIE1106 error %2, detalle %3
 SBIE1108 No se pudo analizar el procedimiento %2
 .
 
-# 1109;evt;err;01
-# SBIE1109 La información de licencia no es válida: %2
-# .
+1109;evt;err;01
+SBIE1109 La información de licencia no es válida: %2
+.
 
 1110;evt;err;01
 SBIE1110 No es posible interceptar tipo %3, error %2
@@ -108,9 +108,9 @@ SBIE1153 No se ha conseguido la inicialización de Sandboxie.  Cierre todos los 
 SBIE1201 Memoria insuficiente
 .
 
-# 1202;pop;err;01
-# SBIE1202 No es posible actualizar información de licencia:  %2
-# .
+1202;pop;err;01
+SBIE1202 No es posible actualizar información de licencia:  %2
+.
 
 1203;pop;err;01
 SBIE1203 No es posible crear la ruta de acceso (error en %2)
@@ -132,17 +132,17 @@ SBIE1212 No es posible crear el directorio '%3' %2
 SBIE1213 No es posible crear el objeto de directorio '%3' %2
 .
 
-# 1214;pop;err;01
-# SBIE1214 No es posible inyectar SbieDll %2
-# .
+1214;pop;err;01
+SBIE1214 No es posible inyectar SbieDll %2
+.
 
-# 1215;pop;err;01
-# SBIE1215 No es posible resolver la ruta a la imagen del proceso %2
-# .
+1215;pop;err;01
+SBIE1215 No es posible resolver la ruta a la imagen del proceso %2
+.
 
-# 1216;pop;err;01
-# SBIE1216 No se pudo consultar la ID de seguridad %2
-# .
+1216;pop;err;01
+SBIE1216 No se pudo consultar la ID de seguridad %2
+.
 
 # 1217;pop;err;01
 # SBIE1217 No se pudo localizar el proceso padre
@@ -152,17 +152,17 @@ SBIE1213 No es posible crear el objeto de directorio '%3' %2
 # SBIE1221 No es posible crear el trabajo:  %2
 # .
 
-# 1222;pop;err;02
-# SBIE1222 Error de token de seguridad:  %2
-# .
+1222;pop;err;02
+SBIE1222 Error de token de seguridad:  %2
+.
 
-# 1223;pop;err;01
-# SBIE1223 No es posible reemplazar la variable:  %2
-# .
+#1223;pop;err;01
+#SBIE1223 No es posible reemplazar la variable:  %2
+#.
 
-# 1224;pop;err;01
-# SBIE1224 No es posible consultar la variable:  %2
-# .
+#1224;pop;err;01
+#SBIE1224 No es posible consultar la variable:  %2
+#.
 
 1231;pop;err;01
 SBIE1231 No se ha conseguido la inicialización para el proceso %3 %2
@@ -190,13 +190,13 @@ SBIE1301 El programa '%2' se ha ejecutado fuera de la sandbox
 # SBIE1302 La sandbox '%2' no está definida o habilitada
 # .
 
-# 1303;pop;inf;01
-# SBIE1303 Sólo una sandbox puede estar activa al mismo tiempo
-# .
+1303;pop;inf;01
+SBIE1303 Sólo una sandbox puede estar activa al mismo tiempo
+.
 
-# 1304;pop;inf;01
-# SBIE1304 Se ha bloqueado la entrada simulada de teclado o ratón para el proceso '%2'
-# .
+1304;pop;inf;01
+SBIE1304 Se ha bloqueado la entrada simulada de teclado o ratón para el proceso '%2'
+.
 
 1306;pop;inf;01
 SBIE1306 El controlador de Sandboxie (SbieDrv) no se puede descargar, en estos momentos
@@ -214,13 +214,13 @@ SBIE1308 El programa no se puede iniciar debido a restricciones - %2
 SBIE1309 Denegado el intento de cambiar la contraseña de la cuenta
 .
 
-# 1310;pop;inf;01
-# SBIE1310 Las funciones adicionales estarán deshabilitadas hasta que la licencia sea reactivada
-# .
+1310;pop;inf;01
+SBIE1310 Las funciones adicionales estarán deshabilitadas hasta que la licencia sea reactivada
+.
 
-# 1311;pop;inf;01
-# SBIE1311 Se ha bloqueado la solicitud de cambiar el papel tapiz del escritorio para el proceso '%2'
-# .
+1311;pop;inf;01
+SBIE1311 Se ha bloqueado la solicitud de cambiar el papel tapiz del escritorio para el proceso '%2'
+.
 
 1312;pop;inf;01
 SBIE1312 Se ha bloqueado la solicitud de iniciar en la sandbox un programa DOS de 16 bits
@@ -234,9 +234,9 @@ SBIE1313 Se ha bloqueado el acceso directo a disco al proceso '%2'
 SBIE1314 Se ha bloqueado la solicitud de modificación en la configuración de la red/firewall para el proceso '%2'
 .
 
-# 1315;pop;inf;01
-# Posiblemente debido a conflictos con el sotware: %2
-# .
+1315;pop;inf;01
+Posiblemente debido a conflictos con el sotware: %2
+.
 
 1316;pop;inf;01
 SBIE1316 Se ha bloqueado la solicitud para generar el evento de dispositivo en la sandbox
@@ -526,9 +526,9 @@ SBIE2313 No se pudo ejecutar %2
 SBIE2314 Cancelando el proceso %2
 .
 
-# 2315;pop;err;01
-# SBIE2315 No se pudo reparar la imagen ejecutable
-# .
+2315;pop;err;01
+SBIE2315 No se pudo reparar la imagen ejecutable
+.
 
 2316;pop;err;01
 SBIE2316 Memoria corrupta
@@ -582,9 +582,9 @@ SBIE2332 No es posible acceder al fichero SbiePst.dat
 # SBIE2333 Se ha encontrado DLL de software incompatible:  %2
 # .
 
-# 2334;pop;err;01
-# SBIE2334 No es posible cargar el archivo DLL:  %2
-# .
+2334;pop;err;01
+SBIE2334 No es posible cargar el archivo DLL:  %2
+.
 
 2335;pop;err;01
 SBIE2335 No se ha conseguido la inicialización para el proceso %2
@@ -618,53 +618,53 @@ SBIE9154 El controlador (SbieDrv) y el servicio (SbieSvc) tienen diferentes núm
 SBIE9156 La inicialización del controlador no se ha completado
 .
 
-# 9201;evt;err;01
-# SBIE9201 Error de token
-# .
+9201;evt;err;01
+SBIE9201 Error de token
+.
 
-# 9202;evt;err;01
-# SBIE9202 Error de token
-# .
+9202;evt;err;01
+SBIE9202 Error de token
+.
 
-# 9203;evt;err;01
-# SBIE9203 Error de token
-# .
+9203;evt;err;01
+SBIE9203 Error de token
+.
 
-# 9204;evt;err;01
-# SBIE9204 Error del descriptor de seguridad
-# .
+9204;evt;err;01
+SBIE9204 Error del descriptor de seguridad
+.
 
-# 9205;evt;err;01
-# SBIE9205 Error del descriptor de seguridad
-# .
+9205;evt;err;01
+SBIE9205 Error del descriptor de seguridad
+.
 
-# 9206;evt;err;01
-# SBIE9206 Error del descriptor de seguridad
-# .
+9206;evt;err;01
+SBIE9206 Error del descriptor de seguridad
+.
 
-# 9207;evt;err;01
-# SBIE9207 Error del descriptor de seguridad
-# .
+9207;evt;err;01
+SBIE9207 Error del descriptor de seguridad
+.
 
-# 9208;evt;err;01
-# SBIE9208 No es posible habilitar SeRestorePrivilege
-# .
+9208;evt;err;01
+SBIE9208 No es posible habilitar SeRestorePrivilege
+.
 
 9234;evt;err;01
 SBIE9234 Error de ejecución de servicio %2
 .
 
-# 9251;evt;err;01
-# SBIE9251 No se ha conseguido crear evento de puerto
-# .
+9251;evt;err;01
+SBIE9251 No se ha conseguido crear evento de puerto
+.
 
-# 9252;evt;err;01
-# SBIE9252 No se ha conseguido crear el puerto
-# .
+9252;evt;err;01
+SBIE9252 No se ha conseguido crear el puerto
+.
 
-# 9253;evt;err;01
-# SBIE9253 No se ha conseguido crear proceso del puerto
-# .
+9253;evt;err;01
+SBIE9253 No se ha conseguido crear proceso del puerto
+.
 
 # 9302;evt;err;01
 # SBIE9302 No se ha conseguido crear sección (clases de dispositivos instalados)
@@ -788,9 +788,9 @@ No se pudo localizar el ejecutable del programa de correo predeterminado
 No se pudo iniciar el programa de Control de Sandboxie
 .
 
-# 3211;txt;01
-# Conflicto de versiones en Sandboxie.  Pruebe reinstalándolo.
-# .
+3211;txt;01
+Conflicto de versiones en Sandboxie.  Pruebe reinstalándolo.
+.
 
 3212;txt;01
 El controlador de Sandboxie (SbieDrv) no está disponible para los programas de la sandbox.
@@ -839,45 +839,45 @@ Por favor, finalice los programas que estén ejecutándose en la sandbox antes d
 No se ha logrado realizar la orden de borrado:  %0
 .
 
-# 3231;txt;01
-# Sandboxie se ha instalado hace más de 30 días.
-# .
+3231;txt;01
+Sandboxie se ha instalado hace más de 30 días.
+.
 
-# 3232;txt;01
-# Se permite utilizar Sandboxie gratuitamente para uso personal, y por el tiempo que se desee.
-# .
+3232;txt;01
+Se permite utilizar Sandboxie gratuitamente para uso personal, y por el tiempo que se desee.
+.
 
-# 3233;txt;01
-# No obstante, la versión gratuita se pausará durante unos segundos.
-# .
+3233;txt;01
+No obstante, la versión gratuita se pausará durante unos segundos.
+.
 
-# 3234;txt;01
-# No obstante, la versión gratuita sólo permite el uso de una sandbox al mismo tiempo.
-# .
+3234;txt;01
+No obstante, la versión gratuita sólo permite el uso de una sandbox al mismo tiempo.
+.
 
-# 3235;txt;01
-# La versión de pago de Sandboxie no tiene esta restricción.
-# .
+3235;txt;01
+La versión de pago de Sandboxie no tiene esta restricción.
+.
 
-# 3236;txt;01
-# Además, la versión de pago permite el inicio automático de programas seleccionados en una sandbox.
-# .
+3236;txt;01
+Además, la versión de pago permite el inicio automático de programas seleccionados en una sandbox.
+.
 
-# 3237;txt;01
-# Para más información y para comprar el software, por favor haga clic en el siguiente enlace:
-# .
+3237;txt;01
+Para más información y para comprar el software, por favor haga clic en el siguiente enlace:
+.
 
-# 3238;txt;01
-# Por favor, espere %2 segundos más
-# .
+3238;txt;01
+Por favor, espere %2 segundos más
+.
 
-# 3239;txt;01
-# Haga clic para cerrar esta ventana y continuar
-# .
+3239;txt;01
+Haga clic para cerrar esta ventana y continuar
+.
 
-# 3240;txt;01
-# Haga clic para cerrar esta ventana y detenerse
-# .
+3240;txt;01
+Haga clic para cerrar esta ventana y detenerse
+.
 
 3241;txt;01
 Sandboxie está solicitando privilegios de Administrador, debido a
@@ -1139,9 +1139,9 @@ Establecer Diseño y Grupos
 &Compatibilidad de Software
 .
 
-# 3503;txt;01
-# Protección Experimental (64 bits)
-# .
+3503;txt;01
+Protección Experimental (64 bits)
+.
 
 3444;txt;01
 Ign&orar Mensajes Ocultos
@@ -1187,9 +1187,9 @@ Re&cargar Configuración
 Buscar &Actualizaciones
 .
 
-# 3455;txt;01
-# &Registrar Sandboxie
-# .
+3455;txt;01
+&Registrar Sandboxie
+.
 
 3456;txt;01
 &Acerca de Sandboxie
@@ -1476,9 +1476,9 @@ protección con contraseña.
 Público
 .
 
-# 3542;txt;01
-# El modo de Protección Experimental mejora la protección
-# ofrecida por Sandboxie de 64 bits y le lleva al mismo
+3542;txt;01
+El modo de Protección Experimental mejora la protección
+ofrecida por Sandboxie de 64 bits y le lleva al mismo
 nivel de protección que presenta Sandboxie de 32 bits.
 
 IMPORTANTE: Protección Experimental utiliza características
@@ -1492,9 +1492,9 @@ Para activar el modo de Protección Experimental reinicie
 el equipo.
 .
 
-# 3543;txt;01
-# Para deshabilitar el modo de Protección Experimental
-# reinicie el equipo.
+3543;txt;01
+Para deshabilitar el modo de Protección Experimental
+reinicie el equipo.
  
 Por favor, tenga en cuenta que la opción de Reducción
 de Privilegios se habilitará para todas las sandbox.
@@ -2078,9 +2078,9 @@ Los ajustes se aplicarán la próxima vez que este
 programa se inicie.
 .
 
-# 3771;txt;01
-# (Esta función sólo está disponible en la versión registrada de Sandboxie)
-# .
+3771;txt;01
+(Esta función sólo está disponible en la versión registrada de Sandboxie)
+.
 
 3772;txt;02
 ¿Realmente desea establecer %2 como un programa forzado?
@@ -2545,33 +2545,33 @@ Para administrar las Restricciones de Acceso a Inicio/Ejecución tiene que abrir
 # Restricciones::Acceso a Bajo Nivel
 # .
 
-# 3932;txt;01
-# Acceso a Bajo Nivel
-# .
+3932;txt;01
+Acceso a Bajo Nivel
+.
 
-# 3933;txt;01
-# Las siguientes opciones afectan seriamente a la protección proporcionada por Sandboxie. No se recomienda habilitarlas.
-# .
+3933;txt;01
+Las siguientes opciones afectan seriamente a la protección proporcionada por Sandboxie. No se recomienda habilitarlas.
+.
 
-# 3934;txt;01
-# Permitir que los programas en esta sandbox carguen controladores en modo kernel en el sistema operativo
-# .
+3934;txt;01
+Permitir que los programas en esta sandbox carguen controladores en modo kernel en el sistema operativo
+.
 
-# 3935;txt;01
-# Permitir que los programas en esta sandbox al cargar una aplicación (win32) se conecten con otros programas
-# .
+3935;txt;01
+Permitir que los programas en esta sandbox al cargar una aplicación (win32) se conecten con otros programas
+.
 
-# 3936;txt;01
-# Permitir que los programas en esta sandbox simulen entrada de teclado y ratón
-# .
+3936;txt;01
+Permitir que los programas en esta sandbox simulen entrada de teclado y ratón
+.
 
-# 3937;txt;01
-# Permitir que los programas en esta sandbox cambien los fondos de escritorio y otros parámetros de sistema
-# .
+3937;txt;01
+Permitir que los programas en esta sandbox cambien los fondos de escritorio y otros parámetros de sistema
+.
 
-# 3938;txt;01
-# Permitir a los programas en esta sandbox configurar dispositivos de hardware
-# .
+3938;txt;01
+Permitir a los programas en esta sandbox configurar dispositivos de hardware
+.
 
 3950;txt;01
 Servicio de Cola de Impresión (spooler)
@@ -2581,17 +2581,17 @@ Servicio de Cola de Impresión (spooler)
 El servicio de cola de impresión de Windows (spooler) no se ejecuta bajo supervisión de la sandbox. Las aplicaciones aisladas en la sandbox que intenten imprimir a un archivo serán bloqueadas, dado que el archivo sería escrito afuera de la sandbox
 . 
 
-# 3952;txt;01
-# Acceso al Hardware
-# .
+3952;txt;01
+Acceso al Hardware
+.
 
-# 3953;txt;01
-# Permitir que los programas en esta sandbox cambien la contraseña de la cuenta de usuario
-# .
+3953;txt;01
+Permitir que los programas en esta sandbox cambien la contraseña de la cuenta de usuario
+.
 
-# 3954;txt;01
-# Permitir a los programas modificar los parámetros del firewall y la red
-# .
+3954;txt;01
+Permitir a los programas modificar los parámetros del firewall y la red
+.
 
 3955;txt;01
 Recursos de red
@@ -2634,13 +2634,13 @@ No obstante, si está utilizando una cuenta con privilegios de administrador o d
 Reducción de privilegios para Administradores y Grupos de Usuarios Avanzados
 .
 
-# 3946;txt;01
-# Se recomienda que mantenga esta opción activada, como contrapartida a alguna medida de protección de Sandboxie que no están disponibles en la edición de 64-bit de Windows.
-# .
+3946;txt;01
+Se recomienda que mantenga esta opción activada, como contrapartida a alguna medida de protección de Sandboxie que no están disponibles en la edición de 64-bit de Windows.
+.
 
-# 3947;txt;01
-# Para activar la protección mejorada en Windows 64 bits utilice el comando de Protección Experimental del menú Configurar.
-# .
+3947;txt;01
+Para activar la protección mejorada en Windows 64 bits utilice el comando de Protección Experimental del menú Configurar.
+.
 
 3949;txt;01
 La configuración de Privilegios Reducidos está habilitada en la sandbox '%2' e impide el uso de privilegios de Administrador.
@@ -3423,194 +3423,194 @@ Agradecerle que se haya tomado la molestia de seguir este tutorial. Puede visita
 La configuración predeterminada de Sandboxie proporciona una protección total, pero puede revisar la configuración de la sandbox en el menú Sandbox de la ventana del programa Control de Sandboxie.
 .
 
-# 7866;txt;01
-# En versiones de 64 bits de Windows, debería habilitar la Protección Experimental. Vea el menú Configurar en Control de Sandboxie.
-# .
+7866;txt;01
+En versiones de 64 bits de Windows, debería habilitar la Protección Experimental. Vea el menú Configurar en Control de Sandboxie.
+.
 
 #----------------------------------------------------------------------------
 # License Manager
 #----------------------------------------------------------------------------
 
-# 7901;txt;01
-# Administrador de Licencia de Sandboxie
-# 
+7901;txt;01
+Administrador de Licencia de Sandboxie
+
 .
 
-# 7902;txt;01
-# Código de Sistema %2
-# .
+7902;txt;01
+Código de Sistema %2
+.
 
-# 7903;txt;01
-# A partir de ahora, activar la licencia sin preguntar
-# .
+7903;txt;01
+A partir de ahora, activar la licencia sin preguntar
+.
 
 #----------------------------------------------------------------------------
 
-# 7921;txt;01
-# Sandboxie está registrado y la licencia activada.
-# .
+7921;txt;01
+Sandboxie está registrado y la licencia activada.
+.
 
-# 7922;txt;01
-# Sandboxie está registrado pero la licencia se debería reactivar.
-# .
+7922;txt;01
+Sandboxie está registrado pero la licencia se debería reactivar.
+.
 
 # was 3603;txt;01
-# 7923;txt;01
-# Copia no registrada. ¡Regístrese hoy!
-# .
+7923;txt;01
+Copia no registrada. ¡Regístrese hoy!
+.
 
-# 7924;txt;01
-# La licencia de Sandboxie se tendrá que reactivar en %2 días.
-# .
+7924;txt;01
+La licencia de Sandboxie se tendrá que reactivar en %2 días.
+.
 
-# 7925;txt;01
-# La licencia de Sandboxie se ha activado.
-# .
+7925;txt;01
+La licencia de Sandboxie se ha activado.
+.
 
-# 7926;txt;01
-# La fecha de caducidad de su Clave de Producto es el %2.
-# .
+7926;txt;01
+La fecha de caducidad de su Clave de Producto es el %2.
+.
 
-# 7927;txt;01
-# Su Clave de Producto no tiene fecha de caducidad.
-# .
-
-#----------------------------------------------------------------------------
-
-# 7931;txt;01
-# Su copia de Sandboxie está registrada con una Clave de Registro obsoleta.
-# .
-
-# 7932;txt;01
-# Por favor, permita que el Administrador de Licencia de Sandboxie se conecte al Servidor de Licencia y actualice su Clave de Registro antigua a una nueva Clave de Producto. Esta actualización es totalmente gratuita.
-# .
-
-# 7933;txt;01
-# El Servidor de Licencia no reconoce su Clave de Registro.
-# .
-
-# 7934;txt;01
-# Para consultas relacionadas con Claves de Registro/Producto por favor contacte a: support@sandboxie.com 
-# .
-
-# 7935;txt;01
-# Su nueva Clave de Producto es:
-# .
-
-# 7936;txt;01
-# Por favor, asegúrese de conservar esta Clave de Producto en un lugar seguro para futuras referencias. Use el botón inferior para copiar su Clave de Producto al portapapeles desde donde podrá pegarla en un documento e imprimirla.
-# .
-
-# 7937;txt;01
-# Act&ualizar Clave de Registro a Clave de Producto
-# .
+7927;txt;01
+Su Clave de Producto no tiene fecha de caducidad.
+.
 
 #----------------------------------------------------------------------------
 
-# 7941;txt;01
-# El registro de Sandboxie se realiza a través de un sistema de pago a terceros. Inicie el proceso de registro visitando el sitio web de Sandboxie del enlace inferior.
-# .
+7931;txt;01
+Su copia de Sandboxie está registrada con una Clave de Registro obsoleta.
+.
 
-# 7942;txt;01
-# Introduzca la Clave de Producto que aparece en su comprobante de pago y haga clic en el botón para activar su licencia de Sandboxie.
-# .
+7932;txt;01
+Por favor, permita que el Administrador de Licencia de Sandboxie se conecte al Servidor de Licencia y actualice su Clave de Registro antigua a una nueva Clave de Producto. Esta actualización es totalmente gratuita.
+.
 
-# 7943;txt;01
-# ¿Desea introducir una nueva Clave de Producto?
-# .
+7933;txt;01
+El Servidor de Licencia no reconoce su Clave de Registro.
+.
 
-# 7944;txt;01
-# &Activar Licencia
-# .
+7934;txt;01
+Para consultas relacionadas con Claves de Registro/Producto por favor contacte a: support@sandboxie.com 
+.
+
+7935;txt;01
+Su nueva Clave de Producto es:
+.
+
+7936;txt;01
+Por favor, asegúrese de conservar esta Clave de Producto en un lugar seguro para futuras referencias. Use el botón inferior para copiar su Clave de Producto al portapapeles desde donde podrá pegarla en un documento e imprimirla.
+.
+
+7937;txt;01
+Act&ualizar Clave de Registro a Clave de Producto
+.
+
+#----------------------------------------------------------------------------
+
+7941;txt;01
+El registro de Sandboxie se realiza a través de un sistema de pago a terceros. Inicie el proceso de registro visitando el sitio web de Sandboxie del enlace inferior.
+.
+
+7942;txt;01
+Introduzca la Clave de Producto que aparece en su comprobante de pago y haga clic en el botón para activar su licencia de Sandboxie.
+.
+
+7943;txt;01
+¿Desea introducir una nueva Clave de Producto?
+.
+
+7944;txt;01
+&Activar Licencia
+.
 
 # was first line of 3617;txt;01
-# 7945;txt;01
-# Su copia de Sandboxie se ha registrado correctamente.
-# .
+7945;txt;01
+Su copia de Sandboxie se ha registrado correctamente.
+.
 
-# 7946;txt;01
-# ¡Gracias por apoyar a Sandboxie!
-# .
+7946;txt;01
+¡Gracias por apoyar a Sandboxie!
+.
 
 #----------------------------------------------------------------------------
 
-# 7951;txt;01
-# ¿Desea activar la licencia?
-# .
+7951;txt;01
+¿Desea activar la licencia?
+.
 
-# 7952;txt;01
-# Por favor, visite el sitio web de Sandboxie siguiendo el enlace inferior para encargar una nueva Clave de Producto.
-# .
+7952;txt;01
+Por favor, visite el sitio web de Sandboxie siguiendo el enlace inferior para encargar una nueva Clave de Producto.
+.
 
-# 7961;txt;01
-# Limpiar &Información de Licencia
-# .
+7961;txt;01
+Limpiar &Información de Licencia
+.
 
-# 7962;txt;01
-# ¿Realmente desea limpiar la información de la licencia en Sandboxie?
-# 
+7962;txt;01
+¿Realmente desea limpiar la información de la licencia en Sandboxie?
+
 Puede activar su licencia en cualquier momento introduciendo una Clave de Producto.
 .
 
 #----------------------------------------------------------------------------
 
-# 7971;txt;01
-# La Clave de Producto no es válida.
-# .
+7971;txt;01
+La Clave de Producto no es válida.
+.
 
-# 7972;txt;01
-# El Código de Sistema no es válido.
-# .
+7972;txt;01
+El Código de Sistema no es válido.
+.
 
-# 7973;txt;01
-# La clave de Activación no es válida.  [%2]   
-# .
+7973;txt;01
+La clave de Activación no es válida.  [%2]   
+.
 
-# 7974;txt;01
-# La respuesta del Servidor de Licencia no es válida.
-# .
+7974;txt;01
+La respuesta del Servidor de Licencia no es válida.
+.
 
-# 7975;txt;01
-# No se ha conseguido la activación del producto:
-# .
+7975;txt;01
+No se ha conseguido la activación del producto:
+.
 
-# 7976;txt;01
-# ¿Desea intentarlo de nuevo?
-# .
+7976;txt;01
+¿Desea intentarlo de nuevo?
+.
 
-# 7977;txt;01
-# Si necesita activar Sandboxie en un equipo que no tiene acceso a Internet, véase
-# en las preguntas frecuentes (FAQ), de la página web de Sandboxie, la información
+7977;txt;01
+Si necesita activar Sandboxie en un equipo que no tiene acceso a Internet, véase
+en las preguntas frecuentes (FAQ), de la página web de Sandboxie, la información
 proporcionada sobre la Activación Fuera de Línea.
 .
 
-# 7978;txt;01
-# La fecha actual (%2) es posterior a la fecha enviada por el Servidor de Licencia (%3).
-# .
+7978;txt;01
+La fecha actual (%2) es posterior a la fecha enviada por el Servidor de Licencia (%3).
+.
 
-# 7982;txt;01
-# El Servidor de Licencia no especificó el motivo del error en la activación.
-# .
+7982;txt;01
+El Servidor de Licencia no especificó el motivo del error en la activación.
+.
 
-# 7983;txt;01
-# La Clave de Producto no se ha reconocido por el Servidor de Licencia.
-# .
+7983;txt;01
+La Clave de Producto no se ha reconocido por el Servidor de Licencia.
+.
 
-# 7984;txt;01
-# La clave de Producto no puede ser usada más allá de su fecha de caducidad %2.
-# .
+7984;txt;01
+La clave de Producto no puede ser usada más allá de su fecha de caducidad %2.
+.
 
-# 7985;txt;01
-# La Clave de Producto se ha activado en demasiados equipos.
-# .
+7985;txt;01
+La Clave de Producto se ha activado en demasiados equipos.
+.
 
-# 7986;txt;01
-# La Clave de Producto se ha cancelado porque se ha publicado en Internet.
-# .
+7986;txt;01
+La Clave de Producto se ha cancelado porque se ha publicado en Internet.
+.
 
-# 7987;txt;01
-# La Clave de Producto se ha cancelado porque el pedido se ha reembolsado.
-# .
+7987;txt;01
+La Clave de Producto se ha cancelado porque el pedido se ha reembolsado.
+.
 
 #----------------------------------------------------------------------------
 # SandboxieInstall

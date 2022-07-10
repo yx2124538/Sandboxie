@@ -36,9 +36,9 @@ SBIE1106 %2 hiba, %3 részlet
 SBIE1108 A(z) %2 eljárást nem lehetett elemezni
 .
 
-# 1109;evt;err;01
-# SBIE1109 Érvénytelen licencinformációk:  %2
-# .
+1109;evt;err;01
+SBIE1109 Érvénytelen licencinformációk:  %2
+.
 
 1110;evt;err;01
 SBIE1110 Nem lehet megállítani a(z) %3 típust, %2 hiba 
@@ -108,9 +108,9 @@ SBIE1153 A Sandboxie inicializálása sikertelen volt. Zárja be az összes prog
 SBIE1201 Nincs elegendő memória
 .
 
-# 1202;pop;err;01
-# SBIE1202 Nem lehet frissíteni a licencinformációt:  %2
-# .
+1202;pop;err;01
+SBIE1202 Nem lehet frissíteni a licencinformációt:  %2
+.
 
 1203;pop;err;01
 SBIE1203 Nem lehet létrehozni a hely listát (hiba a következőben: %2)
@@ -132,17 +132,17 @@ SBIE1212 Nem lehet létrehozni a könyvtárat: '%3' %2
 SBIE1213 Nem lehet létrehozni az objektum könyvtárat: '%3' %2
 .
 
-# 1214;pop;err;01
-# SBIE1214 Az SbieDll %2 nem szúrható be
-# .
+1214;pop;err;01
+SBIE1214 Az SbieDll %2 nem szúrható be
+.
 
-# 1215;pop;err;01
-# SBIE1215 A hely nem oldható fel a képfeldolgozáshoz %2
-# .
+1215;pop;err;01
+SBIE1215 A hely nem oldható fel a képfeldolgozáshoz %2
+.
 
-# 1216;pop;err;01
-# SBIE1216 Nem lehet lekérdezni a biztonsági azonosítót: %2
-# .
+1216;pop;err;01
+SBIE1216 Nem lehet lekérdezni a biztonsági azonosítót: %2
+.
 
 # 1217;pop;err;01
 # SBIE1217 A szülőfolyamat nem található
@@ -152,17 +152,17 @@ SBIE1213 Nem lehet létrehozni az objektum könyvtárat: '%3' %2
 # SBIE1221 Nem sikerült létrehozni a feladatot:  %2
 # .
 
-# 1222;pop;err;01
-# SBIE1222 A vezérjel nem korlátozható:  %2
-# .
+1222;pop;err;01
+SBIE1222 A vezérjel nem korlátozható:  %2
+.
 
-# 1223;pop;err;01
-# SBIE1223 A vezérjel nem cserélhető le:  %2
-# .
+1223;pop;err;01
+SBIE1223 A vezérjel nem cserélhető le:  %2
+.
 
-# 1224;pop;err;01
-# SBIE1224 A vezérjel nem kérhető le:  %2
-# .
+1224;pop;err;01
+SBIE1224 A vezérjel nem kérhető le:  %2
+.
 
 1241;pop;err;01
 SBIE1241 Nem sikerült csatolni a rendszerleíró struktúrát:  %2
@@ -186,13 +186,13 @@ SBIE1301 '%2' program indítva a sandboxon kívül
 # SBIE1302 '%2' sandbox nincs definiálva vagy nem engedélyezett
 # .
 
-# 1303;pop;inf;01
-# SBIE1303 Egy alkalommal csak egy sandbox lehet aktív
-# .
+1303;pop;inf;01
+SBIE1303 Egy alkalommal csak egy sandbox lehet aktív
+.
 
-# 1304;pop;inf;01
-# SBIE1304 A szimulált billentyűzet vagy egér bemenetet a(z) '%2' folyamat blokkolta
-# .
+1304;pop;inf;01
+SBIE1304 A szimulált billentyűzet vagy egér bemenetet a(z) '%2' folyamat blokkolta
+.
 
 1306;pop;inf;01
 SBIE1306 A Sandboxie vezérlőprogram (SbieDrv) most nem állítható le
@@ -210,13 +210,13 @@ SBIE1308 A program nem indítható el korlátozások miatt - %2
 SBIE1309 A fiók jelszó módosítási kisérlete megtagadva
 .
 
-# 1310;pop;inf;01
-# SBIE1310 A kiterjesztett funkciók le vannak tiltva a licenc újraaktiválásáig
-# .
+1310;pop;inf;01
+SBIE1310 A kiterjesztett funkciók le vannak tiltva a licenc újraaktiválásáig
+.
 
-# 1311;pop;inf;01
-# SBIE1311 Az asztal háttérkép váltási kérelmet a(z) '%2' folyamat blokkolta
-# .
+1311;pop;inf;01
+SBIE1311 Az asztal háttérkép váltási kérelmet a(z) '%2' folyamat blokkolta
+.
 
 1312;pop;inf;01
 SBIE1312 A 16-bites DOS program indítási kérelme a sandboxban blokkolva lett
@@ -230,9 +230,9 @@ SBIE1313 A közvetlen lemezhozzáférést a(z) '%2' folyamat blokkolta
 SBIE1314 A hálózat/tűzfal beállítások megváltoztatási kérelmét a(z) '%2' folyamat blokkolta
 .
 
-# 1315;pop;inf;01
-# SBIE1315 Valószínűleg ütközés lehet a következő szoftverrel: %2
-# .
+1315;pop;inf;01
+SBIE1315 Valószínűleg ütközés lehet a következő szoftverrel: %2
+.
 
 #----------------------------------------------------------------------------
 # SbieDrv
@@ -507,9 +507,9 @@ SBIE2313 A(z) %2 nem futtatható
 SBIE2314 A(z) %2 folyamat megszakítása
 .
 
-# 2315;pop;err;01
-# SBIE2315 Nem lehet fixálni a végrehajtható képet
-# .
+2315;pop;err;01
+SBIE2315 Nem lehet fixálni a végrehajtható képet
+.
 
 2316;pop;err;01
 SBIE2316 A memória sérült
@@ -563,9 +563,9 @@ SBIE2332 Nem lehet hozzáférni a SbiePst.dat fájlhoz
 # SBIE2333 Inkompatibilis szoftver DLL:  %2
 # .
 
-# 2334;pop;err;01
-# SBIE2334 A DLL fájl nem tölthető be:  %2
-# .
+2334;pop;err;01
+SBIE2334 A DLL fájl nem tölthető be:  %2
+.
 
 # 2398;txt;01
 # SBIE2398 Szolgáltatás tűrési kivétel ... a címnél ...
@@ -595,49 +595,49 @@ SBIE9154 A vezérlőprogram (SbieDrv) és a szolgáltatás (SbieSvc) eltérő ve
 SBIE9156 A vezérlőprogram műveleti előkészítése nem fejeződött be
 .
 
-# 9201;evt;err;01
-# SBIE9201 Vezérjel hiba
-# .
+9201;evt;err;01
+SBIE9201 Vezérjel hiba
+.
 
-# 9202;evt;err;01
-# SBIE9202 Vezérjel hiba
-# .
+9202;evt;err;01
+SBIE9202 Vezérjel hiba
+.
 
-# 9203;evt;err;01
-# SBIE9203 Vezérjel hiba
-# .
+9203;evt;err;01
+SBIE9203 Vezérjel hiba
+.
 
-# 9204;evt;err;01
-# SBIE9204 Biztonsági leíró hiba
-# .
+9204;evt;err;01
+SBIE9204 Biztonsági leíró hiba
+.
 
-# 9205;evt;err;01
-# SBIE9205 Biztonsági leíró hiba
-# .
+9205;evt;err;01
+SBIE9205 Biztonsági leíró hiba
+.
 
-# 9206;evt;err;01
-# SBIE9206 Biztonsági leíró hiba
-# .
+9206;evt;err;01
+SBIE9206 Biztonsági leíró hiba
+.
 
-# 9207;evt;err;01
-# SBIE9207 Biztonsági leíró hiba
-# .
+9207;evt;err;01
+SBIE9207 Biztonsági leíró hiba
+.
 
-# 9208;evt;err;01
-# SBIE9208 A SeRestorePrivilege nem engedélyezhető
-# .
+9208;evt;err;01
+SBIE9208 A SeRestorePrivilege nem engedélyezhető
+.
 
-# 9251;evt;err;01
-# SBIE9251 Portszám létrehozási hiba
-# .
+9251;evt;err;01
+SBIE9251 Portszám létrehozási hiba
+.
 
-# 9252;evt;err;01
-# SBIE9252 Port létrehozási hiba
-# .
+9252;evt;err;01
+SBIE9252 Port létrehozási hiba
+.
 
-# 9253;evt;err;01
-# SBIE9253 Port végrehajtási szál létrehozási hiba
-# .
+9253;evt;err;01
+SBIE9253 Port végrehajtási szál létrehozási hiba
+.
 
 #----------------------------------------------------------------------------
 # Common Texts
@@ -749,9 +749,9 @@ Az alapértelmezett levelezőkliens végrehajtható állománya nem található
 Nem sikerült elindítani Sandboxie vezérlő programot
 .
 
-# 3211;txt;01
-# Verzióeltérés van a Sandboxie-ban. Próbálja meg újratelepíteni.
-# .
+3211;txt;01
+Verzióeltérés van a Sandboxie-ban. Próbálja meg újratelepíteni.
+.
 
 3212;txt;01
 A Sandboxie vezérlőprogramja (SbieDrv) nem található a sandbox programok használatához.
@@ -800,45 +800,45 @@ Kérjük, állítsa le a sandboxban futó programokat, mielött törölné annak
 A törlési parancs sikertelen:  %0
 .
 
-# 3231;txt;01
-# A Sandboxie programot több mint 30 napja telepítette.
-# .
+3231;txt;01
+A Sandboxie programot több mint 30 napja telepítette.
+.
 
-# 3232;txt;01
-# A Sandboxie programot személyes célokra ingyenesen használhatja, ameddig csak akarja.
-# .
+3232;txt;01
+A Sandboxie programot személyes célokra ingyenesen használhatja, ameddig csak akarja.
+.
 
-# 3233;txt;01
-# Azonban, az ingyenes verzió, most fel lesz függesztve pár másodpercre.
-# .
+3233;txt;01
+Azonban, az ingyenes verzió, most fel lesz függesztve pár másodpercre.
+.
 
-# 3234;txt;01
-# Azonban, az ingyenes verzió egy időben csak egy sandbox használatot engedélyez.
-# .
+3234;txt;01
+Azonban, az ingyenes verzió egy időben csak egy sandbox használatot engedélyez.
+.
 
-# 3235;txt;01
-# Ez a korlátozás törölve lesz a Sandboxie program kifizetésekor.
-# .
+3235;txt;01
+Ez a korlátozás törölve lesz a Sandboxie program kifizetésekor.
+.
 
-# 3236;txt;01
-# Ezen túlmenően a fizetett változat lehetővé teszi a kijelölt programok automatikus izolálását.
-# .
+3236;txt;01
+Ezen túlmenően a fizetett változat lehetővé teszi a kijelölt programok automatikus izolálását.
+.
 
-# 3237;txt;01
-# További szoftver és vásárlási információkért, kattintson a következő hivatkozásra:
-# .
+3237;txt;01
+További szoftver és vásárlási információkért, kattintson a következő hivatkozásra:
+.
 
-# 3238;txt;01
-# Kérjük, várjon további %2 másodpercet
-# .
+3238;txt;01
+Kérjük, várjon további %2 másodpercet
+.
 
-# 3239;txt;01
-# Kattintson ide a jelenlegi ablak bezárásához és folytatáshoz
-# .
+3239;txt;01
+Kattintson ide a jelenlegi ablak bezárásához és folytatáshoz
+.
 
-# 3240;txt;01
-# Kattintson ide a jelenlegi ablak bezárásához és leállításhoz
-# .
+3240;txt;01
+Kattintson ide a jelenlegi ablak bezárásához és leállításhoz
+.
 
 3241;txt;01
 A Sandboxie rendszergazdai jogosultságokat igényel
@@ -1093,9 +1093,9 @@ Beépítés a Windows keretprogramba
 Szoftverkompatibilitás
 .
 
-# 3503;txt;01
-# Kísérleti védelem (64-bit)
-# .
+3503;txt;01
+Kísérleti védelem (64-bit)
+.
 
 3444;txt;01
 Rejtett üzenetek elhagyása
@@ -1141,9 +1141,9 @@ Első lépések bemutató
 Frissítések ellenőrzése
 .
 
-# 3455;txt;01
-# A Sandboxie regisztrálása
-# .
+3455;txt;01
+A Sandboxie regisztrálása
+.
 
 3456;txt;01
 &A Sandboxie névjegye
@@ -1414,9 +1414,9 @@ letiltásához használja a Konfiguráció zárolása parancsot.
 Nyilvános
 .
 
-# 3542;txt;01
-# A kísérleti védelmi mód fokozza a 64-bites Sandboxie
-# által kínált védelmet, és a 32-bites Sandboxie által
+3542;txt;01
+A kísérleti védelmi mód fokozza a 64-bites Sandboxie
+által kínált védelmet, és a 32-bites Sandboxie által
 szolgáltatott védelmi szintre hozza.
 
 FONTOS:  A Kisérleti védelem dokumentálatlan Windows kerner
@@ -1430,9 +1430,9 @@ A Kisérleti védelem mód aktiválásához, most újra
 kell indítania a számítógépet.
 .
 
-# 3543;txt;01
-# A Kisérleti védelem mód letiltásához, most újra
-# kell indítania a számítógépet.
+3543;txt;01
+A Kisérleti védelem mód letiltásához, most újra
+kell indítania a számítógépet.
 
 Felhívjuk a figyelmét, hogy a Korlátozott jogok beállítás
 engedélyezve van az összes sandboxban.
@@ -2015,9 +2015,9 @@ futó izolált programokra.  A beállítások a
 program következő indításakor lépnek érvénybe.
 .
 
-# 3771;txt;01
-# (Ez a funkció, csak a Sandboxie regisztrált változatában érhető el)
-# .
+3771;txt;01
+(Ez a funkció, csak a Sandboxie regisztrált változatában érhető el)
+.
 
 3772;txt;02
 Valóban beállítja kényszerített programként a következőt: %2?
@@ -2482,49 +2482,49 @@ Az Indítási/Futtatási hozzáférési korlátozások kezeléséhez, nyissa meg
 # Korlátozások::Alacsony szintű hozzáférés
 # .
 
-# 3932;txt;01
-# Alacsony szintű hozzáférés
-# .
+3932;txt;01
+Alacsony szintű hozzáférés
+.
 
-# 3933;txt;01
-# A következő beállítások gyengíthetik a Sandboxie által nyújtott védelmet.  A jelenlegi beállítások valamelyikének vagy mindegyikének engedélyezése nem ajánlott.
-# .
+3933;txt;01
+A következő beállítások gyengíthetik a Sandboxie által nyújtott védelmet.  A jelenlegi beállítások valamelyikének vagy mindegyikének engedélyezése nem ajánlott.
+.
 
-# 3934;txt;01
-# Lehetővé teszi a programok számára a kernel módú illesztők betöltését az operációs rendszerbe
-# .
+3934;txt;01
+Lehetővé teszi a programok számára a kernel módú illesztők betöltését az operációs rendszerbe
+.
 
-# 3935;txt;01
-# Lehetővé teszi a programok számára az alkalmazás (Win32) hook modulok betöltését más programokba
-# .
+3935;txt;01
+Lehetővé teszi a programok számára az alkalmazás (Win32) hook modulok betöltését más programokba
+.
 
-# 3936;txt;01
-# Lehetővé teszi a programok számára a billentyűzet szimulálást és egér bevitelt
-# .
+3936;txt;01
+Lehetővé teszi a programok számára a billentyűzet szimulálást és egér bevitelt
+.
 
-# 3937;txt;01
-# Lehetővé teszi a programok számára az asztali háttérképek és egyéb rendszer paraméterek módosítását
-# .
+3937;txt;01
+Lehetővé teszi a programok számára az asztali háttérképek és egyéb rendszer paraméterek módosítását
+.
 
-# 3938;txt;01
-# Lehetővé teszi a programok számára a hardvereszköz konfiguráció kezelését
-# .
+3938;txt;01
+Lehetővé teszi a programok számára a hardvereszköz konfiguráció kezelését
+.
 
 # 3951;txt;01
 # Korlátozások::Hardver-hozzáférés
 # .
 
-# 3952;txt;01
-# Hardver-hozzáférés
-# .
+3952;txt;01
+Hardver-hozzáférés
+.
 
-# 3953;txt;01
-# Lehetővé teszi a programok számára a felhasználói fiók jelszavak módosítását
-# .
+3953;txt;01
+Lehetővé teszi a programok számára a felhasználói fiók jelszavak módosítását
+.
 
-# 3954;txt;01
-# Lehetővé teszi a programok számára a hálózati és tűzfal paraméterek módosítását
-# .
+3954;txt;01
+Lehetővé teszi a programok számára a hálózati és tűzfal paraméterek módosítását
+.
 
 #----------------------------------------------------------------------------
 # Sandboxie Control:  Sandbox Settings:  Drop Rights
@@ -2550,13 +2550,13 @@ Azonban, ha Ön rendszergazdai vagy kiemelt felhasználói fiókot használ, a S
 A Rendszergazdák és Kiemelt felhasználói csoportok jogainak korlátozása
 .
 
-# 3946;txt;01
-# Javasoljuk, hogy hagyja ezt a beállítást engedélyezve, a 64 bites Windows kiadásokban nem elérhető bizonyos mértékű Sandboxie védelem kompenzálásaként.
-# .
+3946;txt;01
+Javasoljuk, hogy hagyja ezt a beállítást engedélyezve, a 64 bites Windows kiadásokban nem elérhető bizonyos mértékű Sandboxie védelem kompenzálásaként.
+.
 
-# 3947;txt;01
-# A 64 bites Windows fokozott védelmének aktiválásához, kérjük használja a Kísérleti védelem parancsot a Konfigurálás menüből.
-# .
+3947;txt;01
+A 64 bites Windows fokozott védelmének aktiválásához, kérjük használja a Kísérleti védelem parancsot a Konfigurálás menüből.
+.
 
 3949;txt;01
 A korlátozott jogok beállítás engedélyezve van a(z) '%2' sandboxban, és megakadályozza a rendszergazdai jogok használatát.
@@ -3334,194 +3334,194 @@ Köszönjük, hogy időt szánt a jelen bemutató megtekintésére. További út
 Az alapértelmezett beállítások a Sandboxie programban teljes védelmet nyújtanak, de érdemes áttekinteni a sandbox konfigurálási parancsait a Sandboxie vezérlő ablakában található Sandbox menüben.
 .
 
-# 7866;txt;01
-# A 64-bites Windows operációs rendszerben, engedélyeznie kell a Kísérleti védelmet. Lásd Konfigurálás menü a Sandboxie vezérlőben.
-# .
+7866;txt;01
+A 64-bites Windows operációs rendszerben, engedélyeznie kell a Kísérleti védelmet. Lásd Konfigurálás menü a Sandboxie vezérlőben.
+.
 
 #----------------------------------------------------------------------------
 # License Manager
 #----------------------------------------------------------------------------
 
-# 7901;txt;01
-# Sandboxie licenckezelő
-# .
+7901;txt;01
+Sandboxie licenckezelő
+.
 
-# 7902;txt;01
-# Rendszerkód: %2
-# .
+7902;txt;01
+Rendszerkód: %2
+.
 
-# 7903;txt;01
-# A jövőben aktiválja a licencet rákérdezés nélkül
-# .
+7903;txt;01
+A jövőben aktiválja a licencet rákérdezés nélkül
+.
 
 #----------------------------------------------------------------------------
 
-# 7921;txt;01
-# A Sandboxie regisztrálva és a licenc is aktiválva lett.
-# .
+7921;txt;01
+A Sandboxie regisztrálva és a licenc is aktiválva lett.
+.
 
-# 7922;txt;01
-# A Sandboxie regisztrálva van, de a licencet most újra kell aktiválnia.
-# .
+7922;txt;01
+A Sandboxie regisztrálva van, de a licencet most újra kell aktiválnia.
+.
 
 # was 3603;txt;01
-# 7923;txt;01
-# Regisztrálatlan verzió.  Regisztráljon még ma!
-# .
+7923;txt;01
+Regisztrálatlan verzió.  Regisztráljon még ma!
+.
 
-# 7924;txt;01
-# A Sandboxie licencet %2 nap múlva újra kell aktiválni.
-# .
+7924;txt;01
+A Sandboxie licencet %2 nap múlva újra kell aktiválni.
+.
 
-# 7925;txt;01
-# A Sandboxie licenc most aktiválva lett.
-# .
+7925;txt;01
+A Sandboxie licenc most aktiválva lett.
+.
 
-# 7926;txt;01
-# A termékkulcs lejárati dátuma: %2.
-# .
+7926;txt;01
+A termékkulcs lejárati dátuma: %2.
+.
 
-# 7927;txt;01
-# A termékkulcs nem rendelkezik lejárati dátummal.
-# .
+7927;txt;01
+A termékkulcs nem rendelkezik lejárati dátummal.
+.
 
 #----------------------------------------------------------------------------
 
-# 7931;txt;01
-# Az Ön Sandboxie példánya egy elavult regisztrációs kulccsal lett regisztrálva.
-# .
+7931;txt;01
+Az Ön Sandboxie példánya egy elavult regisztrációs kulccsal lett regisztrálva.
+.
 
-# 7932;txt;01
-# Kérjük. tegye lehetővé  a Licenckezelő számára a licenckiszolgálóhoz való csatlakozást és frissítse a régi regisztrációs kulcsot egy új termékkulcsra.  Nem kell semilyen díjat fizetnie a frissítésért. 
-# .
+7932;txt;01
+Kérjük. tegye lehetővé  a Licenckezelő számára a licenckiszolgálóhoz való csatlakozást és frissítse a régi regisztrációs kulcsot egy új termékkulcsra.  Nem kell semilyen díjat fizetnie a frissítésért. 
+.
 
-# 7933;txt;01
-# A regisztrációs kulcsot nem ismerte fel a licenckiszolgáló.
-# .
+7933;txt;01
+A regisztrációs kulcsot nem ismerte fel a licenckiszolgáló.
+.
 
-# 7934;txt;01
-# Ha korábban már használt egy legitim regisztrációs kulcsot, amit Ön kifizetett, ajándékba vagy egy promóció részeként kapott, kérjük küldjön egy levelet ide:
-# .
+7934;txt;01
+Ha korábban már használt egy legitim regisztrációs kulcsot, amit Ön kifizetett, ajándékba vagy egy promóció részeként kapott, kérjük küldjön egy levelet ide:
+.
 
-# 7935;txt;01
-# Az Ön új termékkulcsa :
-# .
+7935;txt;01
+Az Ön új termékkulcsa :
+.
 
-# 7936;txt;01
-# Kérjük, ügyeljen arra, hogy a termékkulcs biztonságos helyen legyen tárolva egy későbbi használat esetére.  Használja az alábbi gombot a termékkulcs vágólapra másolásához, amelyet aztán egy dokumentumba illesztve ki is nyomtathat.
-# .
+7936;txt;01
+Kérjük, ügyeljen arra, hogy a termékkulcs biztonságos helyen legyen tárolva egy későbbi használat esetére.  Használja az alábbi gombot a termékkulcs vágólapra másolásához, amelyet aztán egy dokumentumba illesztve ki is nyomtathat.
+.
 
-# 7937;txt;01
-# A regisztrációs kulcs frissítése Termékkulcsra
-# .
+7937;txt;01
+A regisztrációs kulcs frissítése Termékkulcsra
+.
 
 #----------------------------------------------------------------------------
 
 # was 3612;txt;01
-# 7941;txt;01
-# A Sandboxie regisztrációja egy harmadik fél által üzemeltetett fizetési feldolgozón keresztül zajlik.  A regisztrációs folyamat megkezdéséhez az alábbi hivatkozás segítségével, látogsson el a Sandboxie weboldalára.
-# .
+7941;txt;01
+A Sandboxie regisztrációja egy harmadik fél által üzemeltetett fizetési feldolgozón keresztül zajlik.  A regisztrációs folyamat megkezdéséhez az alábbi hivatkozás segítségével, látogsson el a Sandboxie weboldalára.
+.
 
-# 7942;txt;01
-# A Sandboxie licenc aktiválásához, adja meg a fizetési bizonylaton feltüntetett termékkulcsot, majd kattintson a Licenc aktiválása gombra.
-# .
+7942;txt;01
+A Sandboxie licenc aktiválásához, adja meg a fizetési bizonylaton feltüntetett termékkulcsot, majd kattintson a Licenc aktiválása gombra.
+.
 
-# 7943;txt;01
-# Meg szeretne adni egy új termékkulcsot most?
-# .
+7943;txt;01
+Meg szeretne adni egy új termékkulcsot most?
+.
 
-# 7944;txt;01
-# &Licenc aktiválása
-# .
+7944;txt;01
+&Licenc aktiválása
+.
 
 # was first line of 3617;txt;01
-# 7945;txt;01
-# Az Ön Sandboxie példánya regisztrálva lett.
-# .
+7945;txt;01
+Az Ön Sandboxie példánya regisztrálva lett.
+.
 
 # was second line of 3617;txt;01
-# 7946;txt;01
-# Köszönjük, hogy támogatja a Sandboxie terméket!
-# .
+7946;txt;01
+Köszönjük, hogy támogatja a Sandboxie terméket!
+.
 
 #----------------------------------------------------------------------------
 
-# 7951;txt;01
-# Szeretné most aktiválni a licencet?
-# .
+7951;txt;01
+Szeretné most aktiválni a licencet?
+.
 
-# 7952;txt;01
-# Kérjük, látogasson el a Sandboxie weboldalára az alábbi hivatkozás segítségével, egy új termékkulcs rendeléséhez.
-# .
+7952;txt;01
+Kérjük, látogasson el a Sandboxie weboldalára az alábbi hivatkozás segítségével, egy új termékkulcs rendeléséhez.
+.
 
-# 7961;txt;01
-# Licencinformáció törlése
-# .
+7961;txt;01
+Licencinformáció törlése
+.
 
-# 7962;txt;01
-# Valóban törölni szeretné a Sandboxie licencinformációit?
-# 
+7962;txt;01
+Valóban törölni szeretné a Sandboxie licencinformációit?
+
 A licencet bármikor aktiválhatja egy termékkulcs megadásával.
 .
 
 #----------------------------------------------------------------------------
 
-# 7971;txt;01
-# Ez nem érvényes Termékkulcs.
-# .
-
-# 7972;txt;01
-# Ez nem érvényes Rendszerkód.
-# .
-
-# 7973;txt;01
-# Ez nem érvényes Aktiválókód.  [%2]
-# .
-
-# 7974;txt;01
-# Érvénytelen válasz érkezett a licenckiszolgálóról.
-# .
-
-# 7975;txt;01
-# A termékaktiválás sikertelen:
-# .
-
-# 7976;txt;01
-# Szeretné újra megpróbálni?
-# .
-
-# 7977;txt;01
-# Ha szüksége van a Sandboxie aktiválására egy olyan számítógépen, amely nem rendelkezik
-# internet-hozzáféréssel, kérjük a tekintse meg a licencelési GYIK tájékoztatót a kapcsolat nélküli aktiválásról.
+7971;txt;01
+Ez nem érvényes Termékkulcs.
 .
 
-# 7978;txt;01
-# Az aktuális (%2) dátum későbbi, mint a licenckiszolgálóról küldött (%3) dátum.
-# .
+7972;txt;01
+Ez nem érvényes Rendszerkód.
+.
 
-# 7982;txt;01
-# A licenckiszolgáló nem határozta meg az aktiválási hiba okát.
-# .
+7973;txt;01
+Ez nem érvényes Aktiválókód.  [%2]
+.
 
-# 7983;txt;01
-# A termékkulcsot nem ismerte fel a Licenckiszolgáló.
-# .
+7974;txt;01
+Érvénytelen válasz érkezett a licenckiszolgálóról.
+.
 
-# 7984;txt;01
-# A termékkulcs nem használható a(z) %2 lejárati dátumon túl.
-# .
+7975;txt;01
+A termékaktiválás sikertelen:
+.
 
-# 7985;txt;01
-# A termékkulcs túl sok számítógépen lett aktiválva.
-# .
+7976;txt;01
+Szeretné újra megpróbálni?
+.
 
-# 7986;txt;01
-# A termékkulcs törölve lett, mivel az nyilvánosságra került az interneten.
-# .
+7977;txt;01
+Ha szüksége van a Sandboxie aktiválására egy olyan számítógépen, amely nem rendelkezik
+internet-hozzáféréssel, kérjük a tekintse meg a licencelési GYIK tájékoztatót a kapcsolat nélküli aktiválásról.
+.
 
-# 7987;txt;01
-# A termékkulcs törölve lett, mivel a megrendelést visszavonták.
-# .
+7978;txt;01
+Az aktuális (%2) dátum későbbi, mint a licenckiszolgálóról küldött (%3) dátum.
+.
+
+7982;txt;01
+A licenckiszolgáló nem határozta meg az aktiválási hiba okát.
+.
+
+7983;txt;01
+A termékkulcsot nem ismerte fel a Licenckiszolgáló.
+.
+
+7984;txt;01
+A termékkulcs nem használható a(z) %2 lejárati dátumon túl.
+.
+
+7985;txt;01
+A termékkulcs túl sok számítógépen lett aktiválva.
+.
+
+7986;txt;01
+A termékkulcs törölve lett, mivel az nyilvánosságra került az interneten.
+.
+
+7987;txt;01
+A termékkulcs törölve lett, mivel a megrendelést visszavonták.
+.
 
 #----------------------------------------------------------------------------
 # SandboxieInstall

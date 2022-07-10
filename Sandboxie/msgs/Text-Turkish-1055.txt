@@ -36,9 +36,9 @@ SBIE1106 hata %2, ayrıntı %3
 SBIE1108 %2 yordamı analiz edilemedi
 .
 
-# 1109;evt;err;01
-# SBIE1109 Geçersiz lisans bilgisi: %2
-# .
+1109;evt;err;01
+SBIE1109 Geçersiz lisans bilgisi: %2
+.
 
 1110;evt;err;01
 SBIE1110 Tür %3, hata %2 yolu kesilemedi
@@ -108,9 +108,9 @@ SBIE1153 Sandboxie yüklemesi başarısız. Tüm programları kapatıp Sandboxie
 SBIE1201 Yetersiz bellek
 .
 
-# 1202;pop;err;01
-# SBIE1202 Lisans bilgisi güncellenemedi: %2
-# .
+1202;pop;err;01
+SBIE1202 Lisans bilgisi güncellenemedi: %2
+.
 
 1203;pop;err;01
 SBIE1203 Yol listesi yapılamadı (%2 hatası)
@@ -132,33 +132,33 @@ SBIE1212 '%3' dizini oluşturulamadı %2
 SBIE1213 '%3' nesne dizini oluşturulamadı %2
 .
 
-# 1214;pop;err;01
-# SBIE1214 SbieDll %2 dahil edilemedi
-# .
+1214;pop;err;01
+SBIE1214 SbieDll %2 dahil edilemedi
+.
 
-# 1215;pop;err;01
-# SBIE1215 %2 resmini işlemek için yol bulunamadı
-# .
+1215;pop;err;01
+SBIE1215 %2 resmini işlemek için yol bulunamadı
+.
 
-# 1216;pop;err;01
-# SBIE1216 %2 nolu güvenlik sorgusu yapılamadı
-# .
+1216;pop;err;01
+SBIE1216 %2 nolu güvenlik sorgusu yapılamadı
+.
 
 # 1217;pop;err;01
 # SBIE1217 Ana süreç bulunamadı
 # .
 
-# 1222;pop;err;01
-# SBIE1222 Kısıtlamanayan belirteç: %2
-# .
+1222;pop;err;01
+SBIE1222 Kısıtlamanayan belirteç: %2
+.
 
-# 1223;pop;err;01
-# SBIE1223 Yer değiştirilemeyen belirteç: %2
-# .
+1223;pop;err;01
+SBIE1223 Yer değiştirilemeyen belirteç: %2
+.
 
-# 1224;pop;err;01
-# SBIE1224 Sorgulanamayan belirteç: %2
-# .
+1224;pop;err;01
+SBIE1224 Sorgulanamayan belirteç: %2
+.
 
 1241;pop;err;01
 SBIE1241 Kayıt girişi yapılamadı: %2
@@ -182,13 +182,13 @@ SBIE1301 '%2' işlemi sandbox dışarısında çalıştırıldı
 # SBIE1302 '%2' sandbox'ı tanımlanmadı veya aktif değil
 # .
 
-# 1303;pop;inf;01
-# SBIE1303 Aynı anda sadece bir sandbox aktif olabilir
-# .
+1303;pop;inf;01
+SBIE1303 Aynı anda sadece bir sandbox aktif olabilir
+.
 
-# 1304;pop;inf;01
-# SBIE1304 '%2' uygulaması tarafından kullanılan sahte klavye ve mouse engellendi
-# .
+1304;pop;inf;01
+SBIE1304 '%2' uygulaması tarafından kullanılan sahte klavye ve mouse engellendi
+.
 
 1306;pop;inf;01
 SBIE1306 Sandboxie sürücüsü (SbieDrv) şu anda kapatılamaz
@@ -206,13 +206,13 @@ SBIE1308 Programı kısıtlamalardan dolayı başlatılamıyor - %2
 SBIE1309 Hesap şifresi değiştirme girişimi başarısız
 .
 
-# 1310;pop;inf;01
-# SBIE1310 Lisans yeniden aktive edilene kadar genişletilmiş özellikler kullanılamayacak
-# .
+1310;pop;inf;01
+SBIE1310 Lisans yeniden aktive edilene kadar genişletilmiş özellikler kullanılamayacak
+.
 
-# 1311;pop;inf;01
-# SBIE1311 '%2' işlemi tarafından masaüstü arka planı değiştirme engellendi.
-# .
+1311;pop;inf;01
+SBIE1311 '%2' işlemi tarafından masaüstü arka planı değiştirme engellendi.
+.
 
 1312;pop;inf;01
 SBIE1312 Sandbox içerisinde 16-bit DOS programı başlatması engellendi
@@ -226,9 +226,9 @@ SBIE1313 '%2' işleminin doğrudan erişimi engellendi
 SBIE1314 '%2' tarafından yapılan ağ/güvenlik duvarı ayarı değiştirme isteği engellendi
 .
 
-# 1315;pop;inf;01
-# SBIE1315 Muhtemelen şu uygulama ile bir çakışma bulundu: %2
-# .
+1315;pop;inf;01
+SBIE1315 Muhtemelen şu uygulama ile bir çakışma bulundu: %2
+.
 
 #----------------------------------------------------------------------------
 # SbieDrv
@@ -498,9 +498,9 @@ SBIE2313 %2 çalıştırılamadı
 SBIE2314 %2 süreci iptal ediliyor
 .
 
-# 2315;pop;err;01
-# SBIE2315 Uygulama resmi onarılamadı
-# .
+2315;pop;err;01
+SBIE2315 Uygulama resmi onarılamadı
+.
 
 2316;pop;err;01
 SBIE2316 Bellek hatalı
@@ -546,9 +546,9 @@ SBIE2332 SbiePst.dat dosyasına erişilemedi
 # SBIE2333 Uyumsuz yazılım DLL'si bulundu: %2
 # .
 
-# 2334;pop;err;01
-# SBIE2334 DLL dosyası bulunamadı: %2
-# .
+2334;pop;err;01
+SBIE2334 DLL dosyası bulunamadı: %2
+.
 
 #----------------------------------------------------------------------------
 # SbieSvc
@@ -570,49 +570,49 @@ SBIE9154 Sürücü (SbieDrv) ve hizmet (SbieSvc) farklı sürüm numaraları iç
 SBIE9156 Sürücü yüklemesi tamamlanmadı
 .
 
-# 9201;evt;err;01
-# SBIE9201 Belirteç hatası
-# .
+9201;evt;err;01
+SBIE9201 Belirteç hatası
+.
 
-# 9202;evt;err;01
-# SBIE9202 Belirteç hatası
-# .
+9202;evt;err;01
+SBIE9202 Belirteç hatası
+.
 
-# 9203;evt;err;01
-# SBIE9203 Belirteç hatası
-# .
+9203;evt;err;01
+SBIE9203 Belirteç hatası
+.
 
-# 9204;evt;err;01
-# SBIE9204 Güvenlik tanımlayıcı hatası
-# .
+9204;evt;err;01
+SBIE9204 Güvenlik tanımlayıcı hatası
+.
 
-# 9205;evt;err;01
-# SBIE9205 Güvenlik tanımlayıcı hatası
-# .
+9205;evt;err;01
+SBIE9205 Güvenlik tanımlayıcı hatası
+.
 
-# 9206;evt;err;01
-# SBIE9206 Güvenlik tanımlayıcı hatası
-# .
+9206;evt;err;01
+SBIE9206 Güvenlik tanımlayıcı hatası
+.
 
-# 9207;evt;err;01
-# SBIE9207 Güvenlik tanımlayıcı hatası
-# .
+9207;evt;err;01
+SBIE9207 Güvenlik tanımlayıcı hatası
+.
 
-# 9208;evt;err;01
-# SBIE9208 SeRestorePrivilege etkinleştirilemedi
-# .
+9208;evt;err;01
+SBIE9208 SeRestorePrivilege etkinleştirilemedi
+.
 
-# 9251;evt;err;01
-# SBIE9251 Port olayı başarısız
-# .
+9251;evt;err;01
+SBIE9251 Port olayı başarısız
+.
 
-# 9252;evt;err;01
-# SBIE9252 Port oluşturulamadı
-# .
+9252;evt;err;01
+SBIE9252 Port oluşturulamadı
+.
 
-# 9253;evt;err;01
-# SBIE9253 Port süreci oluşturma başarısız
-# .
+9253;evt;err;01
+SBIE9253 Port süreci oluşturma başarısız
+.
 
 # 9302;evt;err;01
 # SBIE9302 Bölüm oluşturma başarısız (sürücü kutulum sınıfları)
@@ -736,9 +736,9 @@ E-posta yardımcı programı bulunamadı
 Sandboxie Kontrol programı çalıştırılamadı
 .
 
-# 3211;txt;01
-# Sandboxie içerisinde sürüm uyuşmazlığı.  Yeniden yüklemeyi deneyin.
-# .
+3211;txt;01
+Sandboxie içerisinde sürüm uyuşmazlığı.  Yeniden yüklemeyi deneyin.
+.
 
 3212;txt;01
 Sandboxie sürücüsü (SbieDrv) programları kendisi ile çalıştıramaz.
@@ -787,45 +787,45 @@ Lütfen içeriklerini silmeden önce, sandbox içerisinde çalışan programlar�
 Sil komutu başarısız:  %0
 .
 
-# 3231;txt;01
-# Sandboxie'yi 30 günden uzun süredir kullanıyorsunuz.
-# .
+3231;txt;01
+Sandboxie'yi 30 günden uzun süredir kullanıyorsunuz.
+.
 
-# 3232;txt;01
-# Sandboxie'nin kişisel kullanımı istediğiniz süre boyunca ücretsizdir.
-# .
+3232;txt;01
+Sandboxie'nin kişisel kullanımı istediğiniz süre boyunca ücretsizdir.
+.
 
-# 3233;txt;01
-# Yalnız, ücretsiz sürüm bir kaç saniyeliğine şimdilik bekletilecek.
-# .
+3233;txt;01
+Yalnız, ücretsiz sürüm bir kaç saniyeliğine şimdilik bekletilecek.
+.
 
-# 3234;txt;01
-# Yalnız, ücretsiz sürüm, sandbox'ın aynı anda tek kullanımına izin verir.
-# .
+3234;txt;01
+Yalnız, ücretsiz sürüm, sandbox'ın aynı anda tek kullanımına izin verir.
+.
 
-# 3235;txt;01
-# Bu kısıtlama Sandboxie'nin ücretli sürümünde kaldırılmaktadır.
-# .
+3235;txt;01
+Bu kısıtlama Sandboxie'nin ücretli sürümünde kaldırılmaktadır.
+.
 
-# 3236;txt;01
-# Ek olarak, ücretli sürüm seçilen programlar için otomatik sandbox ile çalıştırma olanağı tanıyacaktır.
-# .
+3236;txt;01
+Ek olarak, ücretli sürüm seçilen programlar için otomatik sandbox ile çalıştırma olanağı tanıyacaktır.
+.
 
-# 3237;txt;01
-# Ayrıntılı bilgi ve yazılımı satın almak için, lütfen aşağıdaki adresi tıklayın:
-# .
+3237;txt;01
+Ayrıntılı bilgi ve yazılımı satın almak için, lütfen aşağıdaki adresi tıklayın:
+.
 
-# 3238;txt;01
-# Lütfen %2 saniye daha bekleyin
-# .
+3238;txt;01
+Lütfen %2 saniye daha bekleyin
+.
 
-# 3239;txt;01
-# Kapat tıklayıp pencereyi kapatın ve devam edin
-# .
+3239;txt;01
+Kapat tıklayıp pencereyi kapatın ve devam edin
+.
 
-# 3240;txt;01
-# Kapata basıp pencereyi kapatın ve durdurun
-# .
+3240;txt;01
+Kapata basıp pencereyi kapatın ve durdurun
+.
 
 3241;txt;01
 Sandboxie bir sandbox içerisinde çalışan program
@@ -1088,9 +1088,9 @@ Gizli &Mesajları Unut
 &Konfigürasyonu Kilitle
 .
 
-# 3503;txt;01
-# Deneysel Koruma (64-bit)
-# .
+3503;txt;01
+Deneysel Koruma (64-bit)
+.
 
 3446;txt;01
 &Konfigürasyonu Düzenle
@@ -1124,9 +1124,9 @@ Başlarken &Eğitimi
 &Güncellemeleri Denetle
 .
 
-# 3455;txt;01
-# Sandboxie'i &Satın Al
-# .
+3455;txt;01
+Sandboxie'i &Satın Al
+.
 
 3456;txt;01
 Sandboxie &Hakkında
@@ -1396,9 +1396,9 @@ Dosyayı düzenleyebilmek için, Konfigürasyonu Kilitle komutunu kullanıp
 Ortak
 .
 
-# 3542;txt;01
-# Deneysel Koruma modu 64-bit Sandboxie tarafından sağlanan
-# korumayı iyileştirir ve 32-bit Sandboxie tarafından sağlanan
+3542;txt;01
+Deneysel Koruma modu 64-bit Sandboxie tarafından sağlanan
+korumayı iyileştirir ve 32-bit Sandboxie tarafından sağlanan
 koruma ile aynı seviyeye getirir.
 
 ÖNEMLİ: Deneysel Koruma Windows çekirdeğinde belgelenmemiş
@@ -1412,9 +1412,9 @@ Deneysel Koruma modunu etkinleştirmek için bilgisayarınızı şimdi
 yeniden başlatmalısınız.
 .
 
-# 3543;txt;01
-# Deneysel Koruma modunu kapatmak için bilgisayarınızı şimdi
-# yeniden başlatmalısınız.
+3543;txt;01
+Deneysel Koruma modunu kapatmak için bilgisayarınızı şimdi
+yeniden başlatmalısınız.
 
 Lütfen tüm sandbox'lardaki Kapatılan Haklar ayarının etkinleştirileceğini
 unutmayın.
@@ -1993,9 +1993,9 @@ Yeni ayarlar halen çalışan programlara uygulanmayacak.
 Ayarlar bu programlar tekrar başlatıldıklarında uygulanacak.
 .
 
-# 3771;txt;01
-# (Bu özellik Sandboxie'nin sadece kayıtlı sürümünde kullanılabilir)
-# .
+3771;txt;01
+(Bu özellik Sandboxie'nin sadece kayıtlı sürümünde kullanılabilir)
+.
 
 3772;txt;02
 %2 programını zorunlu program yapmak istediğinizden emin misiniz?
@@ -2436,49 +2436,49 @@ Başlat/Çalıştır Kısıtlamalarını yönetmek için Sandbox Ayarları pence
 # Kısıtlamalar::Düşük Seviye Erişimi
 # .
 
-# 3932;txt;01
-# Düşük-Seviye Erişim
-# .
+3932;txt;01
+Düşük-Seviye Erişim
+.
 
-# 3933;txt;01
-# Aşağıdaki seçenekler, Sandboxie tarafından yapılabilen korumayı ciddi şekilde azaltabilir. Aşağıdakilerden herhangi birini açmanız önerilmez.
-# .
+3933;txt;01
+Aşağıdaki seçenekler, Sandboxie tarafından yapılabilen korumayı ciddi şekilde azaltabilir. Aşağıdakilerden herhangi birini açmanız önerilmez.
+.
 
-# 3934;txt;01
-# Bu sandbox içindekilere, işletim sistemi içine çekirdek modu sürücülerini yüklemesine izin ver.
-# .
+3934;txt;01
+Bu sandbox içindekilere, işletim sistemi içine çekirdek modu sürücülerini yüklemesine izin ver.
+.
 
-# 3935;txt;01
-# Bu sandbox içindekilere, diğer programlara (Win32) çengel uygulaması yüklemesine izin ver.
-# .
+3935;txt;01
+Bu sandbox içindekilere, diğer programlara (Win32) çengel uygulaması yüklemesine izin ver.
+.
 
-# 3936;txt;01
-# Bu sandbox içerisindeki programlara, sahte klavye girişi üretmesine izin ver.
-# .
+3936;txt;01
+Bu sandbox içerisindeki programlara, sahte klavye girişi üretmesine izin ver.
+.
 
-# 3937;txt;01
-# Bu sandbox içerisindeki programların masaüstü arkaplanını ve sistem parametrelerini değiştirmelerine izin ver
-# .
+3937;txt;01
+Bu sandbox içerisindeki programların masaüstü arkaplanını ve sistem parametrelerini değiştirmelerine izin ver
+.
 
-# 3938;txt;01
-# Bu sandbox içerisindeki programların donanım aygıt ayarlarını yönetmesine izin ver
-# .
+3938;txt;01
+Bu sandbox içerisindeki programların donanım aygıt ayarlarını yönetmesine izin ver
+.
 
 # 3951;txt;01
 # Kısıtlamalar::Donanım Erişimi
 # .
 
-# 3952;txt;01
-# Donanım Erişimi
-# .
+3952;txt;01
+Donanım Erişimi
+.
 
-# 3953;txt;01
-# Bu sandbox içerisindeki programların kullanıcı hesap şifresini değiştirmelerine izin ver
-# .
+3953;txt;01
+Bu sandbox içerisindeki programların kullanıcı hesap şifresini değiştirmelerine izin ver
+.
 
-# 3954;txt;01
-# Programlara ağ ve güvenlik duvarı parametrelerini değiştirmelerine izin ver
-# .
+3954;txt;01
+Programlara ağ ve güvenlik duvarı parametrelerini değiştirmelerine izin ver
+.
 
 #----------------------------------------------------------------------------
 # Sandboxie Control:  Sandbox Settings:  Drop Rights
@@ -2504,13 +2504,13 @@ Ancak, eğer yönetici haklarına sahip kullanıcı iseniz, DropMyRights program
 Yönetici ve Güçlü Kullanıcı grubundan hakları kapat
 .
 
-# 3946;txt;01
-# Sandboxie'nin Windows 64-bit sürümündeki bazı durumlarda kullanılabilir olmadığında yardımcı olması için bu seçeneği aktif tutmanız önerilir.
-# .
+3946;txt;01
+Sandboxie'nin Windows 64-bit sürümündeki bazı durumlarda kullanılabilir olmadığında yardımcı olması için bu seçeneği aktif tutmanız önerilir.
+.
 
-# 3947;txt;01
-# 64-bit Windows'ta iyileştirilmiş korumayı etkinleştirmek için lütfen Ayarla menüsünden Deneysel Koruma komutunu çalıştırın.
-# .
+3947;txt;01
+64-bit Windows'ta iyileştirilmiş korumayı etkinleştirmek için lütfen Ayarla menüsünden Deneysel Koruma komutunu çalıştırın.
+.
 
 3949;txt;01
 Bırakılan Haklar seçeneği '%2' sandbox'ında etkin ve Yönetici yetkileri kullanımını önlüyor.
@@ -3283,192 +3283,192 @@ Bu eğitimi tamamladığınız için teşekkür ederiz. Daha fazla eğitim ve ip
 Sandboxie varsayılan ayarları tam koruma sağlar, ancak Sandboxie Kontrol program penceresindeki Sandbox menüsünden sandbox yapılandırmalarına göz atmak isteyebilirsiniz.
 .
 
-# 7866;txt;01
-# 64-bit Windows sisteminde, Deneysel Koruma etkin olmalıdır. Sandboxie Kontrolü Yapılandırma menüsüne bakınız.
-# .
+7866;txt;01
+64-bit Windows sisteminde, Deneysel Koruma etkin olmalıdır. Sandboxie Kontrolü Yapılandırma menüsüne bakınız.
+.
 
 #----------------------------------------------------------------------------
 # License Manager
 #----------------------------------------------------------------------------
 
-# 7901;txt;01
-# Sandboxie Lisans Yöneticisi
-# .
-
-# 7902;txt;01
-# Sistem Kodu %2
-# .
-
-# 7903;txt;01
-# Gelecekte lisansı sormadan etkinleştir
-# .
-
-#----------------------------------------------------------------------------
-
-# 7921;txt;01
-# Sandboxie kaydedildi ve lisans etkinleştirildi
-# .
-
-# 7922;txt;01
-# Sandboxie kaydedildi ancak lisans şimdi tekrar etkinleştirilmeli.
-# .
-
-# 7923;txt;01
-# Kayıtsız sürüm.   Bugün kaydolun!
-# .
-
-# 7924;txt;01
-# Sandboxie lisansı %2 gün içinde tekrar etkinleştirilmeli.
-# .
-
-# 7925;txt;01
-# Sandboxie lisansı etkinleştirildi.
-# .
-
-# 7926;txt;01
-# Ürün Anahtarınızın son kullanma tarihi %2.
-# .
-
-# 7927;txt;01
-# Ürün Anahtarınızın son kullanma tarihi bulunmuyor.
-# .
-
-#----------------------------------------------------------------------------
-
-# 7931;txt;01
-# Sandboxie kopyanız eski bir Kayıt Anahtarı ile kaydedilmiş.
-# .
-
-# 7932;txt;01
-# Lütfen Lisans Yöneticisine Lisans Sunucusuna bağlanma izni verin ve eski Kayıt Anahtarınızın Yeni Kayıt Anahtarına yükseltin. Bu yükseltme ücretsiz olacaktır.
-# .
-
-# 7933;txt;01
-# Kayıt Anahtarınız Lisans Sunucusu tarafından algılanamadı.
-# .
-
-# 7934;txt;01
-# 
-# Eğer yasal Kayıt Anahtarı kullanıyorsanız (ödeyerek satın aldığınız, hediye olarak gelen veya bir promosyon olarak aldığınız), lütfen bu adrese bir e-posta gönderin:
+7901;txt;01
+Sandboxie Lisans Yöneticisi
 .
 
-# 7935;txt;01
-# Yeni Ürün Anahtarınız:
-# .
+7902;txt;01
+Sistem Kodu %2
+.
 
-# 7936;txt;01
-# İleride kullanmak üzere bu Ürün Anahtarını lütfen güvenli bir yere koyun. Aşağıdaki düğme ile Ürün Anahtarınızı panoya kopyalayarak, bir dokümana yapıştırıp yazdırmak üzere kullanabilirsiniz.
-# .
-
-# 7937;txt;01
-# &Kayıt Anahtarını Ürün Anahtarına yükselt
-# .
+7903;txt;01
+Gelecekte lisansı sormadan etkinleştir
+.
 
 #----------------------------------------------------------------------------
 
-# 7941;txt;01
-# Sandboxie kayıt işlemi üçüncü parti ödeme işlemi ile yapılmaktadır. Kayıt işlemine aşağıdaki linkteki Sandboxie web sitesini ziyaret ederek başlayabilirsiniz.
-# .
+7921;txt;01
+Sandboxie kaydedildi ve lisans etkinleştirildi
+.
 
-# 7942;txt;01
-# Sandboxie lisansını etkinleştirmek için, ödeme faturanızda yer alan Ürün Anahtarınızı girin ve düğmeye basın.
-# .
+7922;txt;01
+Sandboxie kaydedildi ancak lisans şimdi tekrar etkinleştirilmeli.
+.
 
-# 7943;txt;01
-# Yeni bir Ürün Anahtarı girmek ister misiniz?
-# .
+7923;txt;01
+Kayıtsız sürüm.   Bugün kaydolun!
+.
 
-# 7944;txt;01
-# &Lisansı Etkinleştir
-# .
+7924;txt;01
+Sandboxie lisansı %2 gün içinde tekrar etkinleştirilmeli.
+.
 
-# 7945;txt;01
-# Sandboxie kopyanız artık kayıtlı.
-# .
+7925;txt;01
+Sandboxie lisansı etkinleştirildi.
+.
 
-# 7946;txt;01
-# Sandboxie'ye desteğiniz için teşekkür ederiz!
-# .
+7926;txt;01
+Ürün Anahtarınızın son kullanma tarihi %2.
+.
+
+7927;txt;01
+Ürün Anahtarınızın son kullanma tarihi bulunmuyor.
+.
 
 #----------------------------------------------------------------------------
 
-# 7951;txt;01
-# Lisansınızı şimdi etkinleştirmek ister misiniz?
-# .
+7931;txt;01
+Sandboxie kopyanız eski bir Kayıt Anahtarı ile kaydedilmiş.
+.
 
-# 7952;txt;01
-# Yeni bir Ürün Anahtarı almak için lütfen aşağıdaki bağlantıdaki Sandboxie web sitesini ziyaret ediniz.
-# .
+7932;txt;01
+Lütfen Lisans Yöneticisine Lisans Sunucusuna bağlanma izni verin ve eski Kayıt Anahtarınızın Yeni Kayıt Anahtarına yükseltin. Bu yükseltme ücretsiz olacaktır.
+.
 
-# 7961;txt;01
-# Lisans Bilgisini &Temizle
-# .
+7933;txt;01
+Kayıt Anahtarınız Lisans Sunucusu tarafından algılanamadı.
+.
 
-# 7962;txt;01
-# Sandboxie lisans bilgisini sıfırlamak istediğinizden emin misiniz?
-# 
+7934;txt;01
+
+Eğer yasal Kayıt Anahtarı kullanıyorsanız (ödeyerek satın aldığınız, hediye olarak gelen veya bir promosyon olarak aldığınız), lütfen bu adrese bir e-posta gönderin:
+.
+
+7935;txt;01
+Yeni Ürün Anahtarınız:
+.
+
+7936;txt;01
+İleride kullanmak üzere bu Ürün Anahtarını lütfen güvenli bir yere koyun. Aşağıdaki düğme ile Ürün Anahtarınızı panoya kopyalayarak, bir dokümana yapıştırıp yazdırmak üzere kullanabilirsiniz.
+.
+
+7937;txt;01
+&Kayıt Anahtarını Ürün Anahtarına yükselt
+.
+
+#----------------------------------------------------------------------------
+
+7941;txt;01
+Sandboxie kayıt işlemi üçüncü parti ödeme işlemi ile yapılmaktadır. Kayıt işlemine aşağıdaki linkteki Sandboxie web sitesini ziyaret ederek başlayabilirsiniz.
+.
+
+7942;txt;01
+Sandboxie lisansını etkinleştirmek için, ödeme faturanızda yer alan Ürün Anahtarınızı girin ve düğmeye basın.
+.
+
+7943;txt;01
+Yeni bir Ürün Anahtarı girmek ister misiniz?
+.
+
+7944;txt;01
+&Lisansı Etkinleştir
+.
+
+7945;txt;01
+Sandboxie kopyanız artık kayıtlı.
+.
+
+7946;txt;01
+Sandboxie'ye desteğiniz için teşekkür ederiz!
+.
+
+#----------------------------------------------------------------------------
+
+7951;txt;01
+Lisansınızı şimdi etkinleştirmek ister misiniz?
+.
+
+7952;txt;01
+Yeni bir Ürün Anahtarı almak için lütfen aşağıdaki bağlantıdaki Sandboxie web sitesini ziyaret ediniz.
+.
+
+7961;txt;01
+Lisans Bilgisini &Temizle
+.
+
+7962;txt;01
+Sandboxie lisans bilgisini sıfırlamak istediğinizden emin misiniz?
+
 Lisansınızı istediğiniz her zaman Ürün Anahtarınızı girerek etkinleştirebilirsiniz.
 .
 
 #----------------------------------------------------------------------------
 
-# 7971;txt;01
-# Bu geçerli bir Ürün Anahtarı değil.
-# .
+7971;txt;01
+Bu geçerli bir Ürün Anahtarı değil.
+.
 
-# 7972;txt;01
-# Bu geçerli bir Sistem Kodu değil.
-# .
+7972;txt;01
+Bu geçerli bir Sistem Kodu değil.
+.
 
-# 7973;txt;01
-# Geçerli bir Etkinleştirme Anahtarı girilmedi. [%2]
-# .
+7973;txt;01
+Geçerli bir Etkinleştirme Anahtarı girilmedi. [%2]
+.
 
-# 7974;txt;01
-# Lisans Sunucusundan geçersiz yanıt alındı.
-# .
+7974;txt;01
+Lisans Sunucusundan geçersiz yanıt alındı.
+.
 
-# 7975;txt;01
-# Ürün etkinleştirme başarısız:
-# .
+7975;txt;01
+Ürün etkinleştirme başarısız:
+.
 
-# 7976;txt;01
-# Şimdi tekrar denemek ister misiniz?
-# .
+7976;txt;01
+Şimdi tekrar denemek ister misiniz?
+.
 
-# 7977;txt;01
-# Eğer Sandboxie'nizi Internet erişimine sahip olmayan bir bilgisayardan etkinleştirmeniz
-# gerekiyorsa, lütfen Çevrimdışı Etkinleştirme için Sandboxie Licensing FAQ (Sandboxie Lisans
+7977;txt;01
+Eğer Sandboxie'nizi Internet erişimine sahip olmayan bir bilgisayardan etkinleştirmeniz
+gerekiyorsa, lütfen Çevrimdışı Etkinleştirme için Sandboxie Licensing FAQ (Sandboxie Lisans
 SSS) dokümanına bakınız.
 .
 
-# 7978;txt;01
-# Şimdiki tarih (%2) Lisans Sunucusundan gelen tarihten daha geç (%3).
-# .
+7978;txt;01
+Şimdiki tarih (%2) Lisans Sunucusundan gelen tarihten daha geç (%3).
+.
 
-# 7982;txt;01
-# Lisans Sunucusu etkinleştirme başarısızlık sebebini belirtmedi.
-# .
+7982;txt;01
+Lisans Sunucusu etkinleştirme başarısızlık sebebini belirtmedi.
+.
 
-# 7983;txt;01
-# Ürün Anahtarı Lisans Sunucusu tarafından algılanamadı.
-# .
+7983;txt;01
+Ürün Anahtarı Lisans Sunucusu tarafından algılanamadı.
+.
 
-# 7984;txt;01
-# Ürün Anahtarı %2 tarihinden sonra kullanılamaz.
-# .
+7984;txt;01
+Ürün Anahtarı %2 tarihinden sonra kullanılamaz.
+.
 
-# 7985;txt;01
-# Ürün Anahtarı çok fazla bilgisayarda etkinleştirildi.
-# .
+7985;txt;01
+Ürün Anahtarı çok fazla bilgisayarda etkinleştirildi.
+.
 
-# 7986;txt;01
-# Internette halka açık olduğundan Ürün Anahtarı iptal edildi.
-# .
+7986;txt;01
+Internette halka açık olduğundan Ürün Anahtarı iptal edildi.
+.
 
-# 7987;txt;01
-# Ürün Anahtarı reddedildi çünkü sipariş geri alındı.
-# .
+7987;txt;01
+Ürün Anahtarı reddedildi çünkü sipariş geri alındı.
+.
 
 #----------------------------------------------------------------------------
 # SandboxieInstall
