@@ -2971,11 +2971,6 @@ Notera: Uppdateringskollen är ofta bakom senaste GitHub-utgivningen för att s�
         <translation type="vanished">Integrera fullt</translation>
     </message>
     <message>
-        <location filename="Windows/SettingsWindow.cpp" line="112"/>
-        <source>Don&apos;t show any icon</source>
-        <translation>Visa inte någon ikon</translation>
-    </message>
-    <message>
         <location filename="Windows/SettingsWindow.cpp" line="113"/>
         <source>Show Plus icon</source>
         <translation>Visa Plus-ikon</translation>
