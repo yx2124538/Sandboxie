@@ -2,48 +2,8 @@
 * Missing Messages in Text-French-1036.txt
 *==========
 
-2111;pop;inf;01
-SBIE2111 Process is not accessible: %3, call %2
-.
-
-2112;pop;inf;01
-SBIE2112 Object is not accessible: %3, call %2
-.
-
-2195;pop;inf;01
-SBIE2195 To run Explorer.exe sandboxed, the access for COM infrastructure must not be Open.
-.
-
-2325;pop;err;01
-SBIE2325 Debug:  %2
-.
-
 3001;txt;01
 &OK
-.
-
-3107;txt;01
-Type the name of a program or path to open the following file in the current sandbox:
-.
-
-3468;txt;01
-Sandboxie-Plus Migration Guide
-.
-
-4306;txt;01
-Open RPC Port Bindings for UAC
-.
-
-4307;txt;01
-Block common telemetry processes
-.
-
-4308;txt;01
-Filter access to \Devices\
-.
-
-4342;txt;01
-Enable %2 fix for Windows 11 KB5014019
 .
 
 *==========
