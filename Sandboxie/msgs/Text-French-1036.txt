@@ -346,8 +346,8 @@ SBIE2104 Echec à la fermeture de cette session Windows - %2
 SBIE2108 Simulation de l'achèvement du programme '%2' réussi
 .
 
-2111;pop;inf;01      
-SBIE2111 Le processus n'est pas accessible : %3, appel %2   
+2111;pop;inf;01
+SBIE2111 Le processus n'est pas accessible : %3, appel %2
 .
 
 2112;pop;inf;01
@@ -575,7 +575,7 @@ SBIE2323 Erreur de chiffrement :  %2
 .
 
 2325;pop;err;01
-SBIE2325 Debug :  %2  
+SBIE2325 Debug :  %2
 .
 
 2326;pop;err;01
@@ -999,10 +999,10 @@ Une erreur est survenue en appliquant les réglages par défaut au Bac à sable 
 # 3322;txt;01
 # Votre session de connexion est en cours sous le contrôle de Sandboxie.
 # Effacer le contenu de la sandbox, va annuler toutes les modifications effectuées pendant la session.
-# 
+#
 # Compte utilisateur : %2
 # Sandbox : %3
-# 
+#
 # Etes-vous sur de vouloir effacer le contenu de la sandbox et de se déconnecter ?
 # .
 
@@ -1336,11 +1336,11 @@ sur l'icône jaune de Sandboxie dans la barre système.
 Editez le fichier de configuration Sandboxie.ini
 dans la fenêtre ouverte de l'éditeur de texte.
 
-La nouvelle configuration ne prendra effet 
+La nouvelle configuration ne prendra effet
 qu'après son rechargement.
 
 Généralement, la configuration sera rechargée
-automatiquement à la fermeture de la 
+automatiquement à la fermeture de la
 fenêtre de l'éditeur de texte.
 
 Vous pouvez également forcer Sandboxie Control
@@ -1351,7 +1351,7 @@ Vous pouvez également forcer Sandboxie Control
 La configuration de Sandboxie a été rechargée et
 s'appliquera au prochain programme lancé.
 
-Si un programme est déjà "sandboxé", 
+Si un programme est déjà "sandboxé",
 la configuration ne lui sera pas appliquée.
 .
 
@@ -1520,11 +1520,11 @@ A propos de Sandboxie
 # .
 
 # 3605;txt;01
-# 
+#
 # Sandboxie lance vos applications dans un espace isolé et protégé appelé Bac à sable.
-# 
+#
 # Les applications piégées dans le Bac à sable ne peuvent modifier ou endommager votre ordinateur.
-# 
+#
 # Vous pouvez aussi utiliser le Bac à sable pour installer et tester vos nouvelles applications.
 # .
 
@@ -2490,7 +2490,7 @@ Quand cette option est activée, les programmes qui sont installés (ou téléch
 .
 
 3915;txt;01
-Message affiché SBIE%2 lorsque l'accès est refusé 
+Message affiché SBIE%2 lorsque l'accès est refusé
 .
 
 3916;txt;01
@@ -2637,21 +2637,21 @@ Vous pouvez toujours modifier les droits restreints en passant par la fenêtre d
 # Sandboxie Control:  Sandbox Settings:  Print Spooler
 #----------------------------------------------------------------------------
 
-3950;txt;01
-Spouleur d'impression
-.
+# 3950;txt;01
+# Spouleur d'impression
+# .
 
-3951;txt;01
-Le Spouleur d'impression de Windows fonctionne en dehors de la supervision de Sandboxie.  Une application sandboxée qui demande au Spouleur d'impression d'imprimer dans un fichier sera bloquée car ce fichier sera écrit en dehors du bac à sable.
-.
+# 3951;txt;01
+# Le Spouleur d'impression de Windows fonctionne en dehors de la supervision de Sandboxie.  Une application sandboxée qui demande au Spouleur d'impression d'imprimer dans un fichier sera bloquée car ce fichier sera écrit en dehors du bac à sable.
+# .
 
-3952;txt;01
-Si vous souhaitez autoriser le Spouleur d'impression à imprimer dans un fichier, vous pouvez activer ce paramètre. Il est recommandé d'activer cette option uniquement en cas de besoin.
-.
+# 3952;txt;01
+# Si vous souhaitez autoriser le Spouleur d'impression à imprimer dans un fichier, vous pouvez activer ce paramètre. Il est recommandé d'activer cette option uniquement en cas de besoin.
+# .
 
-3953;txt;01
-Autoriser le Spouleur d'impression de Windows à imprimer vers un fichier.
-.
+# 3953;txt;01
+# Autoriser le Spouleur d'impression de Windows à imprimer vers un fichier.
+# .
 
 #----------------------------------------------------------------------------
 # Sandboxie Control:  Sandbox Settings:  Network Files
@@ -3086,7 +3086,7 @@ A l'avenir, ne pas vérifier la compatibilité du logiciel
 .
 
 4256;txt;01
-Cette configuration de l'application ne peut être enlevée 
+Cette configuration de l'application ne peut être enlevée
 car elle est appliquée à toutes les sandboxes.
 Pour la modifier, utiliser l'outil de compatibilité du logiciel dans le menu configuration.
 .
@@ -3282,7 +3282,7 @@ Permet un accès direct aux %2 signets et à la base de données historique
 .
 
 4337;txt;02
-Permet un accès direct à la %2 base de données d'hameçonnage 
+Permet un accès direct à la %2 base de données d'hameçonnage
 .
 
 4338;txt;02
@@ -3650,7 +3650,7 @@ La configuration par défaut dans Sandboxie fournit une protection complète, ma
 # .
 
 # 7937;txt;01
-# &Mise à jour de la clé d'enregistrement pour la clé du produit 
+# &Mise à jour de la clé d'enregistrement pour la clé du produit
 # .
 
 #----------------------------------------------------------------------------
@@ -3696,7 +3696,7 @@ La configuration par défaut dans Sandboxie fournit une protection complète, ma
 
 # 7962;txt;01
 # Etes-vous sûr de vouloir effacer les informations de la licence de Sandboxie ?
-# 
+#
 # Vous pourrez activer votre licence à n'importe quel moment, il suffira d'entrer une clé de produit.
 # .
 
@@ -3889,7 +3889,7 @@ Sandboxie doit être installé à partir d'un compte
 ayant les droits d'Administrateur.
 
 Si vous utilisez Windows Vista avec User Accounts Control (UAC)
-activé, assurez-vous de démarrer l'installation en utilisant la 
+activé, assurez-vous de démarrer l'installation en utilisant la
 commande Exécuter en tant qu'Administrateur.
 .
 
