@@ -5700,8 +5700,9 @@ Notera: Uppdateringskollen är ofta bakom senaste GitHub-utgivningen för att s�
     </message>
     <message>
         <location filename="Views/SbieView.cpp" line="1789"/>
-        <source>This sandbox is disabled, do you want to enable it?</source>
-        <translation>Denna sandlåda är inaktiverad, vill du aktivera den?</translation>
+        <source>This sandbox is disabled or restricted to a group/user, do you want to edit it?</source>
+        <oldsource>This sandbox is disabled, do you want to enable it?</oldsource>
+        <translation type="unfinished">Denna sandlåda är inaktiverad, vill du aktivera den?</translation>
     </message>
     <message>
         <location filename="Views/SbieView.cpp" line="174"/>
@@ -7688,7 +7689,8 @@ Om du redan är en Great Supporter on Patreon, kan Sandboxie söka på nätet f�
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="811"/>
-        <source>Allow sandboxed windows to cover taskbar</source>
+        <source>Allow sandboxed windows to cover the taskbar</source>
+        <oldsource>Allow sandboxed windows to cover taskbar</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
@@ -8987,12 +8989,14 @@ istället för &quot;*&quot;.</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="4718"/>
-        <source>Prevent sandboxed processes from accessing system deatils through WMI</source>
+        <source>Prevent sandboxed processes from accessing system details through WMI</source>
+        <oldsource>Prevent sandboxed processes from accessing system deatils through WMI</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="4759"/>
-        <source>Some programs read system deatils through WMI(A Windows built-in database) instead of normal ways. For example,&quot;tasklist.exe&quot; could get full processes list even if &quot;HideOtherBoxes&quot; is opened through accessing WMI. Enable this option to stop these heavior.</source>
+        <source>Some programs retrieve system details via WMI (Windows Management Instrumentation), a built-in Windows database, rather than using conventional methods. For instance, &apos;tasklist.exe&apos; can access a complete list of processes even if &apos;HideOtherBoxes&apos; is enabled. Enable this option to prevent such behavior.</source>
+        <oldsource>Some programs read system deatils through WMI(A Windows built-in database) instead of normal ways. For example,&quot;tasklist.exe&quot; could get full processes list even if &quot;HideOtherBoxes&quot; is opened through accessing WMI. Enable this option to stop these heavior.</oldsource>
         <translation type="unfinished"></translation>
     </message>
     <message>

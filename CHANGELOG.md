@@ -2,41 +2,55 @@
 All notable changes to this project will be documented in this file.
 This project adheres to [Semantic Versioning](http://semver.org/).
 
+## [1.14.3 / 5.69.3] - 2024-07-01
 
-## [1.14.2 / 5.69.2] - 2024-06-??
+### Changed
+- changed Qt 5 version to Qt 5.15.14 with OpenSSL 3.3.1 [#3994](https://github.com/sandboxie-plus/Sandboxie/pull/3994) (thanks offhub)
+
+### Fixed
+- fixed Applications cannot be launched as admin in a sandbox with "UseCreateToken/SandboxieAllGroup" enabled when using an MSFT account [#4022](https://github.com/sandboxie-plus/Sandboxie/issues/4022)
+- fixed Firefox issue with Sbie 1.14.1 and 1.14.2 [#4012](https://github.com/sandboxie-plus/Sandboxie/issues/4012)
+  - rolled back the driver verifier fix added in 1.14.1
+- fixed CustomChromiumFlags and --single-argument issue [#4033](https://github.com/sandboxie-plus/Sandboxie/issues/4033)
+- fixed Sandboxie programs do not terminate after closing programs that run as admin with UseCreateToken/SandboxieAllGroup enabled [#4030](https://github.com/sandboxie-plus/Sandboxie/issues/4030)
+
+
+
+
+## [1.14.2 / 5.69.2] - 2024-06-19
 
 ### Added
 - added SbieIni option to modify password-protected configs [#3903](https://github.com/sandboxie-plus/Sandboxie/issues/3903)
   - usage: set|append|insert|delete [/passwd:********] <section> <setting> <value>
-  - note: use /passwd without the password to have SbieIni prompot for the password on the console, this hides the password from view and from bing captured with the command line
-- added checkbox for PromptForInternetAccess option to the New Box Wizard
-- Add option "HideNonSystemProcesses" to hide processes not in a sandbox from processes lists for sandboxed processes.
-- Add option "HideSbieProcesses" to hide Sandboxie Work Process(SbieSvc,SandboxieRpcSs,etc.).
-- When "HideFirmwareInfo" is set,the programs which try getting fireware info will get false data from HKEY_CURRENT_USER\\SOFTWARE\\SandboxieHide\\FalseFirmwareValue
-- Add template "BlockAccessWMI" to prevent sandboxed processes from accessing system information through WMI.
-- Add template "BlockLocalConnect" to prevent sandboxed processes from sending network packs to loaclhost to breakout sandbox.
-- Add new option "AllowCoverTaskbar" for [#3975](https://github.com/sandboxie-plus/Sandboxie/issues/3975)
+  - Note: use /passwd without the password to have SbieIni prompot for the password on the console, this hides the password from view and from bing captured with the command line
+- added checkbox for "PromptForInternetAccess" option to the New Box Wizard
+- added option "HideNonSystemProcesses" to hide processes not in a sandbox from processes lists for sandboxed processes
+- added option "HideSbieProcesses" to hide Sandboxie Work Process (SbieSvc, SandboxieRpcSs, etc.)
+- added option "HideFirmwareInfo"
+  - when it is set, the programs that try getting fireware information will get false data from HKEY_CURRENT_USER\\SOFTWARE\\SandboxieHide\\FalseFirmwareValue
+- added template "BlockAccessWMI" to prevent sandboxed processes from accessing system information through WMI
+- added template "BlockLocalConnect" to prevent sandboxed processes from sending network packs to localhost to breakout sandbox
+- added new option "AllowCoverTaskbar" for [#3975](https://github.com/sandboxie-plus/Sandboxie/issues/3975)
 - added RPC Port message filter mechanism to block unsafe RDP calls via the driver [#3930](https://github.com/sandboxie-plus/Sandboxie/issues/3930)
-  - Usage: "RpcPortFilter=Port,ID,Label" label is optional
-- added "Job Object" Options page to colelct all job object related options
+  - usage: "RpcPortFilter=Port,ID,Label" label is optional
+- added "Job Object" options page to colelct all job object related options
 
 ### Changed
-- Extend "Temp Template" to make it could delete local template section.
+- Extend "Temp Template" to make it could delete local template section
 
 ### Fixed
-- fixed security issue with the newly introduced experimental "UseCreateToken=y" machanism
+- fixed security issue with the newly introduced experimental "UseCreateToken=y" mechanism
 - fixed issue with "UseCreateToken=y" when using a MSFT online account
 - fixed Export sandbox not containing hidden files [#3980](https://github.com/sandboxie-plus/Sandboxie/issues/3980) (thanks L4cache)
 - fixed Chrome stopped printing [#3926](https://github.com/sandboxie-plus/Sandboxie/issues/3926)
   - Sandboxie will add CustomChromiumFlags=--disable-features=PrintCompositorLPAC to chrome based browsers command line
   - Note: Less Privileged App Container (LPAC) don't work with sandboxie currently
 - fixed Problem accessing a relative symlink with a target that starts with a dot [#3981](https://github.com/sandboxie-plus/Sandboxie/issues/3981)
-- fixed Bug - Can't open a sandbox's properties window via double-click in System Tray context window [#3861](https://github.com/sandboxie-plus/Sandboxie/issues/3861)
+- fixed Can't open a sandbox's properties window via double-click in System Tray context window [#3861](https://github.com/sandboxie-plus/Sandboxie/issues/3861)
 - fixed Delay in launching forced programs after version 1.12.9 [#3868](https://github.com/sandboxie-plus/Sandboxie/issues/3868)
   - this issue was introdiced in 1.13.0 and may have broadly affected other usecases and cause variosue problems
 - fixed issue with Misc Options list
-- improved compatybility with steam running sandboxed
-
+- improved compatibility with steam running sandboxed
 
 
 
@@ -54,7 +68,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - added option for EditAdminOnly in SetupWizard
 
 ### Changed
-- splited the advanced new box wizard page in two
+- split the advanced new box wizard page in two
 - reorganized box options a bit
 
 ### Fixed
@@ -64,7 +78,6 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 - fixed resource leak in buffer hashing function
 - fixed DLL name corruption when BlockInterferenceControl is enabled [#3945](https://github.com/sandboxie-plus/Sandboxie/issues/3945)
 - fixed issue with driver verifier
-
 
 
 
@@ -151,7 +164,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 
 ### Changed
 - on systems in test signing mode, Sandboxie will try outdated offsets by default
-- changed Qt5 version to Qt5.15.13 with latest security patches [#3694](https://github.com/sandboxie-plus/Sandboxie/pull/3694) (thanks LumitoLuma)
+- changed Qt 5 version to Qt 5.15.13 with latest security patches [#3694](https://github.com/sandboxie-plus/Sandboxie/pull/3694) (thanks LumitoLuma)
 - moved network restrictions from general restrictions tab to an own tab on the network page
 - improved certificate retrieval UI messages
 - improved MPC-BE template [#3798](https://github.com/sandboxie-plus/Sandboxie/pull/3798)

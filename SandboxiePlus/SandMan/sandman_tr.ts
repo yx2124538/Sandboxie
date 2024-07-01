@@ -1119,7 +1119,7 @@ Her kullanıcının korumalı alanını kendi klasörüne kaydetmek için %USER%
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="746"/>
         <source>Prompt user whether to allow an exemption from the blockade</source>
-        <translation type="unfinished"></translation>
+        <translation>Ağ engellemesinden muafiyete izin verilip verilmeyeceğini sor</translation>
     </message>
     <message>
         <location filename="Wizards/NewBoxWizard.cpp" line="752"/>
@@ -4724,8 +4724,9 @@ Lütfen Sandboxie için bir güncelleme olup olmadığını kontrol edin.</trans
     </message>
     <message>
         <location filename="Views/SbieView.cpp" line="1789"/>
-        <source>This sandbox is disabled, do you want to enable it?</source>
-        <translation>Bu alan devre dışı, etkinleştirmek istiyor musunuz?</translation>
+        <source>This sandbox is disabled or restricted to a group/user, do you want to edit it?</source>
+        <oldsource>This sandbox is disabled, do you want to enable it?</oldsource>
+        <translation type="unfinished">Bu alan devre dışı, etkinleştirmek istiyor musunuz?</translation>
     </message>
     <message>
         <location filename="Views/SbieView.cpp" line="1263"/>
@@ -6748,7 +6749,7 @@ If you are a Great Supporter on Patreon already, Sandboxie can check online for 
     <message>
         <location filename="Forms/OptionsWindow.ui" line="3301"/>
         <source>Prompt user whether to allow an exemption from the blockade.</source>
-        <translation>Kullanıcıya ablukadan muafiyete izin verip vermeyeceğini sor.</translation>
+        <translation>Ağ engellemesinden muafiyete izin verilip verilmeyeceğini sor.</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="4915"/>
@@ -7597,8 +7598,8 @@ Bu, korumalı alan içindeki haydut işlemlerin kendilerinin yeniden adlandırı
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="811"/>
-        <source>Allow sandboxed windows to cover taskbar</source>
-        <translation type="unfinished"></translation>
+        <source>Allow sandboxed windows to cover the taskbar</source>
+        <translation>Korumalı alan pencerelerinin görev çubuğunu kaplamasına izin ver</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="855"/>
@@ -7613,7 +7614,7 @@ Bu, korumalı alan içindeki haydut işlemlerin kendilerinin yeniden adlandırı
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1577"/>
         <source>Job Object</source>
-        <translation type="unfinished"></translation>
+        <translation>İş Nesnesi</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="2165"/>
@@ -7829,33 +7830,33 @@ Bir işlemi belirtmek için yol olarak &apos;$:program.exe&apos; kullanın.</tra
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1711"/>
         <source>Limit restrictions</source>
-        <translation type="unfinished"></translation>
+        <translation>Kısıtlama Sınırları</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1629"/>
         <location filename="Forms/OptionsWindow.ui" line="1636"/>
         <source>Leave it blank to disable the setting(Unit:KB)</source>
-        <translation type="unfinished"></translation>
+        <translation>Ayarı devre dışı bırakmak için boş bırakın (Birim:KB)</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1643"/>
         <source>Leave it blank to disable the setting</source>
-        <translation type="unfinished"></translation>
+        <translation>Ayarı devre dışı bırakmak için boş bırakın</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1585"/>
         <source>Total Processes Number Limit:</source>
-        <translation type="unfinished"></translation>
+        <translation>Toplam İşlem Sayısı Sınırı:</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1615"/>
         <source>Total Processes Memory Limit:</source>
-        <translation type="unfinished"></translation>
+        <translation>Toplam İşlem Bellek Sınırı:</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="1622"/>
         <source>Single Process Memory Limit:</source>
-        <translation type="unfinished"></translation>
+        <translation>Tek İşlem Bellek Sınırı:</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="4522"/>
@@ -7946,17 +7947,18 @@ Bir işlemi belirtmek için yol olarak &apos;$:program.exe&apos; kullanın.</tra
     <message>
         <location filename="Forms/OptionsWindow.ui" line="4711"/>
         <source>Don&apos;t allow sandboxed processes to see processes running outside any boxes</source>
-        <translation type="unfinished"></translation>
+        <translation>Korumalı alandaki işlemlerin alan dışında çalışan işlemleri görmesine izin verilmesin</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="4718"/>
-        <source>Prevent sandboxed processes from accessing system deatils through WMI</source>
-        <translation type="unfinished"></translation>
+        <source>Prevent sandboxed processes from accessing system details through WMI</source>
+        <translation>Korumalı alandaki işlemlerin WMI aracılığıyla sistem ayrıntılarına erişmesini önle</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="4759"/>
-        <source>Some programs read system deatils through WMI(A Windows built-in database) instead of normal ways. For example,&quot;tasklist.exe&quot; could get full processes list even if &quot;HideOtherBoxes&quot; is opened through accessing WMI. Enable this option to stop these heavior.</source>
-        <translation type="unfinished"></translation>
+        <source>Some programs retrieve system details via WMI (Windows Management Instrumentation), a built-in Windows database, rather than using conventional methods. For instance, &apos;tasklist.exe&apos; can access a complete list of processes even if &apos;HideOtherBoxes&apos; is enabled. Enable this option to prevent such behavior.</source>
+        <oldsource>Some programs read system details through WMI(A Windows built-in database) instead of normal ways. For example,&quot;tasklist.exe&quot; could get full processes list even if &quot;HideOtherBoxes&quot; is opened through accessing WMI. Enable this option to stop these heavior.</oldsource>
+        <translation type="unfinished">Bazı programlar, geleneksel yöntemleri kullanmak yerine, yerleşik bir Windows veritabanı olan WMI (Windows Yönetim Araçları) aracılığıyla sistem ayrıntılarını alır. Örneğin, &apos;tasklist.exe&apos;, &apos;HideOtherBoxes&apos; etkin olsa bile işlemlerin tam listesine erişebilir. Bu tür davranışları önlemek için bu seçeneği etkinleştirin.</translation>
     </message>
     <message>
         <location filename="Forms/OptionsWindow.ui" line="4962"/>
